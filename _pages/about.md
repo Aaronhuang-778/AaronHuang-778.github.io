@@ -144,7 +144,7 @@ Kwunhang Wong*, Songqi Wang*, **Wei Huang**, Xinyuan Zhang, Yangu He, Karl M.H. 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='https://github.com/Aaronhuang-778/SliM-LLM/raw/main/imgs/ohq.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**On-Chip Hardware-Aware Quantization for Mixed Precision Neural Networks**](https://arxiv.org/abs/2309.01945) <img src='' alt="sym" height="100%">
+[**On-Chip Hardware-Aware Quantization for Mixed Precision Neural Networks**](https://arxiv.org/abs/2309.01945) 
 
 **Wei Huang**, Haotong Qin, Yangdong Liu, Jingzhuo Liang, Yulun Zhang, Ying Li, Xianglong Liu
 
@@ -163,7 +163,7 @@ Kwunhang Wong*, Songqi Wang*, **Wei Huang**, Xinyuan Zhang, Yangu He, Karl M.H. 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='https://github.com/Aaronhuang-778/SliM-LLM/raw/main/imgs/overall.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**VLSNR:Vision-Linguistics Coordination Time Sequence-aware News Recommendation**](https://arxiv.org/abs/2210.02946) <img src='https://img.shields.io/github/stars/Aaronhuang-778/V-MIND.svg?style=social&label=Star' alt="sym" height="100%">
