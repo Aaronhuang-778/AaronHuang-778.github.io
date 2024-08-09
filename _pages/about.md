@@ -17,7 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, I am Wei Huang(黄炜)’s website! I am currently a Ph.D candidate in [Computer Vision and Machine Intelligence Lab (CVMI Lab) @ HKU](https://xjqi.github.io/cvmi.html) from September 2023, advised by [Prof.Xiaojuan Qi](https://xjqi.github.io/). I am also co-supervised by [Prof.Shiming Zhang](https://wise.hku.hk/people/) and [Prof.Zhongrui Wang](https://scholar.google.com.sg/citations?user=Ofl3nUsAAAAJ&hl=en). Previously I obtained my bachelor's degree in computer science (Jun 2023) from Beihang University where I was advised by [Prof.Si Liu](https://colalab.net/people) and also worked with [Prof.Xianglong Liu](https://xlliu-beihang.github.io/). Now I am also collabrating closely with [Dr.Haotong Qin](https://htqin.github.io/) from ETH Zürich, [Dr.Yue Liao](https://liaoyue.net/) from The Chinese University of HongKong.
+Hi, I am Wei Huang(黄炜)’s website! I am currently a Ph.D candidate in [Computer Vision and Machine Intelligence Lab (CVMI Lab) @ HKU](https://xjqi.github.io/cvmi.html) from September 2023, advised by [Prof.Xiaojuan Qi](https://xjqi.github.io/). I am also co-supervised by [Prof.Shiming Zhang](https://wise.hku.hk/people/) and [Prof.Zhongrui Wang](https://scholar.google.com.sg/citations?user=Ofl3nUsAAAAJ&hl=en). Previously I obtained my bachelor's degree in computer science (Jun 2023) from Beihang University where I was advised by [Prof.Si Liu](https://colalab.net/people) and also worked with [Prof.Xianglong Liu](https://xlliu-beihang.github.io/). Now I am also collabrating closely with [Dr.Haotong Qin](https://htqin.github.io/) from ETH Zürich, [Dr.Yue Liao](https://liaoyue.net/) from The Chinese University of Hong Kong.
 
 I’m currently conducting some research in efficient/tiny deep learning and application, including:
 
@@ -35,7 +35,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 - *2024.05*: &nbsp;Release *SliM-LLM*, a plug-and-play group-wise mixed-precision quantizaion framework for 2-bit LLMs. Please check our [paper](https://arxiv.org/abs/2405.14917), [code](https://github.com/Aaronhuang-778/SliM-LLM) and [huggingface](https://huggingface.co/AaronHuangWei)!
 - *2024.04*: &nbsp;Release *An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs*, an emperical study on the performance of low-bit quantized LLM/MLLM based on LLaMA-3. Please check our [paper](https://arxiv.org/abs/2404.14047), [code](https://github.com/Macaronlin/LLaMA3-Quantization) and [huggingface](https://huggingface.co/LLMQ)!
 - *2024.04*: &nbsp;🎉🎉 *BiLLM* is accepted by **ICML'24**! 
-- *2024.02*: &nbsp;Release *BiLLM*, the first post-training quantization work pushing the LLMs to nearly 1-bit. Please check our [paper](https://arxiv.org/abs/2402.04291) and [code](https://github.com/Aaronhuang-778/BiLLM)!
+- *2024.02*: &nbsp;Release *BiLLM: Pushing the Limit of Post-Training Quantization for LLMs*, the first post-training quantization work pushing the LLMs to nearly 1-bit. Please check our [paper](https://arxiv.org/abs/2402.04291) and [code](https://github.com/Aaronhuang-778/BiLLM)!
 - *2023.09*: &nbsp;Start my Ph.D. in **HKU**.
 - *2023.09*: &nbsp;Release *OHQ*, the on-chip hardware-aware mixed-precision quantization work. Please check our [paper](https://arxiv.org/abs/2309.01945)!
 - *2023.06*: &nbsp;Graduate from Beihang University. Thanks to my supervisors and all my friends in **Beihang University**.
@@ -76,7 +76,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICCAD 2024</div><img src='https://github.com/u3556440/SNNGX_qSNN_encryption/raw/main/_img_src/SNNGX_cover.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**SNNGX: Securing Spiking Neural Networks with Genetic XOR Encryption on RRAM-based Neuromorphic Accelerator**](https://arxiv.org/abs/2407.15152) <img src='https://github.com/u3556440/SNNGX_qSNN_encryption.svg?style=social&label=Star' alt="sym" height="100%">
+[**SNNGX: Securing Spiking Neural Networks with Genetic XOR Encryption on RRAM-based Neuromorphic Accelerator**](https://arxiv.org/abs/2407.15152) <img src='https://img.shields.io/github/stars/u3556440/SNNGX_qSNN_encryption.svg?style=social&label=Star' alt="sym" height="100%">
 
 Kwunhang Wong*, Songqi Wang*, **Wei Huang**, Xinyuan Zhang, Yangu He, Karl M.H. Lai, Yuzhong Jiao, Ning Lin, Xiaojuan Qi, Xiaoming Chen, Zhongrui Wang
 
@@ -122,7 +122,7 @@ Kwunhang Wong*, Songqi Wang*, **Wei Huang**, Xinyuan Zhang, Yangu He, Karl M.H. 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='https://github.com/Aaronhuang-778/BiLLM/raw/main/imgs/main.png?raw=true' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**BiLLM: Pushing the Limit of Post-Training Quantization for LLMs**](https://arxiv.org/abs/2402.04291) <img src='https://github.com/Aaronhuang-778/BiLLM.svg?style=social&label=Star' alt="sym" height="100%">
+[**BiLLM: Pushing the Limit of Post-Training Quantization for LLMs**](https://arxiv.org/abs/2402.04291) <img src='https://img.shields.io/github/stars/Aaronhuang-778/BiLLM.svg?style=social&label=Star' alt="sym" height="100%">
 
 **Wei Huang**, Yangdong Liu, Haotong Qin, Ying Li, Shiming Zhang, Xianglong Liu, Michele Magno, Xiaojuan Qi
 
