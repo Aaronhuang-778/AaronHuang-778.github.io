@@ -201,6 +201,7 @@ Songhao Han*, **Wei Huang\***, Xiaotian Luan *
 # 🎖 Honors and Awards 
 - *2019-2023(B.Eng.)*: 
 Outstanding Graduate(2022), Beihang University (2023).
+Outstanding Project of the 16th National College Student Innovation and Entrepreneurship Competition, China (2023).
 Outstanding Project of the 15th National College Student Innovation and Entrepreneurship Competition, China (2022).
 Second-class of the Social Practice Scholarship, Beihang University (2022).
 Third-class of the Innovation and Entreprenuership Scholarship, Beihang University (2021).
