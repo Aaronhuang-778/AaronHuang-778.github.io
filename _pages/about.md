@@ -17,9 +17,7 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi there!
-
-Welcome to Wei Huang(黄炜)’s website! I am currently a Ph.D candidate in [Computer Vision and Machine Intelligence Lab (CVMI Lab) @ HKU](https://xjqi.github.io/cvmi.html) from September 2023, advised by [Prof.Xiaojuan Qi](https://xjqi.github.io/). Previously I obtained my bachelor's degree in computer science (2023) from Beihang University where I was advised by [Prof.Si Liu](https://colalab.net/people). I am also working closely with [Dr.Haotong Qin](https://htqin.github.io/) from ETH Zürich, [Dr.Yue Liao](https://liaoyue.net/) from The Chinese University of HongKong.
+Hi, I am Wei Huang(黄炜)’s website! I am currently a Ph.D candidate in [Computer Vision and Machine Intelligence Lab (CVMI Lab) @ HKU](https://xjqi.github.io/cvmi.html) from September 2023, advised by [Prof.Xiaojuan Qi](https://xjqi.github.io/). Previously I obtained my bachelor's degree in computer science (2023) from Beihang University where I was advised by [Prof.Si Liu](https://colalab.net/people). I am also working closely with [Dr.Haotong Qin](https://htqin.github.io/) from ETH Zürich, [Dr.Yue Liao](https://liaoyue.net/) from The Chinese University of HongKong.
 
 I’m currently conducting some research in efficient deep learning, including:
 🚀 **Efficient AI**: The efficiency of the Large Language/Vision-Language Model and Diffusion Model (e.g. model quantization/binarization).
