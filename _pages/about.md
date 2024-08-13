@@ -36,9 +36,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 - *2024.04*: &nbsp;Release *An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs*, an emperical study on the performance of low-bit quantized LLM/MLLM based on LLaMA-3. Please check our [paper](https://arxiv.org/abs/2404.14047), [code](https://github.com/Macaronlin/LLaMA3-Quantization) and [huggingface](https://huggingface.co/LLMQ)!
 - *2024.04*: &nbsp;🎉🎉 *BiLLM* is accepted by **ICML'24**! 
 - *2024.02*: &nbsp;Release *BiLLM: Pushing the Limit of Post-Training Quantization for LLMs*, the first post-training quantization work pushing the LLMs to nearly 1-bit. Please check our [paper](https://arxiv.org/abs/2402.04291) and [code](https://github.com/Aaronhuang-778/BiLLM)!
-- *2023.09*: &nbsp;Start my Ph.D. in **HKU**.
 - *2023.09*: &nbsp;Release *OHQ*, the on-chip hardware-aware mixed-precision quantization work. Please check our [paper](https://arxiv.org/abs/2309.01945)!
-- *2023.06*: &nbsp;Graduate from Beihang University. Thanks to my supervisors and all my friends in **Beihang University**.
 - *2022.10*: &nbsp;Release *VLSNR*, the multi-modal news recommendation system work. Please check our [paper](https://arxiv.org/abs/2210.02946) and [code](https://github.com/Aaronhuang-778/V-MIND)!
 
 # 💬 Invited Talks & Reporter
