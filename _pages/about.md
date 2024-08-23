@@ -39,7 +39,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 - *2023.09*: &nbsp;Release *OHQ*, the on-chip hardware-aware mixed-precision quantization work. Please check our [paper](https://arxiv.org/abs/2309.01945)!
 - *2022.10*: &nbsp;Release *VLSNR*, the multi-modal news recommendation system work. Please check our [paper](https://arxiv.org/abs/2210.02946) and [code](https://github.com/Aaronhuang-778/V-MIND)!
 
-# 💬 Invited Talks & Reporter
+# 💬 Invited Talks & Report
 
 - *2024.05*: *BiLLM* was reported by **IEEE Spectrum**. Thanks to [Matthew](https://www.newyorker.com/contributors/matthew-hutson) for the interview and report. Please see the [link](https://spectrum.ieee.org/1-bit-llm). 
 - *2024.05*: **AI-Time** online talk on *BiLLM*. Please see the [video](https://www.bilibili.com/video/BV1XM4m1z7RU/?share_source=copy_web&vd_source=c680cccdae8e0fd2e453769e2e789b78). 
