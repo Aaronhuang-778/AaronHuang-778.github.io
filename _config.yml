@@ -23,9 +23,9 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Wei Huang"
   avatar           : "images/android-chrome-512x512.png"
-  bio              : "The University of Hong Kong"
-  location         : "HongKong, China"
-  employer         :
+  bio              : "PhD student in the University of Hong Kong (HKU), majoring in Efficient AI and Large Vision/Language Models."
+  location         : "Hong Kong SAR"
+  employer         : "The University of Hong Kong"
   pubmed           : 
   googlescholar    : "https://scholar.google.com/citations?user=rZVUlPAAAAAJ&hl=zh-CN"
   email            : "aaron.weihuang@gmail.com"
