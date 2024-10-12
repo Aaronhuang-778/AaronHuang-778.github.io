@@ -31,7 +31,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 
 
 # 🔥 News
-- *2024.10*: &nbsp;Release *MC-MoE*, a mixture compressor for MoE LLMs combined the static quantization and dynamic pruning. Please check our [paper](https://arxiv.org/abs/2410.06270), [code](https://github.com/Aaronhuang-778/MC-MoE)!
+- *2024.10*: &nbsp;Release *MC-MoE*, a mixture compressor for MoE LLMs combined the static quantization and dynamic pruning. Please check our [paper](https://arxiv.org/abs/2410.06270), and [code](https://github.com/Aaronhuang-778/MC-MoE)!
 - *2024.05*: &nbsp;🎉🎉 one co-author paper is accepted by **ICCAD'24**! 
 - *2024.05*: &nbsp;Release *SliM-LLM*, a plug-and-play group-wise mixed-precision quantizaion framework for 2-bit LLMs. Please check our [paper](https://arxiv.org/abs/2405.14917), [code](https://github.com/Aaronhuang-778/SliM-LLM) and [huggingface](https://huggingface.co/AaronHuangWei)!
 - *2024.04*: &nbsp;Release *An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs*, an emperical study on the performance of low-bit quantized LLM/MLLM based on LLaMA-3. Please check our [paper](https://arxiv.org/abs/2404.14047), [code](https://github.com/Macaronlin/LLaMA3-Quantization) and [huggingface](https://huggingface.co/LLMQ)!
@@ -49,7 +49,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
   
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='https://github.com/Aaronhuang-778/MC-MoE/blob/main/imgs/WX20241009-191322%402x.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='https://github.com/Aaronhuang-778/MC-MoE/raw/main/imgs/WX20241009-191322%402x.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**MC-MoE: Mixture Compressor for Mixture-of-Experts LLMs Gains More**](https://arxiv.org/abs/2410.06270) <img src='https://img.shields.io/github/stars/Aaronhuang-778/MC-MoE.svg?style=social&label=Star' alt="sym" height="100%">
