@@ -31,6 +31,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 
 
 # 🔥 News
+- *2024.10*: &nbsp;Release *MC-MoE*, a mixture compressor for MoE LLMs combined the static quantization and dynamic pruning. Please check our [paper](https://arxiv.org/abs/2410.06270), [code](https://github.com/Aaronhuang-778/MC-MoE)!
 - *2024.05*: &nbsp;🎉🎉 one co-author paper is accepted by **ICCAD'24**! 
 - *2024.05*: &nbsp;Release *SliM-LLM*, a plug-and-play group-wise mixed-precision quantizaion framework for 2-bit LLMs. Please check our [paper](https://arxiv.org/abs/2405.14917), [code](https://github.com/Aaronhuang-778/SliM-LLM) and [huggingface](https://huggingface.co/AaronHuangWei)!
 - *2024.04*: &nbsp;Release *An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs*, an emperical study on the performance of low-bit quantized LLM/MLLM based on LLaMA-3. Please check our [paper](https://arxiv.org/abs/2404.14047), [code](https://github.com/Macaronlin/LLaMA3-Quantization) and [huggingface](https://huggingface.co/LLMQ)!
@@ -46,7 +47,31 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 - *2024.04*: Our emperical study *How Good Are Low-bit Quantized LLaMA3 Models? An Empirical Study* (new version: *[An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs](https://arxiv.org/abs/2404.14047)*) was reported by **QbitAI (量子位)**. Please see the [link](https://m.thepaper.cn/newsDetail_forward_27189727).
 - *2024.03*: Our *BiLLM: Pushing the Limit of Post-Training Quantization for LLMs*  was reported by **QbitAI (量子位)**. Please see the [link](https://www.qbitai.com/2024/06/152191.html).
   
-# 📝 Publications 
+# 📝 Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='https://github.com/Aaronhuang-778/MC-MoE/blob/main/imgs/WX20241009-191322%402x.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**MC-MoE: Mixture Compressor for Mixture-of-Experts LLMs Gains More**](https://arxiv.org/abs/2410.06270) <img src='https://img.shields.io/github/stars/Aaronhuang-778/MC-MoE.svg?style=social&label=Star' alt="sym" height="100%">
+
+**Wei Huang**, Yue Liao, Jianhui Liu, Ruifei He, Haoru Tan, Shiming Zhang, Hongsheng Li, Si Liu, Xiaojuan Qi
+
+- MC-MoE for accurate weight-only quantization (Weight=1.5～2.5bit).
+- MC-MoE for efficient online dynamic pruning (additional compression ratio > 10%)
+- MC-MoE integrates static quantization and dynamic pruning to collaboratively achieve extreme compression for MoE-LLMs with less accuracy loss, ensuring an optimal trade-off between performance and efficiency.
+- For instance, at 2.54 bits, MC-MoE compresses 76.6% of the model, with only a 3.8% average accuracy loss. During dynamic inference, we further reduce activated parameters by 15%, with a performance drop of less than 0.6%.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2410.06270"> <strong>[paper]</strong></a>
+    <a href="https://github.com/Aaronhuang-778/MC-MoE"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p> Mixture-of-Experts large language models (MoE-LLMs) marks a significant step forward of language models, however, they encounter two critical challenges in practice: 1) expert parameters lead to considerable memory consumption and loading latency; and 2) the current activated experts are redundant, as many tokens may only require a single expert. Motivated by these issues, we investigate the MoE-LLMs and make two key observations: a) different experts exhibit varying behaviors on activation reconstruction error, routing scores, and activated frequencies, highlighting their differing importance, and b) not all tokens are equally important -- only a small subset is critical. Building on these insights, we propose MC-MoE, a training-free Mixture-Compressor for MoE-LLMs, which leverages the significance of both experts and tokens to achieve an extreme compression. First, to mitigate storage and loading overheads, we introduce Pre-Loading Mixed-Precision Quantization, which formulates the adaptive bit-width allocation as a Linear Programming problem, where the objective function balances multi-factors reflecting the importance of each expert. Additionally, we develop Online Dynamic Pruning, which identifies important tokens to retain and dynamically select activated experts for other tokens during inference to optimize efficiency while maintaining performance. Our MC-MoE integrates static quantization and dynamic pruning to collaboratively achieve extreme compression for MoE-LLMs with less accuracy loss, ensuring an optimal trade-off between performance and efficiency. Extensive experiments confirm the effectiveness of our approach. For instance, at 2.54 bits, MC-MoE compresses 76.6% of the model, with only a 3.8% average accuracy loss. During dynamic inference, we further reduce activated parameters by 15%, with a performance drop of less than 0.6%. </p>
+    </div>
+</div>
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='https://github.com/Aaronhuang-778/SliM-LLM/raw/main/imgs/WX20240527-155305%402x.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
