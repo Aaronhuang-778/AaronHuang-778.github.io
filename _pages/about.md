@@ -217,7 +217,7 @@ Songhao Han*, **Wei Huang\***, Xiaotian Luan *
 
 # 🗒️ Academic Services
 
-- Conference: ICLR'2025, Neurips'2024, ICML'2024, ECCV'2024.
+- Conference: ICLR, Neurips, ICML, ECCV, AISTATS
 - Journal: Neural Networks. 
 - Program Committee member for Practical Deep Learning Workshop, IEEE CAI 2024.
 
