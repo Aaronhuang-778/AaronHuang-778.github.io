@@ -31,14 +31,14 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 
 
 # 🔥 News
+- *2024.12*: &nbsp; *An empirical study of llama3 quantization: From llms to mllms* is accepted by **Visual Intelligence**
+- - *2024.12*: &nbsp; One review paper *Artificial Intelligence-Enhanced, Closed-Loop Wearable Systems Toward Next-Generation Diabetes Management* is accepted by **Advanced Intelligent Systems**
 - *2024.10*: &nbsp;Release *MC-MoE*, a mixture compressor for MoE LLMs combined the static quantization and dynamic pruning. Please check our [paper](https://arxiv.org/abs/2410.06270), and [code](https://github.com/Aaronhuang-778/MC-MoE)!
 - *2024.05*: &nbsp;🎉🎉 one co-author paper is accepted by **ICCAD'24**! 
 - *2024.05*: &nbsp;Release *SliM-LLM*, a plug-and-play group-wise mixed-precision quantizaion framework for 2-bit LLMs. Please check our [paper](https://arxiv.org/abs/2405.14917), [code](https://github.com/Aaronhuang-778/SliM-LLM) and [huggingface](https://huggingface.co/AaronHuangWei)!
 - *2024.04*: &nbsp;Release *An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs*, an emperical study on the performance of low-bit quantized LLM/MLLM based on LLaMA-3. Please check our [paper](https://arxiv.org/abs/2404.14047), [code](https://github.com/Macaronlin/LLaMA3-Quantization) and [huggingface](https://huggingface.co/LLMQ)!
 - *2024.04*: &nbsp;🎉🎉 *BiLLM* is accepted by **ICML'24**! 
 - *2024.02*: &nbsp;Release *BiLLM: Pushing the Limit of Post-Training Quantization for LLMs*, the first post-training quantization work pushing the LLMs to nearly 1-bit. Please check our [paper](https://arxiv.org/abs/2402.04291) and [code](https://github.com/Aaronhuang-778/BiLLM)!
-- *2023.09*: &nbsp;Release *OHQ*, the on-chip hardware-aware mixed-precision quantization work. Please check our [paper](https://arxiv.org/abs/2309.01945)!
-- *2022.10*: &nbsp;Release *VLSNR*, the multi-modal news recommendation system work. Please check our [paper](https://arxiv.org/abs/2210.02946) and [code](https://github.com/Aaronhuang-778/V-MIND)!
 
 # 💬 Invited Talks and Report
 
@@ -118,10 +118,10 @@ Kwunhang Wong*, Songqi Wang*, **Wei Huang**, Xinyuan Zhang, Yangu He, Karl M.H. 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='https://github.com/Macaronlin/LLaMA3-Quantization/raw/master/images/overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Visual Intelligence</div><img src='https://github.com/Macaronlin/LLaMA3-Quantization/raw/master/images/overview.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs**](https://arxiv.org/abs/2404.14047) <img src='https://img.shields.io/github/stars/Macaronlin/LLaMA3-Quantization.svg?style=social&label=Star' alt="sym" height="100%">
+[**An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs**](https://link.springer.com/article/10.1007/s44267-024-00070-x) <img src='https://img.shields.io/github/stars/Macaronlin/LLaMA3-Quantization.svg?style=social&label=Star' alt="sym" height="100%">
 
 **Wei Huang**, Xingyu Zheng, Xudong Ma, Haotong Qin, Chengtao Lv, Hong Chen, Jie Luo, Xiaojuan Qi, Xianglong Liu, Michele Magno
 
