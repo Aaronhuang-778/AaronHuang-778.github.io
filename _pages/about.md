@@ -31,8 +31,8 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 
 
 # 🔥 News
-- *2024.12*: &nbsp; *An empirical study of llama3 quantization: From llms to mllms* is accepted by **Visual Intelligence**
-- - *2024.12*: &nbsp; One review paper *Artificial Intelligence-Enhanced, Closed-Loop Wearable Systems Toward Next-Generation Diabetes Management* is accepted by **Advanced Intelligent Systems**
+- *2024.12*: &nbsp;🎉🎉 *An empirical study of llama3 quantization: From llms to mllms* is accepted by **Visual Intelligence**
+- *2024.12*: &nbsp;🎉🎉 *Artificial Intelligence-Enhanced, Closed-Loop Wearable Systems Toward Next-Generation Diabetes Management* is accepted by **Advanced Intelligent Systems**
 - *2024.10*: &nbsp;Release *MC-MoE*, a mixture compressor for MoE LLMs combined the static quantization and dynamic pruning. Please check our [paper](https://arxiv.org/abs/2410.06270), and [code](https://github.com/Aaronhuang-778/MC-MoE)!
 - *2024.05*: &nbsp;🎉🎉 one co-author paper is accepted by **ICCAD'24**! 
 - *2024.05*: &nbsp;Release *SliM-LLM*, a plug-and-play group-wise mixed-precision quantizaion framework for 2-bit LLMs. Please check our [paper](https://arxiv.org/abs/2405.14917), [code](https://github.com/Aaronhuang-778/SliM-LLM) and [huggingface](https://huggingface.co/AaronHuangWei)!
