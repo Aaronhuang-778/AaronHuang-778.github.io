@@ -50,7 +50,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
   
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='https://github.com/Aaronhuang-778/MC-MoE/raw/main/imgs/WX20241009-191322%402x.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='https://github.com/Aaronhuang-778/MC-MoE/raw/main/imgs/WX20241009-191322%402x.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**MC-MoE: Mixture Compressor for Mixture-of-Experts LLMs Gains More**](https://arxiv.org/abs/2410.06270) <img src='https://img.shields.io/github/stars/Aaronhuang-778/MC-MoE.svg?style=social&label=Star' alt="sym" height="100%">
