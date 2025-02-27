@@ -31,13 +31,11 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 
 
 # 🔥 News
-- *2025.01*: &nbsp;🎉🎉 One first author paper (MC-MoE: MoE-LLM compression) and two co-author papers (InfoMax: data pruning; From-Layers-to-States: dynamic neural network layer) are accepted by **ICLR'25**!
+- *2025.02*: &nbsp;🎉🎉 One paper for Chain-of-Thought Video Benchmark (VideoEspresso) is accepted by **CVPR'25**! 
+- *2025.01*: &nbsp;🎉🎉 One paper for MoE-LLM compression (MC-MoE: MoE-LLM compression) and two papers (InfoMax: data pruning; From-Layers-to-States: dynamic neural network layer) for data efficiency and dynamic neural networks are accepted by **ICLR'25**!
 - *2024.12*: &nbsp;🎉🎉 One *Technical Report* is accepted by **Visual Intelligence**
 - *2024.12*: &nbsp;🎉🎉 One *Review* on AI in wearable diabetes management is accepted by **Advanced Intelligent Systems**
-- *2024.10*: &nbsp;Release *MC-MoE*, a mixture compressor for MoE LLMs combined the static quantization and dynamic pruning. Please check our [paper](https://arxiv.org/abs/2410.06270), and [code](https://github.com/Aaronhuang-778/MC-MoE)!
-- *2024.05*: &nbsp;🎉🎉 one co-author paper is accepted by **ICCAD'24**! 
-- *2024.05*: &nbsp;Release *SliM-LLM*, a plug-and-play group-wise mixed-precision quantizaion framework for 2-bit LLMs. Please check our [paper](https://arxiv.org/abs/2405.14917), [code](https://github.com/Aaronhuang-778/SliM-LLM) and [huggingface](https://huggingface.co/AaronHuangWei)!
-- *2024.04*: &nbsp;Release *An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs*, an emperical study on the performance of low-bit quantized LLM/MLLM based on LLaMA-3. Please check our [paper](https://arxiv.org/abs/2404.14047), [code](https://github.com/Macaronlin/LLaMA3-Quantization) and [huggingface](https://huggingface.co/LLMQ)!
+- *2024.05*: &nbsp;🎉🎉 One paper for snn security on rram is accepted by **ICCAD'24**! 
 - *2024.04*: &nbsp;🎉🎉 *BiLLM* is accepted by **ICML'24**! 
 - *2024.02*: &nbsp;Release *BiLLM: Pushing the Limit of Post-Training Quantization for LLMs*, the first post-training quantization work pushing the LLMs to nearly 1-bit. Please check our [paper](https://arxiv.org/abs/2402.04291) and [code](https://github.com/Aaronhuang-778/BiLLM)!
 
