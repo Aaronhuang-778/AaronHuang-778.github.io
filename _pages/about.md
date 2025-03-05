@@ -76,7 +76,7 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/informax.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Data Pruning by Information Maximization**](https://openreview.net/forum?id=93XT0lKOct) <alt="sym" height="100%">
+[**Data Pruning by Information Maximization**](https://openreview.net/forum?id=93XT0lKOct)
 
 Haoru Tan, Sitong Wu, **Wei Huang**, Shizhen Zhao, Xiaojuan Qi
 
@@ -99,8 +99,7 @@ Haoru Tan, Sitong Wu, **Wei Huang**, Shizhen Zhao, Xiaojuan Qi
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/layers.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**From Layers to States: A State Space Model Perspective to Deep Neural Network Layer Dynamics**](https://arxiv.org/pdf/2502.10463) <alt="sym" height="100%">
-
+[**From Layers to States: A State Space Model Perspective to Deep Neural Network Layer Dynamics**](https://arxiv.org/pdf/2502.10463)
 Qinshuo Liu, Weiqin Zhao, **Wei Huang**, Yanwen Fang, Lequan Yu, Guodong Li
 
 - For a deep neural network, we treat the outputs from layers as states of a continuous process and attempt to leverage the SSM to design the aggregation of layers. To our best knowledge, this is the first time such a perspective has been presented. 
