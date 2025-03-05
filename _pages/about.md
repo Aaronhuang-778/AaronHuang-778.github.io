@@ -73,7 +73,7 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/informax.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/informax.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Data Pruning by Information Maximization**](https://openreview.net/forum?id=93XT0lKOct)
@@ -96,7 +96,7 @@ Haoru Tan, Sitong Wu, **Wei Huang**, Shizhen Zhao, Xiaojuan Qi
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/layers.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/layers.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**From Layers to States: A State Space Model Perspective to Deep Neural Network Layer Dynamics**](https://arxiv.org/pdf/2502.10463)
