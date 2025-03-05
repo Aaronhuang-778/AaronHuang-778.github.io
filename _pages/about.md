@@ -185,28 +185,6 @@ Kwunhang Wong*, Songqi Wang*, **Wei Huang**, Xinyuan Zhang, Yangu He, Karl M.H. 
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='https://github.com/Aaronhuang-778/SliM-LLM/raw/main/imgs/overall.png' alt="sym" width="100%"></div></div>
-<div class='paper-box-text' markdown="1">
-
-[**VLSNR:Vision-Linguistics Coordination Time Sequence-aware News Recommendation**](https://arxiv.org/abs/2210.02946) <img src='https://img.shields.io/github/stars/Aaronhuang-778/V-MIND.svg?style=social&label=Star' alt="sym" height="100%">
-
-Songhao Han*, **Wei Huang\***, Xiaotian Luan *
-
-- Construct a large scale multimodal news recommendation dataset V-MIND. It helps facilitate the future research of news recommendations in multimodal domain and improve the learning resultsof VLSNR.
-- Integrates visual and textual information about news in time series to learn click-preferences trend.
-
-<div style="display: inline">
-    <a href="https://arxiv.org/abs/2210.02946"> <strong>[paper]</strong></a>
-    <a href="https://github.com/Aaronhuang-778/V-MIND"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
-    <div class="abstract"  style="overflow: hidden; display: none;">  
-        <p> News representation and user-oriented modeling are both essential for news recommendation. Most existing methods are based on textual information but ignore the visual information and users' dynamic interests. However, compared to textual only content, multimodal semantics is beneficial for enhancing the comprehension of users' temporal and long-lasting interests. In our work, we propose a vision-linguistics coordinate time sequence news recommendation. Firstly, a pretrained multimodal encoder is applied to embed images and texts into the same feature space. Then the self-attention network is used to learn the chronological sequence. Additionally, an attentional GRU network is proposed to model user preference in terms of time adequately. Finally, the click history and user representation are embedded to calculate the ranking scores for candidate news. Furthermore, we also construct a large scale multimodal news recommendation dataset V-MIND. Experimental results show that our model outperforms baselines and achieves SOTA on our independently constructed dataset. </p>
-    </div>
-</div>
-
-</div>
-</div>
-
 
 
 # 📖 Educations
