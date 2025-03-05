@@ -266,7 +266,7 @@ Kwunhang Wong*, Songqi Wang*, **Wei Huang**, Xinyuan Zhang, Yangu He, Karl M.H. 
 
 # 🗒️ Academic Services
 
-- Conference: ICLR, Neurips, ICML, ECCV, AISTATS
+- Conference: ICLR, Neurips, ICML, ECCV, AISTATS, ICCV
 - Journal: Neural Networks. 
 - Program Committee member for Practical Deep Learning Workshop, IEEE CAI 2024.
 
