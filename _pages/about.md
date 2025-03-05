@@ -17,7 +17,8 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, this is Wei Huang(黄炜)’s website! I am currently a Ph.D student in [Computer Vision and Machine Intelligence Lab (CVMI Lab) @ HKU](https://xjqi.github.io/cvmi.html) and [Wearable, Intelligent and Soft Electronics Lab (WISE Lab)](https://wise.hku.hk/) from September 2023, advised by [Prof.Xiaojuan Qi](https://xjqi.github.io/) and [Prof.Shiming Zhang](https://wise.hku.hk/people/). I am also co-supervised by  [Prof.Zhongrui Wang](https://scholar.google.com.sg/citations?user=Ofl3nUsAAAAJ&hl=en). Previously I obtained my bachelor's degree in computer science (Jun 2023) from Beihang University where I was advised by [Prof.Si Liu](https://colalab.net/people) and also worked with [Prof.Xianglong Liu](https://xlliu-beihang.github.io/). 
+Hi, this is Wei Huang(黄炜)’s website! I am currently a Ph.D advised by [Prof.Xiaojuan Qi](https://xjqi.github.io/) and [Prof.Shiming Zhang](https://wise.hku.hk/people/). I am also co-supervised by  [Prof.Zhongrui Wang](https://scholar.google.com.sg/citations?user=Ofl3nUsAAAAJ&hl=en). Previously I obtained my bachelor's degree in computer science (Jun 2023) from Beihang University where I was advised by [Prof.Si Liu](https://colalab.net/people) and also worked with [Prof.Xianglong Liu](https://xlliu-beihang.github.io/). 
+
 
 I’m currently conducting some research in efficient/tiny deep learning and application, including:
 
@@ -27,7 +28,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 
 ⌚ **Edged AI**: Edged AI for wearable and digital health.
 
-**I‘m actively seeking internship and visiting opportunities. If you have any opportunities available, I would greatly appreciate it if you could reach out to me. Thank you!**
+
 
 
 # 🔥 News
