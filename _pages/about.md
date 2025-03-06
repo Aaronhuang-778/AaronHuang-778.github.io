@@ -19,6 +19,8 @@ redirect_from:
 
 Hi, this is Wei Huang(黄炜)’s website! I am currently a Ph.D advised by [Prof.Xiaojuan Qi](https://xjqi.github.io/) and [Prof.Shiming Zhang](https://wise.hku.hk/people/). I am also co-supervised by  [Prof.Zhongrui Wang](https://scholar.google.com.sg/citations?user=Ofl3nUsAAAAJ&hl=en). Previously I obtained my bachelor's degree in computer science (Jun 2023) from Beihang University where I was advised by [Prof.Si Liu](https://colalab.net/people) and also worked with [Prof.Xianglong Liu](https://xlliu-beihang.github.io/). 
 
+⛵ Now, I am fortunate to be collaborating closely with [Dr. Yukang Chen](https://yukangchen.com/) and [Dr. Ligeng Zhu](https://scholar.google.ca/citations?user=y0LVrtgAAAAJ&hl=en) on the Efficient-Large-Model, led by [Prof. Song Han](https://hanlab.mit.edu/songhan)
+
 
 I’m currently conducting some research in efficient/tiny deep learning and application, including:
 
