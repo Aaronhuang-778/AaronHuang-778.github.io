@@ -34,7 +34,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 
 
 # 🔥 News
-- *2025.02*: &nbsp;🎉🎉 One paper for Chain-of-Thought Video Benchmark (VideoEspresso) is accepted by **CVPR'25**! 
+- *2025.02*: &nbsp;🎉🎉 One paper for Chain-of-Thought Video Benchmark (VideoEspresso) is accepted by **CVPR'25**, span style="color:red">**Oral Paper**</span>! 
 - *2025.01*: &nbsp;🎉🎉 One paper for MoE-LLM compression (MC-MoE: MoE-LLM compression) and two papers (InfoMax: data pruning; From-Layers-to-States: dynamic neural network layer) for data efficiency and dynamic neural networks are accepted by **ICLR'25**!
 - *2024.12*: &nbsp;🎉🎉 One *Technical Report* is accepted by **Visual Intelligence**
 - *2024.12*: &nbsp;🎉🎉 One *Review* on AI in wearable diabetes management is accepted by **Advanced Intelligent Systems**
@@ -51,7 +51,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
   
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025</div><img src='https://i.postimg.cc/LXzVcgFP/Wechat-IMG197.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 span style="color:red">**Oral**</span></div><img src='https://i.postimg.cc/LXzVcgFP/Wechat-IMG197.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**VideoEspresso: A Large-Scale Chain-of-Thought Dataset for Fine-Grained Video Reasoning via Core Frame Selection**](https://arxiv.org/pdf/2411.14794) <img src='https://img.shields.io/github/stars/hshjerry/VideoEspresso.svg?style=social&label=Star' alt="sym" height="100%">
