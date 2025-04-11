@@ -34,7 +34,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 
 
 # 🔥 News
-- *2025.02*: &nbsp;🎉🎉 One paper for Chain-of-Thought Video Benchmark (VideoEspresso) is accepted by **CVPR'25**, <span style="color:red">**Oral Paper**</span>! 
+- *2025.02*: &nbsp;🎉🎉 One paper for efficient fine-grained chain-of-thought video understanding framework (VideoEspresso) is accepted by **CVPR'25**, <span style="color:red">**Oral Paper**</span>! 
 - *2025.01*: &nbsp;🎉🎉 One paper for MoE-LLM compression (MC-MoE: MoE-LLM compression) and two papers (InfoMax: data pruning; From-Layers-to-States: dynamic neural network layer) for data efficiency and dynamic neural networks are accepted by **ICLR'25**!
 - *2024.12*: &nbsp;🎉🎉 One *Technical Report* is accepted by **Visual Intelligence**
 - *2024.12*: &nbsp;🎉🎉 One *Review* on AI in wearable diabetes management is accepted by **Advanced Intelligent Systems**
