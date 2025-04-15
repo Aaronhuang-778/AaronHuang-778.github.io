@@ -152,7 +152,7 @@ Qinshuo Liu, Weiqin Zhao, **Wei Huang**, Yanwen Fang, Lequan Yu, Guodong Li
 
 [**SliM-LLM: Salience-Driven Mixed-Precision Quantization for Large Language Models**](https://arxiv.org/abs/2405.14917) <img src='https://img.shields.io/github/stars/Aaronhuang-778/SliM-LLM.svg?style=social&label=Star' alt="sym" height="100%">
 
-**Wei Huang**, Haotong Qin, Yangdong Liu, Yawei Li, Xianglong Liu, Luca Benini, Michele Magno, Xiaojuan Qi
+**Wei Huang**, Haotong Qin, Yangdong Liu, Yawei Li, Xianglong Liu, Luca Benini, Michele Magno, Shiming Zhang, Xiaojuan Qi
 
 - A novel scheme that observes and proves the structure-clustering of salient elements in LLMs weight matrix.
 - The first group-wise mixed-precision quantization framework for LLMs.
