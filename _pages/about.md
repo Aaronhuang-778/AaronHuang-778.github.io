@@ -276,10 +276,12 @@ Kwunhang Wong*, Songqi Wang*, **Wei Huang**, Xinyuan Zhang, Yangu He, Karl M.H. 
 
 
 # 🎖 Honors and Awards 
-- *2019-2023(B.Eng.)*: 
-2023 - Outstanding Graduate, Beihang University.
-2023 - Outstanding Project of the 16th National College Student Innovation and Entrepreneurship Competition, China.
-2022 - Outstanding Project of the 15th National College Student Innovation and Entrepreneurship Competition, China.
+ 
+-2023 Outstanding Graduate, Beihang University.
+  
+-2023 Outstanding Project of the 16th National College Student Innovation and Entrepreneurship Competition, China.
+
+-2022 Outstanding Project of the 15th National College Student Innovation and Entrepreneurship Competition, China.
 
 
 
