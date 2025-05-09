@@ -277,19 +277,10 @@ Kwunhang Wong*, Songqi Wang*, **Wei Huang**, Xinyuan Zhang, Yangu He, Karl M.H. 
 
 # 🎖 Honors and Awards 
 - *2019-2023(B.Eng.)*: 
-Outstanding Graduate, Beihang University (2023).
-Outstanding Project of the 16th National College Student Innovation and Entrepreneurship Competition, China (2023).
-Outstanding Project of the 15th National College Student Innovation and Entrepreneurship Competition, China (2022).
-Second-class of the Social Practice Scholarship, Beihang University (2022).
-Third-class of the Innovation and Entreprenuership Scholarship, Beihang University (2021).
-Second-class of the Subject Competition Scholarship, Beihang University (2022), 3rd Prize of the 32st “Feng Ru Cup” Competition (2022).
-Second-class scholarship, Beihang University (2022).
-3rd “Lan Qiao Cup” programming competation(Python), Beijing (2022).
-Second-class of the Social Practice Scholarship, Beihang University (2021).
-Second-class of the Subject Competition Scholarship, Beihang University (2021).
-Outstanding Teaching Assistant, Beihang University (2021).
-2nd Prize of the 31st “Feng Ru Cup” Competition (2020).
-First-class scholarship, Beihang University (2020). 
+2023 - Outstanding Graduate, Beihang University.
+2023 - Outstanding Project of the 16th National College Student Innovation and Entrepreneurship Competition, China.
+2022 - Outstanding Project of the 15th National College Student Innovation and Entrepreneurship Competition, China.
+
 
 
 # 💻 Internships & Teaching Services
