@@ -286,6 +286,7 @@ Kwunhang Wong*, Songqi Wang*, **Wei Huang**, Xinyuan Zhang, Yangu He, Karl M.H. 
 
 
 # 💻 Internships & Teaching Services
+- *2025.06 - 2025.09*, Multimodal Large Language Model Intern, NVIDIA.
 - *2022.09 - 2023.01*, AI algorithm internship on model inference acceleration, [Enflame](https://www.linkedin.com/company/enflame/), China.
 - *2022.08 - 2023.01*, TA for **Frontiers in Artificial Intelligence**, Beihang University.
 - *2022.08 - 2023.01*, TA for **Computer Hardware Basics**, the head of TA team, Beihang University.
