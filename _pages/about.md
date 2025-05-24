@@ -25,15 +25,14 @@ Hi, this is Wei Huang(黄炜)’s website! I am currently a Ph.D advised by [Pro
 I’m currently conducting some research in efficient/tiny deep learning and application, including:
 
 🚀 **Efficient AI**: The efficiency of the Large Language/Vision-Language Model and Diffusion Model (e.g. model quantization/binarization).
-
+⌚ **Wearable AI**: AI for wearable and digital health, AI for sensitive organic electrochemical transistor (OECT).
 🔥 **Brain-mimic Computing**: Neuromorphic computing and hardware acceleration (e.g. spiking neural network-SNN).
-
-⌚ **Edged AI**: Edged AI for wearable and digital health.
 
 
 
 
 # 🔥 News
+- *2025.05*: &nbsp;🎉🎉 One paper for long-term glucose prediction (*Uncertainty-Estimate ProbSparse-Transformer*) is accepted by **Advanced Intelligent Systems**
 - *2025.05*: &nbsp;🎉🎉 One paper for structural mixed-precision low-bit quantization for LLMs (*SliM-LLM*) is accepted by **ICML'25**! 
 - *2025.02*: &nbsp;🎉🎉 One paper for efficient fine-grained chain-of-thought video understanding framework (VideoEspresso) is accepted by **CVPR'25**, <span style="color:red">**Oral Paper**</span>! 
 - *2025.01*: &nbsp;🎉🎉 One paper for MoE-LLM compression (*MC-MoE*: MoE-LLM compression) and two papers (*InfoMax*: data pruning; *From-Layers-to-States*: dynamic neural network layer) for data efficiency and dynamic neural networks are accepted by **ICLR'25**!
