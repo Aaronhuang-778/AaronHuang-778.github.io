@@ -44,6 +44,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 
 # 💬 Invited Talks and Report
 
+- *2025.06*: **AI-Time** online talk on *VideoEspresso*. Please see the [video](https://www.bilibili.com/video/BV1Yr7Hz1EKi?spm_id_from=333.1387.homepage.video_card.click).
 - *2024.05*: *BiLLM* was reported by **IEEE Spectrum**. Thanks to [Matthew](https://www.newyorker.com/contributors/matthew-hutson) for the interview and report. Please see the [link](https://spectrum.ieee.org/1-bit-llm). 
 - *2024.05*: **AI-Time** online talk on *BiLLM*. Please see the [video](https://www.bilibili.com/video/BV1XM4m1z7RU/?share_source=copy_web&vd_source=c680cccdae8e0fd2e453769e2e789b78). 
 - *2024.04*: Our emperical study *How Good Are Low-bit Quantized LLaMA3 Models? An Empirical Study* (new version: *[An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs](https://arxiv.org/abs/2404.14047)*) was reported by **QbitAI (量子位)**. Please see the [link](https://m.thepaper.cn/newsDetail_forward_27189727).
