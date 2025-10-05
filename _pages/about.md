@@ -95,7 +95,7 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 <span style="color:red">Oral</span></div><img src='https://i.postimg.cc/LXzVcgFP/Wechat-IMG197.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 <span style="color:red">Oral</span></div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/videoexpresso.jpeg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**VideoEspresso: A Large-Scale Chain-of-Thought Dataset for Fine-Grained Video Reasoning via Core Frame Selection**](https://arxiv.org/pdf/2411.14794) <img src='https://img.shields.io/github/stars/hshjerry/VideoEspresso.svg?style=social&label=Star' alt="sym" height="100%">
