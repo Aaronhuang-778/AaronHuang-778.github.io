@@ -17,12 +17,26 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
-Hi, this is Wei Huang(黄炜)’s website! I am currently a Ph.D advised by [Prof.Xiaojuan Qi](https://xjqi.github.io/) and [Prof.Shiming Zhang](https://wise.hku.hk/people/). I am also co-supervised by  [Prof.Zhongrui Wang](https://scholar.google.com.sg/citations?user=Ofl3nUsAAAAJ&hl=en). Previously I obtained my bachelor's degree in computer science (Jun 2023) from Beihang University where I was advised by [Prof.Si Liu](https://colalab.net/people) and also worked with [Prof.Xianglong Liu](https://xlliu-beihang.github.io/). 
+Hi, this is Wei Huang(黄炜)’s website! 
 
-I’m currently conducting some research in efficient/tiny deep learning and application, including:
+I am currently a Ph.D in HKU, supervised by [Prof.Xiaojuan Qi](https://xjqi.github.io/), [Prof.Shiming Zhang](https://wise.hku.hk/people/), and [Prof.Zhongrui Wang](https://scholar.google.com.sg/citations?user=Ofl3nUsAAAAJ&hl=en)
 
-🚀 **Efficient AI**: The efficiency of the Large Language/Vision-Language Model and Diffusion Model (e.g. model quantization/binarization).
-⌚ **Wearable AI**: AI for wearable and digital health, AI for sensitive organic electrochemical transistor (OECT).
+I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https://colalab.net/people). 
+
+Now, I am fortunate to intern at NVIDIA Research, working with [Dr.Yukang Chen](https://yukangchen.com/) and supervised by [Prof.Song Han](https://scholar.google.com/citations?user=E0iCaa4AAAAJ&hl=zh-CN).
+
+I focus on **efficient & tiny** deep learning for **lightweight, long-sequence, and fast AI**.
+
+This direction covers, but is not limited to, the following topics:
+
+🚀 **Efficient Compression**: The compression of LLMs, VLM, and Diffusion Model (ultra low-bit quantization, pruning, and sparsity).
+
+🧠 **Efficient Reasoning**: Reinforcement Learning for long-sequence & low-cost LLMs and VLMs' reasoning.
+
+🎬 **Efficient Generation**: Real-time and interactive long-video generation.
+
+⌚ **Wearable AI**: Edged AI for wearable context, and for sensitive organic electrochemical transistor (OECT).
+
 🔥 **Brain-mimic Computing**: Neuromorphic computing and hardware acceleration (e.g. spiking neural network-SNN).
 
 
