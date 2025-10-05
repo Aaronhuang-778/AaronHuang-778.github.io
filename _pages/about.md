@@ -30,12 +30,10 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 
 # 🔥 News
 - *2025.09*: &nbsp;🎉🎉 Two papers are accepted by **Neurips'25**! One for scaling long-video reasoning (*Long-RL*: Scaling RL to Long Videos) and one for unified reasoning model (*Mindomni*: Unleashing reasoning generation in vision language models with rgpo). All the codes are opensourced now!
-- *2025.05*: &nbsp;🎉🎉 One paper for long-term glucose prediction (*Uncertainty-Estimate ProbSparse-Transformer*) is accepted by **Advanced Intelligent Systems**
 - *2025.05*: &nbsp;🎉🎉 One paper for structural mixed-precision low-bit quantization for LLMs (*SliM-LLM*) is accepted by **ICML'25**! All the codes are opensourced now!
 - *2025.02*: &nbsp;🎉🎉 One paper for efficient fine-grained chain-of-thought video understanding framework (VideoEspresso) is accepted by **CVPR'25**, <span style="color:red">**Oral Paper 0.73%**</span>! All the codes are opensourced now!
 - *2025.01*: &nbsp;🎉🎉 Three papers are accepted by **ICLR'25**! One for MoE-LLM compression (*MC-MoE*: MoE-LLM compression) and two papers (*InfoMax*: data pruning; *From-Layers-to-States*: dynamic neural network layer) for data efficiency and dynamic neural networks. All the codes are opensourced now!
 - *2024.12*: &nbsp;🎉🎉 One *Technical Report* is accepted by **Visual Intelligence**
-- *2024.12*: &nbsp;🎉🎉 One *Review* on AI in wearable diabetes management is accepted by **Advanced Intelligent Systems**
 - *2024.05*: &nbsp;🎉🎉 One paper for snn security on rram is accepted by **ICCAD'24**! All the codes are opensourced now!
 - *2024.04*: &nbsp;🎉🎉 One paper for post-training binary quantization of LLMs is accepted by **ICML'24**! All the codes are opensourced now!
 
@@ -49,6 +47,29 @@ I’m currently conducting some research in efficient/tiny deep learning and app
 - *2024.03*: Our *BiLLM: Pushing the Limit of Post-Training Quantization for LLMs*  was reported by **QbitAI (量子位)**. Please see the [link](https://www.qbitai.com/2024/06/152191.html).
   
 # 📝 Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurips 2025</div><img src='https://github.com/NVlabs/Long-RL/raw/main/assets/long-rl-logo.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Scaling RL to Long Videos**](https://arxiv.org/abs/2507.07966) <img src='https://img.shields.io/github/stars/NVlabs/Long-RL.svg?style=social&label=Star' alt="sym" height="100%">
+
+**Yukang Chen\***, **Wei Huang\***, Baifeng Shi, Qinghao Hu, Hanrong Ye, Ligeng Zhu, Zhijian Liu, Pavlo Molchanov, Jan Kautz, Xiaojuan Qi, Sifei Liu, Hongxu Yin, Yao Lu, Song Han
+
+- MR-SP infrastructure with sequence parallelism and vLLM-based cached-embedding rollouts, enabling up to 8,192 frames, hour-long RL on 8×A100, 2.1× speedup, and strong results (VideoMME 65.1% no subs, 71.1% with subs) via LongVILA-R1-7B.
+- Two-stage pipeline combining CoT-SFT and RL to scale reasoning for long-horizon video understanding.
+- LongVideo-Reason (104K long-video QA pairs) with high-quality chain-of-thought annotations across diverse domains.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2507.07966"> <strong>[paper]</strong></a>
+    <a href="https://github.com/NVlabs/Long-RL"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p> We introduce a full-stack framework that scales up reasoning in vision-language models (VLMs) to long videos, leveraging reinforcement learning. We address the unique challenges of long video reasoning by integrating three critical components: (1) a large-scale dataset, LongVideo-Reason, comprising 104K long video QA pairs with high-quality reasoning annotations across diverse domains such as sports, games, and vlogs; (2) a two-stage training pipeline that extends VLMs with chain-of-thought supervised fine-tuning (CoT-SFT) and reinforcement learning (RL); and (3) a training infrastructure for long video RL, named Multi-modal Reinforcement Sequence Parallelism (MR-SP), which incorporates sequence parallelism and a vLLM-based engine tailored for long video, using cached video embeddings for efficient rollout and prefilling. In our experiments, LongVILA-R1-7B achieves strong performance on video benchmarks, reaching 65.1% and 71.1% accuracy on VideoMME without and with subtitles, respectively, and consistently outperforming LongVILA-7B across multiple benchmarks. Moreover, LongVILA-R1-7B supports processing up to 8,192 video frames per video, and configurable FPS settings. Notably, our MR-SP system achieves up to 2.1x speedup on long video RL training. In addition, we release our training system for public availability that supports RL training on various modalities (video, text, and audio), various models (VILA and Qwen series), and even image and video generation models. On a single A100 node (8 GPUs), it supports RL training on hour-long videos (e.g., 3,600 frames). </p>
+    </div>
+</div>
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='https://github.com/Aaronhuang-778/SliM-LLM/raw/main/imgs/WX20240527-155305%402x.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
