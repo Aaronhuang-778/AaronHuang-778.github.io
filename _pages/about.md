@@ -19,7 +19,7 @@ redirect_from:
 
 Hi, this is Wei Huang(黄炜)’s website! 
 
-I am currently a Ph.D in HKU, supervised by [Prof.Xiaojuan Qi](https://xjqi.github.io/), [Prof.Shiming Zhang](https://wise.hku.hk/people/)
+I am currently a Ph.D in HKU, supervised by [Prof.Xiaojuan Qi](https://xjqi.github.io/), [Prof.Shiming Zhang](https://wise.hku.hk/people/). I am also co-supervised by [Prof.Zhongrui Wang](https://zhongruiwang.github.io/).
 
 I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https://colalab.net/people). 
 
