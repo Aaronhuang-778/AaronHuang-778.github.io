@@ -43,7 +43,7 @@ This direction covers, but is not limited to, the following topics:
 
 
 # 🔥 News
-- *2025.1*: &nbsp;🎉🎉 One paper for AI guided glucose management paper (A Wearable, Dual Closed-loop Insulin Delivery System for Precision Diabetes Management) is accepted by **Advanced Materials**, <span style="color:red">**Top Interdisciplinary Journal, IF=26.8**</span>! All the codes are opensourced now!
+- *2025.10*: &nbsp;🎉🎉 One paper for wearable AI guided glucose management (*A Wearable, Dual Closed-loop Insulin Delivery System for Precision Diabetes Management*) is accepted by **Advanced Materials**, <span style="color:red">**Top Interdisciplinary Journal, IF=26.8**</span>!
 - *2025.09*: &nbsp;🎉🎉 Two papers are accepted by **Neurips'25**! One for scaling long-video reasoning (*Long-RL*: Scaling RL to Long Videos) and one for unified reasoning model (*Mindomni*: Unleashing reasoning generation in vision language models with rgpo). All the codes are opensourced now!
 - *2025.05*: &nbsp;🎉🎉 One paper for structural mixed-precision low-bit quantization for LLMs (*SliM-LLM*) is accepted by **ICML'25**! All the codes are opensourced now!
 - *2025.02*: &nbsp;🎉🎉 One paper for efficient fine-grained chain-of-thought video understanding framework (VideoEspresso) is accepted by **CVPR'25**, <span style="color:red">**Oral Paper 0.73%**</span>! All the codes are opensourced now!
