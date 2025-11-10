@@ -53,7 +53,7 @@ This direction covers, but is not limited to, the following topics:
 - *2024.04*: &nbsp;🎉🎉 One paper for post-training binary quantization of LLMs is accepted by **ICML'24**! All the codes are opensourced now!
 
 # 💬 Invited Talks and Report
-
+- *2025.11*: **青稞社区** online talk on *QeRL*. Please see the [video](https://qingkeai.online/archives/XoswnRzk).
 - *2025.10*: Our *OmniVinci* was reported by **机器之心,Sina(新浪财经)**. Please see the [link](https://finance.sina.com.cn/roll/2025-11-06/doc-infwmvkz2048084.shtml).
 - *2025.10*: Our *LongLive* was reported by **新智元**. Please see the [link](https://hub.baai.ac.cn/view/49618).
 - *2025.07*: Our *Scaling RL to Long Videos*  was reported by **机器之心**. Please see the [link](https://www.jiqizhixin.com/articles/2025-07-14-2).
