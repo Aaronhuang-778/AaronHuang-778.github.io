@@ -285,8 +285,8 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 
 # 🗒️ Academic Services
 
-- Conference Reviewer: ICLR, Neurips, ICML, ECCV, AISTATS, ICCV
-- Journal Reviewer: Neural Networks. 
+- Conference Reviewer: ICLR, Neurips, ICML, ECCV, CVPR, ICCV
+- Journal Reviewer: IEEE TPAMI, Neural Networks. 
 - Program Committee member for Practical Deep Learning Workshop, IEEE CAI 2024.
 
 
