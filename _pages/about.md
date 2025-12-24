@@ -65,6 +65,53 @@ This direction covers, but is not limited to, the following topics:
   
 # 📝 Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='https://github.com/NVlabs/QeRL/raw/main/assets/qerl.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**QeRL: Beyond Efficiency -- Quantization-enhanced Reinforcement Learning for LLMs**](https://arxiv.org/pdf/2510.11696v1) <img src='https://img.shields.io/github/stars/NVlabs/QeRL.svg?style=social&label=Star' alt="sym" height="100%">
+
+**Wei Huang**, Yi Ge, Shuai Yang, Yicheng Xiao, Huizi Mao, Yujun Lin, Hanrong Ye, Sifei Liu, Ka Chun Cheung, Hongxu Yin, Yao Lu, Xiaojuan Qi, Song Han, Yukang Chen
+
+- 🧠 4-bit quantized RL training.
+- 💪 Train a 32B LLM on a single H100 GPU.
+- 🎯 Accuracy on par with bfloat16-level accuracy.
+- 🔥 Supports NVFP4 quantization format.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/pdf/2510.11696v1"> <strong>[paper]</strong></a>
+    <a href="https://github.com/NVlabs/QeRL"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p> We propose QeRL, a Quantization-enhanced Reinforcement Learning framework for large language models (LLMs). While RL is essential for LLMs' reasoning capabilities, it is resource-intensive, requiring substantial GPU memory and long rollout durations. QeRL addresses these issues by combining NVFP4 quantization with Low-Rank Adaptation (LoRA), accelerating rollout phase of RL while reducing memory overhead. Beyond efficiency, our findings show that quantization noise increases policy entropy, enhancing exploration, and enabling the discovery of better strategies during RL. To further optimize exploration, QeRL introduces an Adaptive Quantization Noise (AQN) mechanism, which dynamically adjusts noise during training. Experiments demonstrate that QeRL delivers over 1.5 times speedup in the rollout phase. Moreover, this is the first framework to enable RL training of a 32B LLM on a single H100 80GB GPU, while delivering overall speedups for RL training. It also achieves faster reward growth and higher final accuracy than 16-bit LoRA and QLoRA, while matching the performance of full-parameter fine-tuning on mathematical benchmarks such as GSM8K (90.8%) and MATH 500 (77.4%) in the 7B model. These results establish QeRL as an efficient and effective framework for RL training in LLMs. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='https://github.com/NVlabs/LongLive/raw/main/assets/framework.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**LongLive: Real-time Interactive Long Video Generation**](https://arxiv.org/abs/2509.22622) <img src='https://img.shields.io/github/stars/NVlabs/LongLive.svg?style=social&label=Star' alt="sym" height="100%">
+
+Shuai Yang, **Wei Huang**, Ruihang Chu, Yicheng Xiao, Yuyang Zhao, Xianbang Wang, Muyang Li, Enze Xie, Yingcong Chen, Yao Lu, Song Han, Yukang Chen
+
+- Generates video in real time as users enter text prompts.
+- 20.7 FPS on a single H100, up to 240s per clip. Fine-tunes SOTA short-video models (e.g., Wan) into long-video generators.
+- One step closer to World Models.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2509.22622"> <strong>[paper]</strong></a>
+    <a href="https://github.com/NVlabs/LongLive"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p> We present LongLive, a frame-level autoregressive (AR) framework for real-time and interactive long video generation. Long video generation presents challenges in both efficiency and quality. Diffusion and Diffusion-Forcing models can produce high-quality videos but suffer from low efficiency due to bidirectional attention. Causal attention AR models support KV caching for faster inference, but often degrade in quality on long videos due to memory challenges during long-video training. In addition, beyond static prompt-based generation, interactive capabilities, such as streaming prompt inputs, are critical for dynamic content creation, enabling users to guide narratives in real time. This interactive requirement significantly increases complexity, especially in ensuring visual consistency and semantic coherence during prompt transitions. To address these challenges, LongLive adopts a causal, frame-level AR design that integrates a KV-recache mechanism that refreshes cached states with new prompts for smooth, adherent switches; streaming long tuning to enable long video training and to align training and inference (train-long-test-long); and short window attention paired with a frame-level attention sink, shorten as frame sink, preserving long-range consistency while enabling faster generation. With these key designs, LongLive fine-tunes a 1.3B-parameter short-clip model to minute-long generation in just 32 GPU-days. At inference, LongLive sustains 20.7 FPS on a single NVIDIA H100, achieves strong performance on VBench in both short and long videos. LongLive supports up to 240-second videos on a single H100 GPU. LongLive further supports INT8-quantized inference with only marginal quality loss. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurips 2025</div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/longRL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
