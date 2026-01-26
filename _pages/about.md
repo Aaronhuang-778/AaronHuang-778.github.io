@@ -112,6 +112,29 @@ Shuai Yang, **Wei Huang**, Ruihang Chu, Yicheng Xiao, Yuyang Zhao, Xianbang Wang
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Advanced Materials<span style="color:red">Journal IF=26.8</span></div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/dual_loop.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**A Wearable, Dual Closed-loop Insulin Delivery System for Precision Diabetes Management**](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202514945)
+
+**Xuecheng He\***, **Wei Huang\***, Wensheng Lin, Binbin Cui, Xinyu Tian, Jing Bai, Dingyao Liu, Ivo Pang, Hao Huang, Shixian Lin, Jixiang Zhu, Jinqiang Wang, Shiming Zhang
+
+- We have presented a wearable DuoLoop insulin delivery system to address the safety issues associated with traditional single closed-loop ones.
+- The 1st closed-loop system automates insulin delivery through wearable CGMs. The 2nd closed-loop system involves the GRI, where the insulin release rate depends on real-time in vivo glucose levels. 
+- To link the two sections, an AI algorithm was developed by training on extensive glucose data sets, which enables accurate predictions and guides GRI delivery at optimal dosage and timing.
+
+<div style="display: inline">
+    <a href="[https://arxiv.org/abs/2507.07966](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202514945)"> <strong>[paper]</strong></a>
+    <a href=""> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p> Effective blood glucose management is an increasing demand worldwide. Traditional solutions separate glucose detection and insulin delivery, which is less efficient compared to emerging closed-loop wearable systems controlled by continuous glucose monitors (CGMs). However, CGM-controlled systems raise new safety risks, as false CGMs readings can cause insulin overdose, which results in hypoglycemia and fatal consequences. This work proposes a concept of a dual closed-loop insulin delivery system (DuoLoop) to mitigate the risk issue of CGM-controlled systems. The first closed-loop is automated insulin delivery controlled by CGM. The second closed-loop is the controlled release of glucose-responsive insulin (GRI), whose release rate depends on actual glucose levels. A customized algorithm is trained and embedded into the wearable CGMs for edge computing. The DuoLoop system shows improved safety in preliminary in vivo test (longer normoglycemia durations, 98.82% vs 92.10%), encouraging its deployment toward precision diabetes care. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurips 2025</div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/longRL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
