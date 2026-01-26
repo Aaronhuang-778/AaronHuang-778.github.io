@@ -43,6 +43,7 @@ This direction covers, but is not limited to, the following topics:
 
 
 # 🔥 News
+- *2026.01*: &nbsp;🎉🎉 Three papers are accepted by **ICLR'26**! One for Low-bit LLM RL (*QeRL*: NVFP4 training for parameter-efficient RL) and two papers (*LongLive*: streaming interactive long-video generation; *OmniVinci*: a foundation model for omni-LLM) for long-video generation and foundation omni-LLMs. All the codes are opensourced now!
 - *2025.10*: &nbsp;🎉🎉 One paper for wearable AI guided glucose management (*A Wearable, Dual Closed-loop Insulin Delivery System for Precision Diabetes Management*) is accepted by **Advanced Materials**, <span style="color:red">**Top Interdisciplinary Journal, IF=26.8**</span>!
 - *2025.09*: &nbsp;🎉🎉 Two papers are accepted by **Neurips'25**! One for scaling long-video reasoning (*Long-RL*: Scaling RL to Long Videos) and one for unified reasoning model (*Mindomni*: Unleashing reasoning generation in vision language models with rgpo). All the codes are opensourced now!
 - *2025.05*: &nbsp;🎉🎉 One paper for structural mixed-precision low-bit quantization for LLMs (*SliM-LLM*) is accepted by **ICML'25**! All the codes are opensourced now!
@@ -65,7 +66,7 @@ This direction covers, but is not limited to, the following topics:
   
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='https://github.com/NVlabs/QeRL/raw/main/assets/qerl.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://github.com/NVlabs/QeRL/raw/main/assets/qerl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**QeRL: Beyond Efficiency -- Quantization-enhanced Reinforcement Learning for LLMs**](https://arxiv.org/pdf/2510.11696v1) <img src='https://img.shields.io/github/stars/NVlabs/QeRL.svg?style=social&label=Star' alt="sym" height="100%">
@@ -89,7 +90,7 @@ This direction covers, but is not limited to, the following topics:
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv 2025</div><img src='https://github.com/NVlabs/LongLive/raw/main/assets/framework.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://github.com/NVlabs/LongLive/raw/main/assets/framework.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**LongLive: Real-time Interactive Long Video Generation**](https://arxiv.org/abs/2509.22622) <img src='https://img.shields.io/github/stars/NVlabs/LongLive.svg?style=social&label=Star' alt="sym" height="100%">
