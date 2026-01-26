@@ -113,6 +113,29 @@ Shuai Yang, **Wei Huang**, Ruihang Chu, Yicheng Xiao, Yuyang Zhao, Xianbang Wang
 </div>
 </div>
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://github.com/NVlabs/OmniVinci/raw/main/assets/arch.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM**](https://arxiv.org/abs/2510.15870) <img src='https://img.shields.io/github/stars/NVlabs/OmniVinci.svg?style=social&label=Star' alt="sym" height="100%">
+
+Hanrong Ye*†, Chao-Han Huck Yang†, Arushi Goel†,**Wei Huang†**, Ligeng Zhu†, Yuanhang Su†, Sean Lin†, An-Chieh Cheng†, Zhen Wan†, Jinchuan Tian†, Yuming Lou†, Dong Yang†, Zhijian Liu, Yukang Chen, Ambrish Dantrey, Ehsan Jahangiri, Sreyan Ghosh, Daguang Xu, Ehsan Hosseini Asl, Danial Mohseni Taheri, Vidya Murali, Sifei Liu, Yao Lu, Oluwatobi Olabiyi, Yu-Chiang Frank Wang, Rafael Valle, Bryan Catanzaro, Andrew Tao, Song Han, Jan Kautz, Hongxu Yin*^†, Pavlo Molchanov^
+
+- OmniAlignNet for strengthening alignment between vision and audio embeddings in a shared omni-modal latent space.
+- emporal Embedding Grouping for capturing relative temporal alignment between vision and audio signals.
+- Constrained Rotary Time Embedding for encoding absolute temporal information in omni-modal embeddings. We introduce a curation and synthesis pipeline that generates 24M single-modal and omni-modal conversations.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2510.15870"> <strong>[paper]</strong></a>
+    <a href="https://github.com/NVlabs/OmniVinci"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p> Advancing machine intelligence requires developing the ability to perceive across multiple modalities, much as humans sense the world. We introduce OmniVinci, an initiative to build a strong, open-source, omni-modal LLM. We carefully study the design choices across model architecture and data curation. For model architecture, we present three key innovations: (i) OmniAlignNet for strengthening alignment between vision and audio embeddings in a shared omni-modal latent space; (ii) Temporal Embedding Grouping for capturing relative temporal alignment between vision and audio signals; and (iii) Constrained Rotary Time Embedding for encoding absolute temporal information in omni-modal embeddings. We introduce a curation and synthesis pipeline that generates 24M single-modal and omni-modal conversations. We find that modalities reinforce one another in both perception and reasoning. Our model outperforms Qwen2.5-Omni with +19.05 on DailyOmni (cross-modal understanding), +1.7 on MMAR (audio), and +3.9 on Video-MME (vision), while using just 0.2T training tokens - a 6 times reduction compared to Qwen2.5-Omni’s 1.2T. We finally demonstrate omni-modal advantages in downstream applications spanning robotics, medical AI, and smart factory. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Advanced Materials<span style="color:red">Journal IF=26.8</span></div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/dual_loop.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
