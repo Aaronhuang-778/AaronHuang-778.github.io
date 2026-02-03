@@ -118,7 +118,7 @@ Shuai Yang, **Wei Huang**, Ruihang Chu, Yicheng Xiao, Yuyang Zhao, Xianbang Wang
 
 [**OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM**](https://arxiv.org/abs/2510.15870) <img src='https://img.shields.io/github/stars/NVlabs/OmniVinci.svg?style=social&label=Star' alt="sym" height="100%">
 
-Hanrong Ye*†, Chao-Han Huck Yang†, Arushi Goel†,**Wei Huang†**, Ligeng Zhu†, Yuanhang Su†, Sean Lin†, An-Chieh Cheng†, Zhen Wan†, Jinchuan Tian†, Yuming Lou†, Dong Yang†, Zhijian Liu, Yukang Chen, Ambrish Dantrey, Ehsan Jahangiri, Sreyan Ghosh, Daguang Xu, Ehsan Hosseini Asl, Danial Mohseni Taheri, Vidya Murali, Sifei Liu, Yao Lu, Oluwatobi Olabiyi, Yu-Chiang Frank Wang, Rafael Valle, Bryan Catanzaro, Andrew Tao, Song Han, Jan Kautz, Hongxu Yin*^†, Pavlo Molchanov^
+Hanrong Ye\*, Chao-Han Huck Yang\*, Arushi Goel\*,**Wei Huang\***, Ligeng Zhu\*, Yuanhang Su\*, Sean Lin\*, An-Chieh Cheng\*, Zhen Wan\*, Jinchuan Tian\*, Yuming Lou\*, Dong Yang\*, Zhijian Liu, Yukang Chen, Ambrish Dantrey, Ehsan Jahangiri, Sreyan Ghosh, Daguang Xu, Ehsan Hosseini Asl, Danial Mohseni Taheri, Vidya Murali, Sifei Liu, Yao Lu, Oluwatobi Olabiyi, Yu-Chiang Frank Wang, Rafael Valle, Bryan Catanzaro, Andrew Tao, Song Han, Jan Kautz, Hongxu Yin\*, Pavlo Molchanov\*
 
 - OmniAlignNet for strengthening alignment between vision and audio embeddings in a shared omni-modal latent space.
 - emporal Embedding Grouping for capturing relative temporal alignment between vision and audio signals.
