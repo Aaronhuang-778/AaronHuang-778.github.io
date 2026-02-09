@@ -43,6 +43,7 @@ This direction covers, but is not limited to, the following topics:
 
 
 # 🔥 News
+- *2026.02*: &nbsp;🎉🎉 One paper for extreme MoE-LLMs/VLMs compression (*MC#: Mixture Compressor for Mixture-of-Experts Large Models*) is accepted by **IEEE TPAMI**, <span style="color:red">**Top Journal, IF=20.4**</span>!
 - *2026.01*: &nbsp;🎉🎉 Three papers are accepted by **ICLR'26**! One for Low-bit LLM RL (*QeRL*: NVFP4 training for parameter-efficient RL) and two papers (*LongLive*: streaming interactive long-video generation; *OmniVinci*: a foundation model for omni-LLM) for long-video generation and foundation omni-LLMs. All the codes are opensourced now!
 - *2025.10*: &nbsp;🎉🎉 One paper for wearable AI guided glucose management (*A Wearable, Dual Closed-loop Insulin Delivery System for Precision Diabetes Management*) is accepted by **Advanced Materials**, <span style="color:red">**Top Interdisciplinary Journal, IF=26.8**</span>!
 - *2025.09*: &nbsp;🎉🎉 Two papers are accepted by **Neurips'25**! One for scaling long-video reasoning (*Long-RL*: Scaling RL to Long Videos) and one for unified reasoning model (*Mindomni*: Unleashing reasoning generation in vision language models with rgpo). All the codes are opensourced now!
@@ -65,6 +66,29 @@ This direction covers, but is not limited to, the following topics:
 - *2024.03*: Our *BiLLM: Pushing the Limit of Post-Training Quantization for LLMs*  was reported by **QbitAI (量子位)**. Please see the [link](https://www.qbitai.com/2024/06/152191.html).
   
 # 📝 Publications
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TPAMI</div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/MC_SHARP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**MC#: Mixture Compressor for Mixture-of-Experts Large Models**](https://arxiv.org/abs/2510.10962) <img src='https://img.shields.io/github/stars/Aaronhuang-778/MC-MoE.svg?style=social&label=Star' alt="sym" height="100%">
+
+**Wei Huang**, Yue Liao, Yukang Chen, Jianhui Liu, Si Liu, Shiming Zhang, Shuicheng Yan, Xiaojuan Qi
+
+- Accurate weight-only quantization (Weight=1.5～2.5bit) for both MoE-LLMs and MoE-VLMs
+- Online Top-any Pruning (OTP) uses Gumbel-Softmax sampling to dynamically select a subset of experts per token
+- On DeepSeek-VL2, MC# achieves a 6.2 times weight reduction at 2.57 average bits with only a 1.7% accuracy drop across five multimodal benchmarks. Additionally, OTP reduces expert activation over 20% with less than 1% performance degradation, demonstrating strong potential for efficient MoE-based model deployment.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2510.10962"> <strong>[paper]</strong></a>
+    <a href="https://github.com/Aaronhuang-778/MC-MoE"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p> Mixture-of-Experts (MoE) effectively scales large language models (LLMs) and vision-language models (VLMs) by increasing capacity through sparse activation. However, preloading all experts into memory and activating multiple experts per input introduces significant computational and memory overhead, making the expert module a major contributor to model size and inference cost. To address this, we propose MC# (Mixture-Compressor-sharp), a framework that combines static quantization and dynamic expert pruning by leveraging the significance of experts and tokens for aggressive compression of MoE-LLMs/VLMs. To reduce storage and loading costs, we introduce Pre-Loading Mixed-Precision Quantization (PMQ), which optimizes bit allocation via linear programming, balancing expert importance and quantization error for a Pareto-optimal trade-off between size and performance. To reduce runtime computation, Online Top-any Pruning (OTP) uses Gumbel-Softmax sampling to dynamically select a subset of experts per token, enabling fine-grained control over activation. By combining PMQ's static bit-width optimization with OTP's dynamic routing, MC# achieves extreme compression with minimal accuracy loss. On DeepSeek-VL2, MC# achieves a 6.2 times weight reduction at 2.57 average bits with only a 1.7% accuracy drop across five multimodal benchmarks. Additionally, OTP reduces expert activation over 20% with less than 1% performance degradation, demonstrating strong potential for efficient MoE-based model deployment. </p>
+    </div>
+</div>
+
+</div>
+</div>
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://github.com/NVlabs/QeRL/raw/main/assets/qerl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
