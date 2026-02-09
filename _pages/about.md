@@ -67,7 +67,7 @@ This direction covers, but is not limited to, the following topics:
   
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TPAMI</div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/MC_SHARP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TPAMI<span style="color:red">Journal IF=20.4</span></div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/MC_SHARP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**MC#: Mixture Compressor for Mixture-of-Experts Large Models**](https://arxiv.org/abs/2510.10962) <img src='https://img.shields.io/github/stars/Aaronhuang-778/MC-MoE.svg?style=social&label=Star' alt="sym" height="100%">
