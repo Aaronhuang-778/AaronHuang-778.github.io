@@ -23,7 +23,7 @@ I am currently a Ph.D in HKU, supervised by [Prof.Xiaojuan Qi](https://xjqi.gith
 
 I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https://colalab.net/people). 
 
-Now, I am fortunate to intern at NVIDIA Research, working with [Dr.Yukang Chen](https://yukangchen.com/) and supervised by [Prof.Song Han](https://scholar.google.com/citations?user=E0iCaa4AAAAJ&hl=zh-CN). I am also guided by [Dr.Hongxu Yin](https://research.nvidia.com/person/danny-yin) and [Dr.Sifei Liu](https://sifeiliu.net/)
+Now, I am fortunate to intern at NVIDIA Research, working with [Dr.Yukang Chen](https://yukangchen.com/) and supervised by [Prof.Song Han](https://scholar.google.com/citations?user=E0iCaa4AAAAJ&hl=zh-CN). I am also working with [Dr.Hongxu Yin](https://research.nvidia.com/person/danny-yin) and [Dr.Sifei Liu](https://sifeiliu.net/)
 
 I focus on **efficient & tiny** deep learning for **lightweight, long-sequence, and fast AI**.
 
@@ -373,7 +373,8 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 
 
 # 💻 Internships & Teaching Services
-- *2025.06 - Now*, Multimodal Large Language Model Intern, NVIDIA.
+- *2026.03 - Now*, LLM Research Intern, NVIDIA.
+- *2025.06 - 2026.02*, Multimodal Large Language Model Intern, NVIDIA.
 - *2022.09 - 2023.01*, AI algorithm internship on model inference acceleration, [Enflame](https://www.linkedin.com/company/enflame/), China.
 - *2022.08 - 2023.01*, TA for **Frontiers in Artificial Intelligence**, Beihang University.
 - *2022.08 - 2023.01*, TA for **Computer Hardware Basics**, the head of TA team, Beihang University.
