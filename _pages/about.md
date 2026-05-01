@@ -43,6 +43,7 @@ This direction covers, but is not limited to, the following topics:
 
 
 # 🔥 News
+- *2026.05*: &nbsp;🎉🎉  Two papers are accepted by **ICML'26**! One for efficent long context compression (*Tri-Attention*) and one for diffusion quantization (*Absorbing Quantization Error*).
 - *2026.02*: &nbsp;🎉🎉 One paper for 4D Vision-language Models (*Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models*) is accepted by **CVPR'26**! All the codes are opensourced now!
 - *2026.02*: &nbsp;🎉🎉 One paper for extreme MoE-LLMs/VLMs compression (*MC#: Mixture Compressor for Mixture-of-Experts Large Models*) is accepted by **IEEE TPAMI**, <span style="color:red">**Top Journal, IF=20.4**</span>!
 - *2026.01*: &nbsp;🎉🎉 Three papers are accepted by **ICLR'26**! One for Low-bit LLM RL (*QeRL*: NVFP4 training for parameter-efficient RL) and two papers (*LongLive*: streaming interactive long-video generation; *OmniVinci*: a foundation model for omni-LLM) for long-video generation and foundation omni-LLMs. All the codes are opensourced now!
