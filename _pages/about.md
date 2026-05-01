@@ -69,6 +69,29 @@ This direction covers, but is not limited to, the following topics:
   
 # 📝 Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='https://github.com/WeianMao/triattention/raw/main/docs/assets/motivation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**TriAttention: Efficient Long Reasoning with Trigonometric KV Compression**](https://arxiv.org/pdf/2604.04921) <img src='https://img.shields.io/github/stars/WeianMao/triattention.svg?style=social&label=Star' alt="sym" height="100%">
+
+Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song Han, Yukang Chen
+
+- 2.5x throughput on AIME25 long reasoning while matching Full Attention accuracy (40.8 vs 40.8)
+- 10.7x KV memory reduction with trigonometric frequency-domain compression
+- OpenClaw compatible — enables local deployment on 24GB RTX 4090
+
+<div style="display: inline">
+    <a href="https://arxiv.org/pdf/2604.04921"> <strong>[paper]</strong></a>
+    <a href="https://github.com/WeianMao/triattention"> <strong>[code]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">  
+        <p> Extended reasoning in large language models (LLMs) creates severe KV cache memory bottlenecks. Leading KV cache compression methods estimate KV importance using attention scores from recent post-RoPE queries. However, queries rotate with position during RoPE, making representative queries very few, leading to poor top-key selection and unstable reasoning. To avoid this issue, we turn to the pre-RoPE space, where we observe that Q and K vectors are highly concentrated around fixed non-zero centers and remain stable across positions -- Q/K concentration. We show that this concentration causes queries to preferentially attend to keys at specific distances (e.g., nearest keys), with the centers determining which distances are preferred via a trigonometric series. Based on this, we propose TriAttention to estimate key importance by leveraging these centers. Via the trigonometric series, we use the distance preference characterized by these centers to score keys according to their positions, and also leverage Q/K norms as an additional signal for importance estimation. On AIME25 with 32K-token generation, TriAttention matches Full Attention reasoning accuracy while achieving 2.5x higher throughput or 10.7x KV memory reduction, whereas leading baselines achieve only about half the accuracy at the same efficiency. TriAttention enables OpenClaw deployment on a single consumer GPU, where long context would otherwise cause out-of-memory with Full Attention. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TPAMI<span style="color:red">Journal IF=20.4</span></div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/MC_SHARP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
