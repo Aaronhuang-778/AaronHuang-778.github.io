@@ -23,7 +23,15 @@ I am currently a Ph.D in HKU, supervised by [Prof.Xiaojuan Qi](https://xjqi.gith
 
 I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https://colalab.net/people). 
 
-Now, I am fortunate to intern at NVIDIA Research, working with [Dr.Yukang Chen](https://yukangchen.com/) and supervised by [Prof.Song Han](https://scholar.google.com/citations?user=E0iCaa4AAAAJ&hl=zh-CN).
+<div style="display:flex; align-items:center; gap:0.85em; background:#f7fbf3; border:1px solid #dbead1; border-radius:6px; padding:0.75em 0.9em; margin:1em 0; line-height:1.45;">
+  <div style="flex:0 0 auto; background:#ffffff; border:1px solid #e3efd9; border-radius:5px; padding:0.35em 0.5em;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/NVIDIA_logo.svg" alt="NVIDIA" style="height:22px; width:auto; display:block;">
+  </div>
+  <div>
+    <div style="font-weight:700; color:#2f6b1f;">NVIDIA Research Intern</div>
+    <div>Working with <a href="https://yukangchen.com/">Dr. Yukang Chen</a> and supervised by <a href="https://scholar.google.com/citations?user=E0iCaa4AAAAJ&hl=zh-CN">Prof. Song Han</a>.</div>
+  </div>
+</div>
 
 <div style="background:#f6fbf7; border-left:4px solid #2f855a; border-radius:6px; padding:0.85em 1em; margin:1.1em 0 1.2em; line-height:1.55;">
   <div>I am a core author of <span style="color:#d73027"><strong>Long-RL</strong></span>, <span style="color:#d73027"><strong>LongLive 1.0</strong></span>, <span style="color:#d73027"><strong>LongLive 2.0</strong></span>, and <span style="color:#d73027"><strong>Tri-Attention</strong></span>, and a core contributor to <span style="color:#d73027"><strong>Nemotron 3 Nano Omni</strong></span>.</div>
