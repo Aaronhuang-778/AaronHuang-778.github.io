@@ -25,19 +25,21 @@ I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https:/
 
 Now, I am fortunate to intern at NVIDIA Research, working with [Dr.Yukang Chen](https://yukangchen.com/) and supervised by [Prof.Song Han](https://scholar.google.com/citations?user=E0iCaa4AAAAJ&hl=zh-CN).
 
-I focus on **efficient & tiny** deep learning for **lightweight, long-sequence, and fast AI**.
+<p style="font-size: 1.22em; font-weight: 700; line-height: 1.45; margin: 1.1em 0 0.8em;">
+I am a core author of <strong>Long-RL</strong>, <strong>LongLive 1.0-2.0</strong>, and <strong>Tri-Attention</strong>, and a core contributor to <strong>Nemotron 3 Nano Omni</strong>.
+</p>
 
-This direction covers, but is not limited to, the following topics:
+I focus on **efficient and tiny deep learning** for **lightweight, long-sequence, and fast AI**, spanning:
 
-🚀 **Efficient Compression**: The compression of LLMs, VLM, and Diffusion Model (ultra low-bit quantization, pruning, and sparsity).
+🚀 **Compression**: low-bit quantization, pruning, and sparsity for LLMs, VLMs, and diffusion models.
 
-🧠 **Efficient Reasoning**: Reinforcement Learning for long-sequence & low-cost LLMs and VLMs' reasoning.
+🧠 **Reasoning**: efficient RL and long-sequence reasoning for LLMs/VLMs.
 
-🎬 **Efficient Generation**: Real-time and interactive long-video generation.
+🎬 **Generation**: real-time and interactive long-video generation.
 
-⌚ **Wearable AI**: Edged AI for wearable context, and for sensitive organic electrochemical transistor (OECT).
+⌚ **Wearable AI**: edge AI and OECT-based sensing.
 
-🔥 **Brain-mimic Computing**: Neuromorphic computing and hardware acceleration (e.g. spiking neural network-SNN).
+🔥 **Brain-Mimic Computing**: neuromorphic computing and hardware acceleration.
 
 
 
@@ -87,6 +89,30 @@ Yukang Chen\*, Luozhou Wang\*, **Wei Huang\***, Shuai Yang\*, Bohan Zhang, Yiche
     <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
         <p> We present LongLive-2.0, an NVFP4-based parallel infrastructure for the full training and inference workflow of long video generation. For training, LongLive-2.0 introduces Balanced SP for sequence-parallel autoregressive training and combines it with NVFP4 precision to reduce memory cost and accelerate computation. For inference, LongLive-2.0 enables W4A4 NVFP4 execution, NVFP4 KV cache, parallel dequantization, and asynchronous streaming VAE decoding to improve end-to-end throughput. Experiments show up to 2.15x training speedup and 1.84x inference speedup, with LongLive-2.0-5B reaching 45.7 FPS while maintaining strong benchmark performance. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='https://github.com/NVIDIA-NeMo/Nemotron/raw/main/docs/assets/omni-3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence**](https://arxiv.org/abs/2604.24954) <img src='https://img.shields.io/github/stars/NVIDIA-NeMo/Nemotron.svg?style=social&label=Star' alt="sym" height="100%">
+
+NVIDIA, including **Wei Huang**, et al.
+
+- 30B-A3B hybrid Mamba-Transformer MoE for efficient multimodal intelligence.
+- Native support for text, image, video, and audio in a unified model.
+- Open model checkpoints, training recipes, datasets, and codebase for research and development.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2604.24954"> <strong>[paper]</strong></a>
+    <a href="https://github.com/NVIDIA-NeMo/Nemotron"> <strong>[code]</strong></a>
+    <a href="https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"> <strong>[model]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> We introduce Nemotron 3 Nano Omni, an efficient open multimodal model with native support for text, image, video, and audio. Built on the Nemotron 3 Nano 30B-A3B backbone, the model incorporates multimodal token-reduction techniques for lower inference latency and higher throughput while improving document understanding, long audio-video comprehension, and agentic computer use. The release includes model checkpoints, training recipes, portions of training data, and code to support further research and development. </p>
     </div>
 </div>
 
