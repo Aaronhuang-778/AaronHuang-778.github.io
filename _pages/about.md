@@ -96,7 +96,7 @@ Yukang Chen\*, Luozhou Wang\*, **Wei Huang\***, Shuai Yang\*, Bohan Zhang, Yiche
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">arXiv 2026</div><img src='https://github.com/NVIDIA-NeMo/Nemotron/raw/main/docs/assets/omni-3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='https://github.com/NVIDIA-NeMo/Nemotron/raw/main/docs/assets/omni-3.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence**](https://arxiv.org/abs/2604.24954) <img src='https://img.shields.io/github/stars/NVIDIA-NeMo/Nemotron.svg?style=social&label=Star' alt="sym" height="100%">
