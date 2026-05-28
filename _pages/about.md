@@ -25,9 +25,9 @@ I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https:/
 
 Now, I am fortunate to intern at NVIDIA Research, working with [Dr.Yukang Chen](https://yukangchen.com/) and supervised by [Prof.Song Han](https://scholar.google.com/citations?user=E0iCaa4AAAAJ&hl=zh-CN).
 
-<p style="font-size: 1.22em; font-weight: 700; line-height: 1.45; margin: 1.1em 0 0.8em;">
-I am a core author of <strong>Long-RL</strong>, <strong>LongLive 1.0-2.0</strong>, and <strong>Tri-Attention</strong>, and a core contributor to <strong>Nemotron 3 Nano Omni</strong>.
-</p>
+I am a core author of <span style="color:#d73027"><strong>Long-RL</strong></span>, <span style="color:#d73027"><strong>LongLive 1.0</strong></span>, <span style="color:#d73027"><strong>LongLive 2.0</strong></span>, and <span style="color:#d73027"><strong>Tri-Attention</strong></span>, and a core contributor to <span style="color:#d73027"><strong>Nemotron 3 Nano Omni</strong></span>.
+
+<i class="fab fa-fw fa-github" aria-hidden="true"></i> Main/core contributions across 11 open-source repositories, with <strong>6K+ GitHub stars</strong> in total.
 
 I focus on **efficient and tiny deep learning** for **lightweight, long-sequence, and fast AI**, spanning:
 
