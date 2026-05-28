@@ -69,6 +69,30 @@ This direction covers, but is not limited to, the following topics:
   
 # 📝 Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://github.com/NVlabs/LongLive/raw/main/assets/longlive2/teaser.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation**](https://arxiv.org/abs/2605.18739) <img src='https://img.shields.io/github/stars/NVlabs/LongLive.svg?style=social&label=Star' alt="sym" height="100%">
+
+Yukang Chen\*, Luozhou Wang\*, **Wei Huang\***, Shuai Yang\*, Bohan Zhang, Yicheng Xiao, Ruihang Chu, Weian Mao, Qixin Hu, Shaoteng Liu, Yuyang Zhao, Huizi Mao, Ying-Cong Chen, Enze Xie, Xiaojuan Qi, Song Han
+
+- End-to-end NVFP4 parallel infrastructure for long-video generation training and inference.
+- Balanced sequence parallel AR training with NVFP4 reduces memory cost and accelerates long-video training.
+- W4A4 inference, NVFP4 KV cache, parallel dequantization, and asynchronous VAE decoding enable efficient long-video generation.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2605.18739"> <strong>[paper]</strong></a>
+    <a href="https://github.com/NVlabs/LongLive"> <strong>[code]</strong></a>
+    <a href="https://nvlabs.github.io/LongLive/LongLive2/"> <strong>[project]</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> We present LongLive-2.0, an NVFP4-based parallel infrastructure for the full training and inference workflow of long video generation. For training, LongLive-2.0 introduces Balanced SP for sequence-parallel autoregressive training and combines it with NVFP4 precision to reduce memory cost and accelerate computation. For inference, LongLive-2.0 enables W4A4 NVFP4 execution, NVFP4 KV cache, parallel dequantization, and asynchronous streaming VAE decoding to improve end-to-end throughput. Experiments show up to 2.15x training speedup and 1.84x inference speedup, with LongLive-2.0-5B reaching 45.7 FPS while maintaining strong benchmark performance. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='https://github.com/WeianMao/triattention/raw/main/docs/assets/motivation.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
