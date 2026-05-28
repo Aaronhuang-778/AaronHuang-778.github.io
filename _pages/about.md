@@ -139,7 +139,7 @@ Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://github.com/NVlabs/LongLive/raw/main/assets/framework.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://github.com/NVlabs/LongLive/raw/main/assets/longlive2/LongLive1_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**LongLive: Real-time Interactive Long Video Generation**](https://arxiv.org/abs/2509.22622) <img src='https://img.shields.io/github/stars/NVlabs/LongLive.svg?style=social&label=Star' alt="sym" height="100%">
