@@ -28,7 +28,7 @@ I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https:/
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/NVIDIA_logo.svg" alt="NVIDIA" style="height:22px; width:auto; display:block;">
   </div>
   <div>
-    <div style="font-weight:700; color:#2f6b1f;">NVIDIA Research Intern</div>
+    <div style="font-weight:700; color:#2f6b1f;">NVIDIA Research Intern -- Efficient AI Group</div>
     <div>Working with <a href="https://yukangchen.com/">Dr. Yukang Chen</a> and supervised by <a href="https://scholar.google.com/citations?user=E0iCaa4AAAAJ&hl=zh-CN">Prof. Song Han</a>.</div>
   </div>
 </div>
