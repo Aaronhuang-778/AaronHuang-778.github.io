@@ -84,7 +84,7 @@ I focus on **efficient and tiny deep learning** for **lightweight, long-sequence
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://github.com/NVlabs/LongLive/raw/main/assets/longlive2/teaser.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation**](https://arxiv.org/abs/2605.18739) <img src='https://img.shields.io/github/stars/NVlabs/LongLive.svg?style=social&label=Star' alt="sym" height="100%">
+[**LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation**](https://arxiv.org/abs/2605.18739) <iframe src="https://ghbtns.com/github-btn.html?user=NVlabs&repo=LongLive&type=star&count=true" frameborder="0" scrolling="0" width="120" height="20" title="GitHub stars for NVlabs/LongLive" style="vertical-align:middle;"></iframe>
 
 Yukang Chen\*, Luozhou Wang\*, **Wei Huang\***, Shuai Yang\*, Bohan Zhang, Yicheng Xiao, Ruihang Chu, Weian Mao, Qixin Hu, Shaoteng Liu, Yuyang Zhao, Huizi Mao, Ying-Cong Chen, Enze Xie, Xiaojuan Qi, Song Han
 
@@ -202,7 +202,7 @@ Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://github.com/NVlabs/LongLive/raw/main/assets/longlive2/LongLive1_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**LongLive: Real-time Interactive Long Video Generation**](https://arxiv.org/abs/2509.22622) <img src='https://img.shields.io/github/stars/NVlabs/LongLive.svg?style=social&label=Star' alt="sym" height="100%">
+[**LongLive: Real-time Interactive Long Video Generation**](https://arxiv.org/abs/2509.22622) <iframe src="https://ghbtns.com/github-btn.html?user=NVlabs&repo=LongLive&type=star&count=true" frameborder="0" scrolling="0" width="120" height="20" title="GitHub stars for NVlabs/LongLive" style="vertical-align:middle;"></iframe>
 
 Shuai Yang, **Wei Huang**, Ruihang Chu, Yicheng Xiao, Yuyang Zhao, Xianbang Wang, Muyang Li, Enze Xie, Yingcong Chen, Yao Lu, Song Han, Yukang Chen
 
