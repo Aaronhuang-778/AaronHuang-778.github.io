@@ -216,7 +216,32 @@
     </div>
   </div>
   <div class="visitor-map" style="margin-top: 1em; text-align: center;">
-    <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=gM_TfMvv58iFf6Oe77OK_SloxRGKQRZs65w5CnYPsyo"></script>
+    <div id="visitor-map-fallback" style="display: none; border: 1px solid #d8e8d3; border-radius: 6px; padding: 0.75em; background: #f7fbf3; color: #2f6b1f;">
+      <div style="font-weight: 700; margin-bottom: 0.4em;"><i class="fas fa-fw fa-map-marked-alt" aria-hidden="true"></i> Visitor Map</div>
+      <svg viewBox="0 0 320 150" role="img" aria-label="Visitor map fallback" style="max-width: 100%; height: auto; display: block;">
+        <rect x="0" y="0" width="320" height="150" rx="8" fill="#eef7ea"></rect>
+        <path d="M45 54c13-20 43-25 70-18 14 4 24 12 38 13 18 1 33-11 51-12 26-1 48 15 58 37 8 17 4 37-10 49-15 13-39 15-58 5-13-7-22-19-35-22-18-5-35 8-53 10-26 3-55-9-67-31-6-10-5-22 6-31z" fill="#cfe6c7"></path>
+        <path d="M74 72c8-9 22-12 34-9 13 3 20 13 31 18 12 6 27 3 39 8 14 5 24 18 23 32-1 12-10 21-22 24H88c-20-8-31-25-28-43 2-12 7-22 14-30z" fill="#a8d39a" opacity="0.75"></path>
+        <circle cx="91" cy="67" r="4" fill="#2f855a"></circle>
+        <circle cx="154" cy="87" r="4" fill="#2f855a"></circle>
+        <circle cx="221" cy="65" r="4" fill="#2f855a"></circle>
+        <circle cx="252" cy="102" r="4" fill="#2f855a"></circle>
+      </svg>
+      <div style="font-size: 0.85em; color: #5b6f57; margin-top: 0.45em;">Global visitor map</div>
+    </div>
+    <script type="text/javascript">
+      window.showVisitorMapFallback = function () {
+        var fallback = document.getElementById('visitor-map-fallback');
+        if (fallback) fallback.style.display = 'block';
+      };
+      setTimeout(function () {
+        var container = document.querySelector('.visitor-map');
+        if (!container) return;
+        var liveMap = container.querySelector('img[src*="clustrmaps"], iframe[src*="clustrmaps"], canvas');
+        if (!liveMap) window.showVisitorMapFallback();
+      }, 2500);
+    </script>
+    <script type="text/javascript" id="clustrmaps" src="https://cdn.clustrmaps.com/map_v2.js?cl=ffffff&w=a&t=n&d=gM_TfMvv58iFf6Oe77OK_SloxRGKQRZs65w5CnYPsyo" onerror="showVisitorMapFallback()"></script>
     <noscript>
       <img src="https://cdn.clustrmaps.com/map_v2.png?cl=ffffff&w=a&t=n&d=gM_TfMvv58iFf6Oe77OK_SloxRGKQRZs65w5CnYPsyo" alt="Visitor map" style="max-width: 100%; height: auto;">
     </noscript>
