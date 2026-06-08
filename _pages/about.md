@@ -93,10 +93,10 @@ Yukang Chen\*, Luozhou Wang\*, **Wei Huang\***, Shuai Yang\*, Bohan Zhang, Yiche
 - W4A4 inference, NVFP4 KV cache, parallel dequantization, and asynchronous VAE decoding enable efficient long-video generation.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2605.18739"> <strong>[paper]</strong></a>
-    <a href="https://github.com/NVlabs/LongLive"> <strong>[code]</strong></a>
-    <a href="https://nvlabs.github.io/LongLive/LongLive2/"> <strong>[project]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/abs/2605.18739"> <strong>Paper</strong></a>
+    <a href="https://github.com/NVlabs/LongLive"> <strong>Code</strong></a>
+    <a href="https://nvlabs.github.io/LongLive/LongLive2/"> <strong>Project</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
         <p> We present LongLive-2.0, an NVFP4-based parallel infrastructure for the full training and inference workflow of long video generation. For training, LongLive-2.0 introduces Balanced SP for sequence-parallel autoregressive training and combines it with NVFP4 precision to reduce memory cost and accelerate computation. For inference, LongLive-2.0 enables W4A4 NVFP4 execution, NVFP4 KV cache, parallel dequantization, and asynchronous streaming VAE decoding to improve end-to-end throughput. Experiments show up to 2.15x training speedup and 1.84x inference speedup, with LongLive-2.0-5B reaching 45.7 FPS while maintaining strong benchmark performance. </p>
     </div>
@@ -117,10 +117,10 @@ NVIDIA, including **Wei Huang**, et al.
 - Open model checkpoints, training recipes, datasets, and codebase for research and development.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2604.24954"> <strong>[paper]</strong></a>
-    <a href="https://github.com/NVIDIA-NeMo/Nemotron"> <strong>[code]</strong></a>
-    <a href="https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"> <strong>[model]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/abs/2604.24954"> <strong>Paper</strong></a>
+    <a href="https://github.com/NVIDIA-NeMo/Nemotron"> <strong>Code</strong></a>
+    <a href="https://huggingface.co/nvidia/Nemotron-3-Nano-Omni-30B-A3B-Reasoning-BF16"> <strong>Model</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">
         <p> We introduce Nemotron 3 Nano Omni, an efficient open multimodal model with native support for text, image, video, and audio. Built on the Nemotron 3 Nano 30B-A3B backbone, the model incorporates multimodal token-reduction techniques for lower inference latency and higher throughput while improving document understanding, long audio-video comprehension, and agentic computer use. The release includes model checkpoints, training recipes, portions of training data, and code to support further research and development. </p>
     </div>
@@ -141,9 +141,9 @@ Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song
 - OpenClaw compatible — enables local deployment on 24GB RTX 4090
 
 <div style="display: inline">
-    <a href="https://arxiv.org/pdf/2604.04921"> <strong>[paper]</strong></a>
-    <a href="https://github.com/WeianMao/triattention"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/pdf/2604.04921"> <strong>Paper</strong></a>
+    <a href="https://github.com/WeianMao/triattention"> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> Extended reasoning in large language models (LLMs) creates severe KV cache memory bottlenecks. Leading KV cache compression methods estimate KV importance using attention scores from recent post-RoPE queries. However, queries rotate with position during RoPE, making representative queries very few, leading to poor top-key selection and unstable reasoning. To avoid this issue, we turn to the pre-RoPE space, where we observe that Q and K vectors are highly concentrated around fixed non-zero centers and remain stable across positions -- Q/K concentration. We show that this concentration causes queries to preferentially attend to keys at specific distances (e.g., nearest keys), with the centers determining which distances are preferred via a trigonometric series. Based on this, we propose TriAttention to estimate key importance by leveraging these centers. Via the trigonometric series, we use the distance preference characterized by these centers to score keys according to their positions, and also leverage Q/K norms as an additional signal for importance estimation. On AIME25 with 32K-token generation, TriAttention matches Full Attention reasoning accuracy while achieving 2.5x higher throughput or 10.7x KV memory reduction, whereas leading baselines achieve only about half the accuracy at the same efficiency. TriAttention enables OpenClaw deployment on a single consumer GPU, where long context would otherwise cause out-of-memory with Full Attention. </p>
     </div>
@@ -164,9 +164,9 @@ Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song
 - On DeepSeek-VL2, MC# achieves a 6.2 times weight reduction at 2.57 average bits with only a 1.7% accuracy drop across five multimodal benchmarks. Additionally, OTP reduces expert activation over 20% with less than 1% performance degradation, demonstrating strong potential for efficient MoE-based model deployment.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2510.10962"> <strong>[paper]</strong></a>
-    <a href="https://github.com/Aaronhuang-778/MC-MoE"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/abs/2510.10962"> <strong>Paper</strong></a>
+    <a href="https://github.com/Aaronhuang-778/MC-MoE"> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> Mixture-of-Experts (MoE) effectively scales large language models (LLMs) and vision-language models (VLMs) by increasing capacity through sparse activation. However, preloading all experts into memory and activating multiple experts per input introduces significant computational and memory overhead, making the expert module a major contributor to model size and inference cost. To address this, we propose MC# (Mixture-Compressor-sharp), a framework that combines static quantization and dynamic expert pruning by leveraging the significance of experts and tokens for aggressive compression of MoE-LLMs/VLMs. To reduce storage and loading costs, we introduce Pre-Loading Mixed-Precision Quantization (PMQ), which optimizes bit allocation via linear programming, balancing expert importance and quantization error for a Pareto-optimal trade-off between size and performance. To reduce runtime computation, Online Top-any Pruning (OTP) uses Gumbel-Softmax sampling to dynamically select a subset of experts per token, enabling fine-grained control over activation. By combining PMQ's static bit-width optimization with OTP's dynamic routing, MC# achieves extreme compression with minimal accuracy loss. On DeepSeek-VL2, MC# achieves a 6.2 times weight reduction at 2.57 average bits with only a 1.7% accuracy drop across five multimodal benchmarks. Additionally, OTP reduces expert activation over 20% with less than 1% performance degradation, demonstrating strong potential for efficient MoE-based model deployment. </p>
     </div>
@@ -188,9 +188,9 @@ Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song
 - 🔥 Supports NVFP4 quantization format.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/pdf/2510.11696v1"> <strong>[paper]</strong></a>
-    <a href="https://github.com/NVlabs/QeRL"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/pdf/2510.11696v1"> <strong>Paper</strong></a>
+    <a href="https://github.com/NVlabs/QeRL"> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> We propose QeRL, a Quantization-enhanced Reinforcement Learning framework for large language models (LLMs). While RL is essential for LLMs' reasoning capabilities, it is resource-intensive, requiring substantial GPU memory and long rollout durations. QeRL addresses these issues by combining NVFP4 quantization with Low-Rank Adaptation (LoRA), accelerating rollout phase of RL while reducing memory overhead. Beyond efficiency, our findings show that quantization noise increases policy entropy, enhancing exploration, and enabling the discovery of better strategies during RL. To further optimize exploration, QeRL introduces an Adaptive Quantization Noise (AQN) mechanism, which dynamically adjusts noise during training. Experiments demonstrate that QeRL delivers over 1.5 times speedup in the rollout phase. Moreover, this is the first framework to enable RL training of a 32B LLM on a single H100 80GB GPU, while delivering overall speedups for RL training. It also achieves faster reward growth and higher final accuracy than 16-bit LoRA and QLoRA, while matching the performance of full-parameter fine-tuning on mathematical benchmarks such as GSM8K (90.8%) and MATH 500 (77.4%) in the 7B model. These results establish QeRL as an efficient and effective framework for RL training in LLMs. </p>
     </div>
@@ -211,9 +211,9 @@ Shuai Yang, **Wei Huang**, Ruihang Chu, Yicheng Xiao, Yuyang Zhao, Xianbang Wang
 - One step closer to World Models.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2509.22622"> <strong>[paper]</strong></a>
-    <a href="https://github.com/NVlabs/LongLive"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/abs/2509.22622"> <strong>Paper</strong></a>
+    <a href="https://github.com/NVlabs/LongLive"> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> We present LongLive, a frame-level autoregressive (AR) framework for real-time and interactive long video generation. Long video generation presents challenges in both efficiency and quality. Diffusion and Diffusion-Forcing models can produce high-quality videos but suffer from low efficiency due to bidirectional attention. Causal attention AR models support KV caching for faster inference, but often degrade in quality on long videos due to memory challenges during long-video training. In addition, beyond static prompt-based generation, interactive capabilities, such as streaming prompt inputs, are critical for dynamic content creation, enabling users to guide narratives in real time. This interactive requirement significantly increases complexity, especially in ensuring visual consistency and semantic coherence during prompt transitions. To address these challenges, LongLive adopts a causal, frame-level AR design that integrates a KV-recache mechanism that refreshes cached states with new prompts for smooth, adherent switches; streaming long tuning to enable long video training and to align training and inference (train-long-test-long); and short window attention paired with a frame-level attention sink, shorten as frame sink, preserving long-range consistency while enabling faster generation. With these key designs, LongLive fine-tunes a 1.3B-parameter short-clip model to minute-long generation in just 32 GPU-days. At inference, LongLive sustains 20.7 FPS on a single NVIDIA H100, achieves strong performance on VBench in both short and long videos. LongLive supports up to 240-second videos on a single H100 GPU. LongLive further supports INT8-quantized inference with only marginal quality loss. </p>
     </div>
@@ -234,9 +234,9 @@ Hanrong Ye\*, Chao-Han Huck Yang\*, Arushi Goel\*,**Wei Huang\***, Ligeng Zhu\*,
 - Constrained Rotary Time Embedding for encoding absolute temporal information in omni-modal embeddings. We introduce a curation and synthesis pipeline that generates 24M single-modal and omni-modal conversations.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2510.15870"> <strong>[paper]</strong></a>
-    <a href="https://github.com/NVlabs/OmniVinci"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/abs/2510.15870"> <strong>Paper</strong></a>
+    <a href="https://github.com/NVlabs/OmniVinci"> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> Advancing machine intelligence requires developing the ability to perceive across multiple modalities, much as humans sense the world. We introduce OmniVinci, an initiative to build a strong, open-source, omni-modal LLM. We carefully study the design choices across model architecture and data curation. For model architecture, we present three key innovations: (i) OmniAlignNet for strengthening alignment between vision and audio embeddings in a shared omni-modal latent space; (ii) Temporal Embedding Grouping for capturing relative temporal alignment between vision and audio signals; and (iii) Constrained Rotary Time Embedding for encoding absolute temporal information in omni-modal embeddings. We introduce a curation and synthesis pipeline that generates 24M single-modal and omni-modal conversations. We find that modalities reinforce one another in both perception and reasoning. Our model outperforms Qwen2.5-Omni with +19.05 on DailyOmni (cross-modal understanding), +1.7 on MMAR (audio), and +3.9 on Video-MME (vision), while using just 0.2T training tokens - a 6 times reduction compared to Qwen2.5-Omni’s 1.2T. We finally demonstrate omni-modal advantages in downstream applications spanning robotics, medical AI, and smart factory. </p>
     </div>
@@ -257,9 +257,9 @@ Hanrong Ye\*, Chao-Han Huck Yang\*, Arushi Goel\*,**Wei Huang\***, Ligeng Zhu\*,
 - To link the two sections, an AI algorithm was developed by training on extensive glucose data sets, which enables accurate predictions and guides GRI delivery at optimal dosage and timing.
 
 <div style="display: inline">
-    <a href="[https://arxiv.org/abs/2507.07966](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202514945)"> <strong>[paper]</strong></a>
-    <a href=""> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="[https://arxiv.org/abs/2507.07966](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202514945)"> <strong>Paper</strong></a>
+    <a href=""> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> Effective blood glucose management is an increasing demand worldwide. Traditional solutions separate glucose detection and insulin delivery, which is less efficient compared to emerging closed-loop wearable systems controlled by continuous glucose monitors (CGMs). However, CGM-controlled systems raise new safety risks, as false CGMs readings can cause insulin overdose, which results in hypoglycemia and fatal consequences. This work proposes a concept of a dual closed-loop insulin delivery system (DuoLoop) to mitigate the risk issue of CGM-controlled systems. The first closed-loop is automated insulin delivery controlled by CGM. The second closed-loop is the controlled release of glucose-responsive insulin (GRI), whose release rate depends on actual glucose levels. A customized algorithm is trained and embedded into the wearable CGMs for edge computing. The DuoLoop system shows improved safety in preliminary in vivo test (longer normoglycemia durations, 98.82% vs 92.10%), encouraging its deployment toward precision diabetes care. </p>
     </div>
@@ -280,9 +280,9 @@ Hanrong Ye\*, Chao-Han Huck Yang\*, Arushi Goel\*,**Wei Huang\***, Ligeng Zhu\*,
 - LongVideo-Reason (104K long-video QA pairs) with high-quality chain-of-thought annotations across diverse domains.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2507.07966"> <strong>[paper]</strong></a>
-    <a href="https://github.com/NVlabs/Long-RL"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/abs/2507.07966"> <strong>Paper</strong></a>
+    <a href="https://github.com/NVlabs/Long-RL"> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> We introduce a full-stack framework that scales up reasoning in vision-language models (VLMs) to long videos, leveraging reinforcement learning. We address the unique challenges of long video reasoning by integrating three critical components: (1) a large-scale dataset, LongVideo-Reason, comprising 104K long video QA pairs with high-quality reasoning annotations across diverse domains such as sports, games, and vlogs; (2) a two-stage training pipeline that extends VLMs with chain-of-thought supervised fine-tuning (CoT-SFT) and reinforcement learning (RL); and (3) a training infrastructure for long video RL, named Multi-modal Reinforcement Sequence Parallelism (MR-SP), which incorporates sequence parallelism and a vLLM-based engine tailored for long video, using cached video embeddings for efficient rollout and prefilling. In our experiments, LongVILA-R1-7B achieves strong performance on video benchmarks, reaching 65.1% and 71.1% accuracy on VideoMME without and with subtitles, respectively, and consistently outperforming LongVILA-7B across multiple benchmarks. Moreover, LongVILA-R1-7B supports processing up to 8,192 video frames per video, and configurable FPS settings. Notably, our MR-SP system achieves up to 2.1x speedup on long video RL training. In addition, we release our training system for public availability that supports RL training on various modalities (video, text, and audio), various models (VILA and Qwen series), and even image and video generation models. On a single A100 node (8 GPUs), it supports RL training on hour-long videos (e.g., 3,600 frames). </p>
     </div>
@@ -303,9 +303,9 @@ Hanrong Ye\*, Chao-Han Huck Yang\*, Arushi Goel\*,**Wei Huang\***, Ligeng Zhu\*,
 - Serve as a plug-and-play approach to GPTQ/Omniquant/..., improving the inference-friendly method under low-bit quantization.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2405.14917"> <strong>[paper]</strong></a>
-    <a href="https://github.com/Aaronhuang-778/SliM-LLM"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/abs/2405.14917"> <strong>Paper</strong></a>
+    <a href="https://github.com/Aaronhuang-778/SliM-LLM"> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> Large language models (LLMs) achieve remarkable performance in natural language understanding but require substantial computation and memory resources. Post-training quantization (PTQ) is a powerful compression technique extensively investigated in LLMs. However, existing PTQ methods are still not ideal in terms of accuracy and efficiency, especially with below 4 bit-widths. Standard PTQ methods using group-wise quantization suffer difficulties in quantizing LLMs accurately to such low-bit, but advanced methods remaining high-precision weights element-wisely are hard to realize their theoretical hardware efficiency. This paper presents a Salience-Driven Mixed-Precision Quantization scheme for LLMs, namely SliM-LLM. The scheme exploits the salience distribution of weights to determine optimal bit-width and quantizers for accurate LLM quantization, while aligning bit-width partition to groups for compact memory usage and fast integer inference. Specifically, the proposed SliM-LLM mainly relies on two novel techniques: (1) Salience-Determined Bit Allocation utilizes the clustering characteristics of salience distribution to allocate the bit-widths of each group, increasing the accuracy of quantized LLMs and maintaining the inference efficiency; (2) Salience-Weighted Quantizer Calibration optimizes the parameters of the quantizer by considering the element-wise salience within the group, balancing the maintenance of salient information and minimization of errors. Comprehensive experiments show that SliM-LLM significantly improves the accuracy of LLMs at ultra-low bits, e.g., 2-bit LLaMA-7B achieves a 5.5-times memory-saving than original model on NVIDIA A800 GPUs, and 48% decrease of perplexity compared to the state-of-the-art gradient-free PTQ method. Moreover, SliM-LLM+, which is integrated from the extension of SliM-LLM with gradient-based quantizers, further reduces perplexity by 35.1%. </p>
     </div>
@@ -327,9 +327,9 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 - VideoEspresso sets a new starting point in video reasoning, offering rich annotations that facilitate advanced multimodal understanding.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/pdf/2411.14794"> <strong>[paper]</strong></a>
-    <a href="https://github.com/hshjerry/VideoEspresso"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/pdf/2411.14794"> <strong>Paper</strong></a>
+    <a href="https://github.com/hshjerry/VideoEspresso"> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
     </div>
 </div>
@@ -351,9 +351,9 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 - For instance, at 2.54 bits, MC-MoE compresses 76.6% of the model, with only a 3.8% average accuracy loss. During dynamic inference, we further reduce activated parameters by 15%, with a performance drop of less than 0.6%.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2410.06270"> <strong>[paper]</strong></a>
-    <a href="https://github.com/Aaronhuang-778/MC-MoE"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/abs/2410.06270"> <strong>Paper</strong></a>
+    <a href="https://github.com/Aaronhuang-778/MC-MoE"> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> Mixture-of-Experts large language models (MoE-LLMs) marks a significant step forward of language models, however, they encounter two critical challenges in practice: 1) expert parameters lead to considerable memory consumption and loading latency; and 2) the current activated experts are redundant, as many tokens may only require a single expert. Motivated by these issues, we investigate the MoE-LLMs and make two key observations: a) different experts exhibit varying behaviors on activation reconstruction error, routing scores, and activated frequencies, highlighting their differing importance, and b) not all tokens are equally important -- only a small subset is critical. Building on these insights, we propose MC-MoE, a training-free Mixture-Compressor for MoE-LLMs, which leverages the significance of both experts and tokens to achieve an extreme compression. First, to mitigate storage and loading overheads, we introduce Pre-Loading Mixed-Precision Quantization, which formulates the adaptive bit-width allocation as a Linear Programming problem, where the objective function balances multi-factors reflecting the importance of each expert. Additionally, we develop Online Dynamic Pruning, which identifies important tokens to retain and dynamically select activated experts for other tokens during inference to optimize efficiency while maintaining performance. Our MC-MoE integrates static quantization and dynamic pruning to collaboratively achieve extreme compression for MoE-LLMs with less accuracy loss, ensuring an optimal trade-off between performance and efficiency. Extensive experiments confirm the effectiveness of our approach. For instance, at 2.54 bits, MC-MoE compresses 76.6% of the model, with only a 3.8% average accuracy loss. During dynamic inference, we further reduce activated parameters by 15%, with a performance drop of less than 0.6%. </p>
     </div>
@@ -376,9 +376,9 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 - Highlights the significant performance gap under low bit-width that needs to be bridged in future developments.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2404.14047"> <strong>[paper]</strong></a>
-    <a href="https://github.com/Macaronlin/LLaMA3-Quantization"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/abs/2404.14047"> <strong>Paper</strong></a>
+    <a href="https://github.com/Macaronlin/LLaMA3-Quantization"> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> The LLaMA family has become one of the most powerful open-source Large Language Models (LLMs) and the popular LLM backbones of Multimodal Large Language Models (MLLMs), widely applied in Computer Vision (CV) and Natural Language Understanding (NLU) tasks. Notably, LLaMA3 models have recently been released and achieve impressive performance across various with super-large scale pre-training on over 15T tokens of data. Given the wide application of low-bit quantization for LLMs in resource-limited scenarios, we explore LLaMA3's capabilities when quantized to low bit-width. This exploration can potentially unveil new insights and challenges for low-bit quantization of LLaMA3 and other forthcoming LLMs, especially in addressing performance degradation problems that suffer in LLM compression. Specifically, we comprehensively evaluate the 10 existing post-training quantization and LoRA-finetuning methods of LLaMA3 on 1-8 bits and diverse datasets to reveal LLaMA3's low-bit quantization performance. To uncover the capabilities of low-bit quantized MLLM, we assessed the performance of the LLaMA3-based LLaVA-Next-8B model under 2-4 ultra-low bits with post-training quantization methods. Our experimental results indicate that LLaMA3 still suffers non-negligent degradation in linguistic and visual contexts, particularly under ultra-low bit widths. This highlights the significant performance gap under low bit-width that needs to be bridged in future developments. We expect that this empirical study will prove valuable in advancing future models, driving LLMs and MLLMs to achieve higher accuracy at lower bit to enhance practicality. </p>
     </div>
@@ -399,9 +399,9 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 - Implements high-performance binary LLM in PTQ mode, efficiently achieving 1bit LLM compression without additional training and backpropagation.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2402.04291"> <strong>[paper]</strong></a>
-    <a href="https://github.com/Aaronhuang-778/BiLLM"> <strong>[code]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/abs/2402.04291"> <strong>Paper</strong></a>
+    <a href="https://github.com/Aaronhuang-778/BiLLM"> <strong>Code</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> Pretrained large language models (LLMs) exhibit exceptional general language processing capabilities but come with significant demands on memory and computational resources. As a powerful compression technology, binarization can extremely reduce model weights to a mere 1 bit, lowering the expensive computation and memory requirements. However, existing quantization techniques fall short of maintaining LLM performance under ultra-low bit-widths. In response to this challenge, we present BiLLM, a groundbreaking 1-bit post-training quantization scheme tailored for pretrained LLMs. Based on the weight distribution of LLMs, BiLLM first identifies and structurally selects salient weights, and minimizes the compression loss through an effective binary residual approximation strategy. Moreover, considering the bell-shaped distribution of the non-salient weights, we propose an optimal splitting search to group and binarize them accurately. BiLLM achieving for the first time high-accuracy inference (e.g. 8.41 perplexity on LLaMA2-70B) with only 1.08-bit weights across various LLMs families and evaluation metrics, outperforms SOTA quantization methods of LLM by significant margins. Moreover, BiLLM enables the binarization process of the LLM with 7 billion weights within 0.5 hours on a single GPU, demonstrating satisfactory time efficiency. </p>
     </div>
@@ -422,8 +422,8 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 - Efficiently perform online quantization and optimization without additional devices or data access.
 
 <div style="display: inline">
-    <a href="https://arxiv.org/abs/2309.01945"> <strong>[paper]</strong></a>
-    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>[abstract]</strong></a>
+    <a href="https://arxiv.org/abs/2309.01945"> <strong>Paper</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
     <div class="abstract"  style="overflow: hidden; display: none;">  
         <p> Low-bit quantization emerges as one of the most promising compression approaches for deploying deep neural networks on edge devices. Mixed-precision quantization leverages a mixture of bit-widths to unleash the accuracy and efficiency potential of quantized models. However, existing mixed-precision quantization methods rely on simulations in high-performance devices to achieve accuracy and efficiency trade-offs in immense search spaces. This leads to a non-negligible gap between the estimated efficiency metrics and the actual hardware that makes quantized models far away from the optimal accuracy and efficiency, and also causes the quantization process to rely on additional high-performance devices. In this paper, we propose an On-Chip Hardware-Aware Quantization (OHQ) framework, performing hardware-aware mixed-precision quantization on deployed edge devices to achieve accurate and efficient computing. Specifically, for efficiency metrics, we built an On-Chip Quantization Aware pipeline, which allows the quantization process to perceive the actual hardware efficiency of the quantization operator and avoid optimization errors caused by inaccurate simulation. For accuracy metrics, we propose Mask-Guided Quantization Estimation technology to effectively estimate the accuracy impact of operators in the on-chip scenario, getting rid of the dependence of the quantization process on high computing power. By synthesizing insights from quantized models and hardware through linear optimization, we can obtain optimized bit-width configurations to achieve outstanding performance on accuracy and efficiency. We evaluate inference accuracy and acceleration with quantization for various architectures and compression ratios on hardware. OHQ achieves 70% and 73% accuracy for ResNet-18 and MobileNetV3, respectively, and can reduce latency by 15~30% compared to INT8 on real deployment. </p>
     </div>
