@@ -54,6 +54,7 @@ I focus on **efficient and tiny deep learning** for **lightweight, long-sequence
 
 
 # 🔥 News
+- *2026.06*: &nbsp;🎉🎉 One paper (*Anchor Forcing*) is accepted by **ECCV'26**!
 - *2026.05*: &nbsp;🎉🎉  Two papers are accepted by **ICML'26**! One for efficent long context compression (*Tri-Attention*) and one for diffusion quantization (*Absorbing Quantization Error*).
 - *2026.02*: &nbsp;🎉🎉 One paper for 4D Vision-language Models (*Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models*) is accepted by **CVPR'26**! All the codes are opensourced now!
 - *2026.02*: &nbsp;🎉🎉 One paper for extreme MoE-LLMs/VLMs compression (*MC#: Mixture Compressor for Mixture-of-Experts Large Models*) is accepted by **IEEE TPAMI**, <span style="color:red">**Top Journal, IF=20.4**</span>!
@@ -81,7 +82,7 @@ I focus on **efficient and tiny deep learning** for **lightweight, long-sequence
   
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://github.com/NVlabs/LongLive/raw/main/assets/longlive2/teaser.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://raw.githubusercontent.com/NVlabs/LongLive/main/assets/longlive2/teaser.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation**](https://arxiv.org/abs/2605.18739) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
@@ -105,7 +106,7 @@ Yukang Chen\*, Luozhou Wang\*, **Wei Huang\***, Shuai Yang\*, Bohan Zhang, Yiche
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='https://github.com/NVIDIA-NeMo/Nemotron/raw/main/docs/assets/omni-3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='https://raw.githubusercontent.com/NVIDIA-NeMo/Nemotron/main/docs/assets/omni-3.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence**](https://arxiv.org/abs/2604.24954) <img src='https://img.shields.io/github/stars/NVIDIA-NeMo/Nemotron.svg?style=social&label=Star' alt="sym" height="100%">
@@ -129,7 +130,7 @@ NVIDIA, including **Wei Huang**, et al.
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='https://github.com/WeianMao/triattention/raw/main/docs/assets/motivation.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2026</div><img src='https://raw.githubusercontent.com/WeianMao/triattention/main/docs/assets/motivation.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**TriAttention: Efficient Long Reasoning with Trigonometric KV Compression**](https://arxiv.org/pdf/2604.04921) <img src='https://img.shields.io/github/stars/WeianMao/triattention.svg?style=social&label=Star' alt="sym" height="100%">
@@ -152,7 +153,7 @@ Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TPAMI<span style="color:red">Journal IF=20.4</span></div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/MC_SHARP.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">IEEE TPAMI<span style="color:red">Journal IF=20.4</span></div><img src='/images/MC_SHARP.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**MC#: Mixture Compressor for Mixture-of-Experts Large Models**](https://arxiv.org/abs/2510.10962) <img src='https://img.shields.io/github/stars/Aaronhuang-778/MC-MoE.svg?style=social&label=Star' alt="sym" height="100%">
@@ -175,7 +176,7 @@ Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://github.com/NVlabs/QeRL/raw/main/assets/qerl.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://raw.githubusercontent.com/NVlabs/QeRL/main/assets/qerl.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**QeRL: Beyond Efficiency -- Quantization-enhanced Reinforcement Learning for LLMs**](https://arxiv.org/pdf/2510.11696v1) <img src='https://img.shields.io/github/stars/NVlabs/QeRL.svg?style=social&label=Star' alt="sym" height="100%">
@@ -199,7 +200,7 @@ Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://github.com/NVlabs/LongLive/raw/main/assets/longlive2/LongLive1_teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://raw.githubusercontent.com/NVlabs/LongLive/main/assets/longlive2/LongLive1_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**LongLive: Real-time Interactive Long Video Generation**](https://arxiv.org/abs/2509.22622) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
@@ -222,7 +223,7 @@ Shuai Yang, **Wei Huang**, Ruihang Chu, Yicheng Xiao, Yuyang Zhao, Xianbang Wang
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://github.com/NVlabs/OmniVinci/raw/main/assets/arch.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://raw.githubusercontent.com/NVlabs/OmniVinci/main/assets/arch.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**OmniVinci: Enhancing Architecture and Data for Omni-Modal Understanding LLM**](https://arxiv.org/abs/2510.15870) <img src='https://img.shields.io/github/stars/NVlabs/OmniVinci.svg?style=social&label=Star' alt="sym" height="100%">
@@ -245,7 +246,7 @@ Hanrong Ye\*, Chao-Han Huck Yang\*, Arushi Goel\*,**Wei Huang\***, Ligeng Zhu\*,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Advanced Materials<span style="color:red">Journal IF=26.8</span></div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/dual_loop.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Advanced Materials<span style="color:red">Journal IF=26.8</span></div><img src='/images/dual_loop.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**A Wearable, Dual Closed-loop Insulin Delivery System for Precision Diabetes Management**](https://advanced.onlinelibrary.wiley.com/doi/full/10.1002/adma.202514945)
@@ -268,7 +269,7 @@ Hanrong Ye\*, Chao-Han Huck Yang\*, Arushi Goel\*,**Wei Huang\***, Ligeng Zhu\*,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurips 2025</div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/longRL.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Neurips 2025</div><img src='/images/longRL.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Scaling RL to Long Videos**](https://arxiv.org/abs/2507.07966) <img src='https://img.shields.io/github/stars/NVlabs/Long-RL.svg?style=social&label=Star' alt="sym" height="100%">
@@ -291,7 +292,7 @@ Hanrong Ye\*, Chao-Han Huck Yang\*, Arushi Goel\*,**Wei Huang\***, Ligeng Zhu\*,
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='https://github.com/Aaronhuang-778/SliM-LLM/raw/main/imgs/WX20240527-155305%402x.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2025</div><img src='https://raw.githubusercontent.com/Aaronhuang-778/SliM-LLM/main/imgs/WX20240527-155305%402x.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**SliM-LLM: Salience-Driven Mixed-Precision Quantization for Large Language Models**](https://arxiv.org/abs/2405.14917) <img src='https://img.shields.io/github/stars/Aaronhuang-778/SliM-LLM.svg?style=social&label=Star' alt="sym" height="100%">
@@ -315,7 +316,7 @@ Hanrong Ye\*, Chao-Han Huck Yang\*, Arushi Goel\*,**Wei Huang\***, Ligeng Zhu\*,
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 <span style="color:red">Oral</span></div><img src='https://github.com/Aaronhuang-778/AaronHuang-778.github.io/raw/main/images/videoexpresso.jpeg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">CVPR 2025 <span style="color:red">Oral</span></div><img src='/images/videoexpresso.jpeg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**VideoEspresso: A Large-Scale Chain-of-Thought Dataset for Fine-Grained Video Reasoning via Core Frame Selection**](https://arxiv.org/pdf/2411.14794) <img src='https://img.shields.io/github/stars/hshjerry/VideoEspresso.svg?style=social&label=Star' alt="sym" height="100%">
@@ -338,7 +339,7 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='https://github.com/Aaronhuang-778/MC-MoE/raw/main/imgs/WX20241009-191322%402x.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2025</div><img src='https://raw.githubusercontent.com/Aaronhuang-778/MC-MoE/main/imgs/WX20241009-191322%402x.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**MC-MoE: Mixture Compressor for Mixture-of-Experts LLMs Gains More**](https://arxiv.org/abs/2410.06270) <img src='https://img.shields.io/github/stars/Aaronhuang-778/MC-MoE.svg?style=social&label=Star' alt="sym" height="100%">
@@ -364,7 +365,7 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Visual Intelligence</div><img src='https://github.com/Macaronlin/LLaMA3-Quantization/raw/master/images/overview.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Visual Intelligence</div><img src='https://raw.githubusercontent.com/Macaronlin/LLaMA3-Quantization/master/images/overview.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs**](https://link.springer.com/article/10.1007/s44267-024-00070-x) <img src='https://img.shields.io/github/stars/Macaronlin/LLaMA3-Quantization.svg?style=social&label=Star' alt="sym" height="100%">
@@ -388,7 +389,7 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 </div>
 
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='https://github.com/Aaronhuang-778/BiLLM/raw/main/imgs/main.png?raw=true' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICML 2024</div><img src='https://raw.githubusercontent.com/Aaronhuang-778/BiLLM/main/imgs/main.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**BiLLM: Pushing the Limit of Post-Training Quantization for LLMs**](https://arxiv.org/abs/2402.04291) <img src='https://img.shields.io/github/stars/Aaronhuang-778/BiLLM.svg?style=social&label=Star' alt="sym" height="100%">
@@ -410,7 +411,7 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='https://github.com/Aaronhuang-778/SliM-LLM/raw/main/imgs/ohq.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Arxiv</div><img src='https://raw.githubusercontent.com/Aaronhuang-778/SliM-LLM/main/imgs/ohq.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**On-Chip Hardware-Aware Quantization for Mixed Precision Neural Networks**](https://arxiv.org/abs/2309.01945) 
