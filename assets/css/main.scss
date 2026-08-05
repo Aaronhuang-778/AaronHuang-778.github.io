@@ -260,6 +260,12 @@ h1:before, .anchor:before {
 .visitor-map__panel {
     display: block;
     color: #4b2c70;
+    text-decoration: none;
+}
+
+.visitor-map__panel:hover {
+    color: #7a2f72;
+    text-decoration: none;
 }
 
 .visitor-map__image {
