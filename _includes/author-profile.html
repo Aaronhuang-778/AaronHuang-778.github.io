@@ -216,7 +216,7 @@
     </div>
   </div>
   <div class="visitor-map">
-    <a class="visitor-map__link" href="https://mapmyvisitors.com/web/1c4u2" title="Visit tracker">
+    <div class="visitor-map__panel" title="Visitor map">
       <img class="visitor-map__image" src="https://mapmyvisitors.com/map.png?d=s5QCNqupJBy7FPzpuFqbxfWiDozLG-GgIvdoW0Cvgio&cl=ffffff" alt="Visitor map" onload="this.style.display='block'; this.closest('.visitor-map').classList.add('visitor-map--loaded'); this.closest('.visitor-map').classList.remove('visitor-map--fallback');" onerror="this.style.display='none'; this.closest('.visitor-map').classList.remove('visitor-map--loaded'); this.closest('.visitor-map').classList.add('visitor-map--fallback');">
       <span class="visitor-map__fallback" aria-hidden="true">
         <span class="visitor-map__globe">
@@ -225,9 +225,9 @@
           <span class="visitor-map__dot visitor-map__dot--three"></span>
         </span>
         <span class="visitor-map__title">Visitor Map</span>
-        <span class="visitor-map__text">Open visitor tracker</span>
+        <span class="visitor-map__text">Global visit display</span>
       </span>
-    </a>
+    </div>
     <script type="text/javascript">
       setTimeout(function () {
         var container = document.querySelector('.visitor-map');
