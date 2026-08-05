@@ -215,9 +215,27 @@
       {% endif %}
     </div>
   </div>
-  <div class="visitor-map" style="margin-top:1em; padding:0.7em; border:1px solid rgba(126,87,194,0.18); border-radius:6px; background:rgba(126,87,194,0.06); text-align:center; overflow:hidden;">
-    <a href="https://mapmyvisitors.com/web/1c4u2" title="Visit tracker">
-      <img src="https://mapmyvisitors.com/map.png?d=s5QCNqupJBy7FPzpuFqbxfWiDozLG-GgIvdoW0Cvgio&cl=ffffff" alt="Visitor map" style="display:block; width:100%; height:auto; border:0;">
+  <div class="visitor-map">
+    <a class="visitor-map__link" href="https://mapmyvisitors.com/web/1c4u2" title="Visit tracker">
+      <img class="visitor-map__image" src="https://mapmyvisitors.com/map.png?d=s5QCNqupJBy7FPzpuFqbxfWiDozLG-GgIvdoW0Cvgio&cl=ffffff" alt="Visitor map" onload="this.style.display='block'; this.closest('.visitor-map').classList.add('visitor-map--loaded'); this.closest('.visitor-map').classList.remove('visitor-map--fallback');" onerror="this.style.display='none'; this.closest('.visitor-map').classList.remove('visitor-map--loaded'); this.closest('.visitor-map').classList.add('visitor-map--fallback');">
+      <span class="visitor-map__fallback" aria-hidden="true">
+        <span class="visitor-map__globe">
+          <span class="visitor-map__dot visitor-map__dot--one"></span>
+          <span class="visitor-map__dot visitor-map__dot--two"></span>
+          <span class="visitor-map__dot visitor-map__dot--three"></span>
+        </span>
+        <span class="visitor-map__title">Visitor Map</span>
+        <span class="visitor-map__text">Open visitor tracker</span>
+      </span>
     </a>
+    <script type="text/javascript">
+      setTimeout(function () {
+        var container = document.querySelector('.visitor-map');
+        if (!container || container.classList.contains('visitor-map--loaded')) return;
+        var image = container.querySelector('.visitor-map__image');
+        if (image) image.style.display = 'none';
+        container.classList.add('visitor-map--fallback');
+      }, 3000);
+    </script>
   </div>
 </div>
