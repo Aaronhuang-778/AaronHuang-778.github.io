@@ -255,95 +255,11 @@ h1:before, .anchor:before {
     background: rgba(126, 87, 194, 0.06);
     border: 1px solid rgba(126, 87, 194, 0.18);
     border-radius: 6px;
-}
 
-.visitor-map__panel {
-    display: block;
-    color: #4b2c70;
-    text-decoration: none;
-}
-
-.visitor-map__panel:hover {
-    color: #7a2f72;
-    text-decoration: none;
-}
-
-.visitor-map__image {
-    display: block;
-    width: 100%;
-    height: auto;
-    border: 0;
-    border-radius: 5px;
-}
-
-.visitor-map__fallback {
-    display: none;
-    align-items: center;
-    flex-direction: column;
-    gap: 0.35em;
-}
-
-.visitor-map--fallback .visitor-map__fallback {
-    display: flex;
-}
-
-.visitor-map--loaded .visitor-map__fallback {
-    display: none;
-}
-
-.visitor-map__globe {
-    position: relative;
-    display: block;
-    width: 100%;
-    max-width: 190px;
-    aspect-ratio: 2 / 1;
-    overflow: hidden;
-    border: 1px solid rgba(126, 87, 194, 0.16);
-    border-radius: 5px;
-    background:
-        radial-gradient(circle at 30% 42%, rgba(126, 87, 194, 0.34) 0 8%, transparent 9%),
-        radial-gradient(circle at 58% 48%, rgba(220, 38, 38, 0.24) 0 10%, transparent 11%),
-        linear-gradient(90deg, rgba(126, 87, 194, 0.12) 1px, transparent 1px),
-        linear-gradient(0deg, rgba(126, 87, 194, 0.10) 1px, transparent 1px),
-        linear-gradient(135deg, rgba(255, 255, 255, 0.94), rgba(255, 247, 250, 0.88));
-    background-size: auto, auto, 24px 24px, 24px 24px, auto;
-}
-
-.visitor-map__dot {
-    position: absolute;
-    width: 0.46em;
-    height: 0.46em;
-    background: #d73027;
-    border: 2px solid #fff;
-    border-radius: 999px;
-    box-shadow: 0 0 0 3px rgba(215, 48, 39, 0.16);
-}
-
-.visitor-map__dot--one {
-    top: 34%;
-    left: 25%;
-}
-
-.visitor-map__dot--two {
-    top: 48%;
-    left: 53%;
-}
-
-.visitor-map__dot--three {
-    top: 28%;
-    left: 72%;
-}
-
-.visitor-map__title {
-    display: block;
-    margin-top: 0.2em;
-    font-weight: 700;
-    line-height: 1.25;
-}
-
-.visitor-map__text {
-    display: block;
-    font-size: 0.78em;
-    line-height: 1.35;
-    color: #6b5b78;
+    iframe,
+    canvas,
+    img,
+    svg {
+        max-width: 100%;
+    }
 }
