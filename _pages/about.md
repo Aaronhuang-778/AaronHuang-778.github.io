@@ -28,14 +28,14 @@ I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https:/
     <img src="https://upload.wikimedia.org/wikipedia/commons/a/a4/NVIDIA_logo.svg" alt="NVIDIA" style="height:22px; width:auto; display:block;">
   </div>
   <div>
-    <div style="font-weight:700; color:#2f6b1f;">NVIDIA Research Intern -- Efficient AI Group</div>
+    <div style="font-weight:700; color:#2f6b1f;">Research Scientist Intern -- Efficient AI Group</div>
     <div>Working with <a href="https://yukangchen.com/">Dr. Yukang Chen</a> and supervised by <a href="https://scholar.google.com/citations?user=E0iCaa4AAAAJ&hl=zh-CN">Prof. Song Han</a>.</div>
   </div>
 </div>
 
 <div style="background:#f6fbf7; border-left:4px solid #2f855a; border-radius:6px; padding:0.85em 1em; margin:1.1em 0 1.2em; line-height:1.55;">
   <div>I am a core author of <span style="color:#d73027"><strong>Long-RL</strong></span>, <span style="color:#d73027"><strong>LongLive 1.0</strong></span>, <span style="color:#d73027"><strong>LongLive 2.0</strong></span>, and <span style="color:#d73027"><strong>Tri-Attention</strong></span>, and a core contributor to <span style="color:#d73027"><strong>Nemotron 3 Nano Omni</strong></span>.</div>
-  <div style="margin-top:0.35em;"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Main/core open-source contributions with <strong>6K+ GitHub stars</strong> in total.</div>
+  <div style="margin-top:0.35em;"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Main/core open-source contributions with <strong>9K+ GitHub stars</strong> in total.</div>
 </div>
 
 I focus on **efficient and tiny deep learning** for **lightweight, long-sequence, and fast AI**, spanning:
@@ -82,10 +82,35 @@ I focus on **efficient and tiny deep learning** for **lightweight, long-sequence
   
 # 📝 Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report</div><img src='https://raw.githubusercontent.com/jd-opensource/JoyAI-Video-Edit/main/assets/teaser.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**JoyAI-Video-Edit: Real-Time Open-Ended Video Editing with Autoregressive Diffusion**](https://arxiv.org/abs/2608.03974) <img src='https://img.shields.io/github/stars/jd-opensource/JoyAI-Video-Edit.svg?style=social&label=Star' alt="sym" height="100%">
+
+Yicheng Xiao, Wenxun Dai, Xinran Qin, Lin Song, Maoquan Zhang, Hang Xu, Yukang Chen, Yitong Li, Guohui Zhang, Yuan Zhang, Xuying Zhang, Tommy Zhang, Jianlong Yuan, Peihao Li, Shuai Lu, Siming Fu, Chuyang Zhao, Xin Han, Jie Huang, Wenbo Li, Guoqing Ma, **Wei Huang**, Xiaojuan Qi, Haoyang Huang, Nan Duan
+
+- Real-time, instruction-guided video editing for open-ended video streams.
+- 16B-parameter autoregressive diffusion framework with chunk-wise causal generation and bounded compute.
+- End-to-end 720p video editing at approximately 30 FPS on a single NVIDIA B200 GPU.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2608.03974"> <strong>Paper</strong></a>
+    <a href="https://github.com/jd-opensource/JoyAI-Video-Edit"> <strong>Code</strong></a>
+    <a href="https://huggingface.co/jdopensource/JoyAI-Video-Edit"> <strong>Model</strong></a>
+    <a href="https://joyai-labs.jd.com/v2v/"> <strong>Demo</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> We present JoyAI-Video-Edit, a 16B-parameter autoregressive diffusion framework for real-time, open-ended video editing. The system edits frames causally without access to future frames or a predefined duration, combining chunk-wise autoregressive adaptation, Source-Anchored Distribution Matching Distillation, and Long-Horizon Autoregressive Distillation to reduce train-inference mismatch, preserve source fidelity, and mitigate temporal drift. It achieves end-to-end 720p video editing at approximately 30 FPS on a single NVIDIA B200 GPU. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://raw.githubusercontent.com/NVlabs/LongLive/main/assets/longlive2/teaser.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation**](https://arxiv.org/abs/2605.18739) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
+[**LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation**](https://arxiv.org/abs/2605.18739) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2.5K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
 
 Yukang Chen\*, Luozhou Wang\*, **Wei Huang\***, Shuai Yang\*, Bohan Zhang, Yicheng Xiao, Ruihang Chu, Weian Mao, Qixin Hu, Shaoteng Liu, Yuyang Zhao, Huizi Mao, Ying-Cong Chen, Enze Xie, Xiaojuan Qi, Song Han
 
@@ -203,7 +228,7 @@ Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://raw.githubusercontent.com/NVlabs/LongLive/main/assets/longlive2/LongLive1_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**LongLive: Real-time Interactive Long Video Generation**](https://arxiv.org/abs/2509.22622) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
+[**LongLive: Real-time Interactive Long Video Generation**](https://arxiv.org/abs/2509.22622) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2.5K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
 
 Shuai Yang, **Wei Huang**, Ruihang Chu, Yicheng Xiao, Yuyang Zhao, Xianbang Wang, Muyang Li, Enze Xie, Yingcong Chen, Yao Lu, Song Han, Yukang Chen
 
@@ -458,7 +483,7 @@ Songhao Han, **Wei Huang**, Hairong Shi, Le Zhuo, Xiu Su, Shifeng Zhang, Xu Zhou
 
 
 # 💻 Internships & Teaching Services
-- *2026.03 - Now*, LLM Research Intern, NVIDIA.
+- *2026.03 - Now*, Research Scientist Intern, NVIDIA.
 - *2025.06 - 2026.02*, Multimodal Large Language Model Intern, NVIDIA.
 - *2022.09 - 2023.01*, AI algorithm internship on model inference acceleration, [Enflame](https://www.linkedin.com/company/enflame/), China.
 - *2022.08 - 2023.01*, TA for **Frontiers in Artificial Intelligence**, Beihang University.
