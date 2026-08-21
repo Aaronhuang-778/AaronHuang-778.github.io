@@ -34,8 +34,26 @@ I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https:/
 </div>
 
 <div style="background:#f6fbf7; border-left:4px solid #2f855a; border-radius:6px; padding:0.85em 1em; margin:1.1em 0 1.2em; line-height:1.55;">
-  <div>I am a core author of <span style="color:#d73027"><strong>Long-RL</strong></span>, <span style="color:#d73027"><strong>LongLive 1.0</strong></span>, <span style="color:#d73027"><strong>LongLive 2.0</strong></span>, and <span style="color:#d73027"><strong>Tri-Attention</strong></span>, and a core contributor to <span style="color:#d73027"><strong>Nemotron 3 Nano Omni</strong></span>.</div>
-  <div style="margin-top:0.35em;"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Main/core open-source contributions with <strong>9K+ GitHub stars</strong> in total.</div>
+  <div><strong>Core author:</strong> <span style="color:#d73027"><strong>Long-RL</strong></span>, <span style="color:#d73027"><strong>LongLive 1.0</strong></span>, <span style="color:#d73027"><strong>LongLive 2.0</strong></span>, <span style="color:#d73027"><strong>Tri-Attention</strong></span>, <span style="color:#d73027"><strong>QeRL</strong></span>, <span style="color:#d73027"><strong>MC#</strong></span>, <span style="color:#d73027"><strong>SliM-LLM</strong></span>, and <span style="color:#d73027"><strong>BiLLM</strong></span>.</div>
+  <div style="margin-top:0.35em;"><strong>Industry-scale core contributor:</strong> <span style="color:#d73027"><strong>Nemotron 3 Nano Omni</strong></span>, <span style="color:#d73027"><strong>Cosmos 3 Interactive (Coming Soon)</strong></span>, and <span style="color:#d73027"><strong>JD JoyAI-Video-Edit</strong></span>.</div>
+  <div style="margin-top:0.35em;"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Main/core open-source contributions with <strong>10K+ GitHub stars</strong> in total.</div>
+</div>
+
+<div class="impact-card">
+  <div class="impact-card__title">Research Impact & Integration</div>
+  <div class="impact-card__text">Our efficient AI work has been integrated into production-oriented and open-source AI stacks, including <a href="https://isaac-sim.github.io/IsaacLab/">NVIDIA Isaac Lab</a>, <a href="https://github.com/NVIDIA/TensorRT-LLM">TensorRT-LLM</a>, and <a href="https://sgl-project.github.io/diffusion/index.html">SGLang Diffusion</a>, supporting robot learning, high-throughput LLM inference, and fast diffusion/video generation.</div>
+  <div class="impact-card__label">Used by Companies</div>
+  <div class="impact-logo-grid">
+    <a class="impact-logo" href="https://www.alibaba.com/" title="Alibaba"><img src="https://www.alibaba.com/favicon.ico" alt="Alibaba logo"><span>Alibaba</span></a>
+    <a class="impact-logo" href="https://www.meituan.com/" title="Meituan"><img src="https://www.meituan.com/favicon.ico" alt="Meituan logo"><span>Meituan</span></a>
+    <a class="impact-logo" href="https://www.baidu.com/" title="Baidu"><img src="https://www.baidu.com/favicon.ico" alt="Baidu logo"><span>Baidu</span></a>
+    <a class="impact-logo" href="https://www.tencent.com/" title="Tencent"><img src="https://www.tencent.com/favicon.ico" alt="Tencent logo"><span>Tencent</span></a>
+    <a class="impact-logo" href="https://www.tiktok.com/" title="TikTok"><img src="https://www.tiktok.com/favicon.ico" alt="TikTok logo"><span>TikTok</span></a>
+    <a class="impact-logo" href="https://www.kuaishou.com/" title="Kuaishou"><img src="https://static.yximgs.com/udata/pkg/fe/favicon.ico" alt="Kuaishou logo"><span>Kuaishou</span></a>
+    <a class="impact-logo" href="https://www.huawei.com/" title="Huawei"><img src="https://www.huawei.com/favicon.ico" alt="Huawei logo"><span>Huawei</span></a>
+    <a class="impact-logo" href="https://www.momenta.ai/" title="Momenta"><img src="https://www.momenta.ai/favicon.ico" alt="Momenta logo"><span>Momenta</span></a>
+    <a class="impact-logo" href="https://www.jd.com/" title="JD"><img src="https://www.jd.com/favicon.ico" alt="JD logo"><span>JD</span></a>
+  </div>
 </div>
 
 I focus on **efficient and tiny deep learning** for **lightweight, long-sequence, and fast AI**, spanning:

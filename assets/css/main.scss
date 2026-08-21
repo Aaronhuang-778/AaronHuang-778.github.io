@@ -247,6 +247,92 @@ h1:before, .anchor:before {
     }
 }
 
+.impact-card {
+    margin: 0.9em 0 1.2em;
+    padding: 0.95em 1em;
+    background:
+        linear-gradient(135deg, rgba(255, 255, 255, 0.95), rgba(248, 244, 255, 0.94)) padding-box,
+        linear-gradient(135deg, rgba(126, 87, 194, 0.26), rgba(220, 38, 38, 0.12)) border-box;
+    border: 1px solid transparent;
+    border-left: 4px solid rgba(126, 87, 194, 0.72);
+    border-radius: 6px;
+    color: #3f3155;
+    line-height: 1.55;
+    box-shadow: 0 6px 18px rgba(60, 35, 90, 0.06);
+}
+
+.impact-card__title {
+    margin-bottom: 0.35em;
+    color: #5b2d86;
+    font-weight: 700;
+}
+
+.impact-card__text {
+    font-size: 0.95em;
+
+    a {
+        color: #6b3fa0;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    a:hover {
+        color: #a61b35;
+        text-decoration: none;
+    }
+}
+
+.impact-card__label {
+    margin-top: 0.78em;
+    color: #6b5b78;
+    font-size: 0.82em;
+    font-weight: 700;
+}
+
+.impact-logo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(72px, 1fr));
+    gap: 0.42em;
+    margin-top: 0.5em;
+}
+
+.impact-logo {
+    display: flex;
+    align-items: center;
+    gap: 0.34em;
+    min-width: 0;
+    padding: 0.36em 0.42em;
+    background: rgba(255, 255, 255, 0.70);
+    border: 1px solid rgba(126, 87, 194, 0.14);
+    border-radius: 6px;
+    color: #463455;
+    font-size: 0.76em;
+    font-weight: 600;
+    text-decoration: none;
+    transition: background 0.18s ease, border-color 0.18s ease, color 0.18s ease;
+
+    &:hover {
+        background: rgba(255, 255, 255, 0.92);
+        border-color: rgba(220, 38, 38, 0.20);
+        color: #a61b35;
+        text-decoration: none;
+    }
+
+    img {
+        flex: 0 0 auto;
+        width: 18px;
+        height: 18px;
+        object-fit: contain;
+        border-radius: 4px;
+    }
+
+    span {
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
 .visitor-map {
     margin-top: 1em;
     padding: 0.7em;
