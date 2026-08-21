@@ -40,7 +40,8 @@ I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https:/
 </div>
 
 <div class="impact-card">
-  <div class="impact-card__text">Our efficient AI work has been integrated into <a href="https://isaac-sim.github.io/IsaacLab/">NVIDIA Isaac Lab</a>, <a href="https://github.com/NVIDIA/TensorRT-LLM">TensorRT-LLM</a>, and <a href="https://sgl-project.github.io/diffusion/index.html">SGLang Diffusion</a>, and used by Alibaba, Meituan, Baidu, Tencent, TikTok, Kuaishou, Huawei, Momenta, and JD.</div>
+  <div class="impact-card__text">Our efficient AI work has been integrated into <a href="https://isaac-sim.github.io/IsaacLab/">NVIDIA Isaac Lab</a>, <a href="https://github.com/NVIDIA/TensorRT-LLM">TensorRT-LLM</a>, and <a href="https://sgl-project.github.io/diffusion/index.html">SGLang Diffusion</a>.</div>
+  <div class="impact-card__text"><strong>NVIDIA</strong>, Alibaba, Meituan, Baidu, Tencent, TikTok, Kuaishou, Huawei, Momenta, and JD.</div>
 </div>
 
 I focus on **efficient and tiny deep learning** for **lightweight, long-sequence, and fast AI**, spanning:

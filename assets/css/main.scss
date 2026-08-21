@@ -264,6 +264,10 @@ h1:before, .anchor:before {
 .impact-card__text {
     font-size: 0.95em;
 
+    + .impact-card__text {
+        margin-top: 0.35em;
+    }
+
     a {
         color: #6b3fa0;
         font-weight: 700;
