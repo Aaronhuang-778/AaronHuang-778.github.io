@@ -60,6 +60,7 @@ I focus on **efficient and tiny deep learning** for **lightweight, long-sequence
 
 
 # 🔥 News
+- *2026.08*: &nbsp;🎉🎉 One paper (*Reinforcing Dual-Path Reasoning in Spatial Vision Language Models*) is accepted by **EMNLP'26**!
 - *2026.06*: &nbsp;🎉🎉 One paper (*Anchor Forcing*) is accepted by **ECCV'26**!
 - *2026.05*: &nbsp;🎉🎉  Two papers are accepted by **ICML'26**! One for efficent long context compression (*Tri-Attention*) and one for diffusion quantization (*Absorbing Quantization Error*).
 - *2026.02*: &nbsp;🎉🎉 One paper for 4D Vision-language Models (*Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models*) is accepted by **CVPR'26**! All the codes are opensourced now!
