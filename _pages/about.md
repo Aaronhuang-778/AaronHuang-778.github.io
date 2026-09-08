@@ -57,6 +57,38 @@ I focus on **efficient and tiny deep learning** for **lightweight, long-sequence
 🔥 **Brain-Mimic Computing**: neuromorphic computing and hardware acceleration.
 
 
+<span class='anchor' id='blogs'></span>
+
+# ✍️ Blogs
+
+<p class="blog-intro">Selected NVIDIA Research blogs co-authored by Wei Huang.</p>
+
+<div class="blog-grid">
+  <a class="blog-card" href="https://research.nvidia.com/labs/eai/blogs/pushing-intelligence-to-4-bit/" target="_blank" rel="noopener noreferrer">
+    <span class="blog-card__tag">NVIDIA Research Blog</span>
+    <h3>Pushing Intelligence to 4-bit</h3>
+    <p>NVFP4 across LLM training, inference, KV cache, attention, and real-time long-video generation.</p>
+  </a>
+
+  <a class="blog-card" href="https://research.nvidia.com/labs/eai/blogs/kv-cache-compression-and-its-infra-problems/" target="_blank" rel="noopener noreferrer">
+    <span class="blog-card__tag">NVIDIA Research Blog</span>
+    <h3>KV Cache Compression and Its Infra Problems</h3>
+    <p>Why production KV compression must work with FlashAttention and paged memory, and how TriAttention closes the gap.</p>
+  </a>
+
+  <a class="blog-card" href="https://research.nvidia.com/labs/eai/blogs/scaling-video-training-with-parallelism/" target="_blank" rel="noopener noreferrer">
+    <span class="blog-card__tag">NVIDIA Research Blog</span>
+    <h3>Scaling Video Training with Parallelism</h3>
+    <p>Sequence-parallel systems for long-video understanding, generation, and RL, from MM-SP to Balanced SP.</p>
+  </a>
+
+  <a class="blog-card" href="https://research.nvidia.com/labs/eai/blogs/video-gen-is-an-infra-problem/" target="_blank" rel="noopener noreferrer">
+    <span class="blog-card__tag">NVIDIA Research Blog</span>
+    <h3>Why Video Gen Is an Infra Problem</h3>
+    <p>Why long-video generation increasingly depends on efficient training, memory, and deployment infrastructure.</p>
+  </a>
+</div>
+
 
 
 # 🔥 News
