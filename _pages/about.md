@@ -44,17 +44,15 @@ I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https:/
   <div class="impact-card__text"><strong>NVIDIA</strong>, Alibaba, Meituan, Baidu, Tencent, TikTok, Kuaishou, Huawei, Momenta, and JD.</div>
 </div>
 
-I focus on **efficient and tiny deep learning** for **lightweight, long-sequence, and fast AI**, spanning:
+I work on **efficient AI systems** that make frontier multimodal models practical under strict compute, memory, and latency budgets, with a focus on:
 
-🚀 **Compression**: low-bit quantization, pruning, and sparsity for LLMs, VLMs, and diffusion models.
+🚀 **Model & Memory Compression**: ultra-low-bit quantization, pruning, sparsity, and KV/attention compression for scalable LLM, VLM, and diffusion deployment.
 
-🧠 **Reasoning**: efficient RL and long-sequence reasoning for LLMs/VLMs.
+🧠 **Long-Context Multimodal Reasoning**: efficient RL, post-training, and inference infrastructure for long-sequence video, spatial, and agentic reasoning.
 
-🎬 **Generation**: real-time and interactive long-video generation.
+🎬 **Real-Time Generative AI**: training and serving systems for interactive long-video generation and production-ready diffusion/LLM inference.
 
-⌚ **Wearable AI**: edge AI and OECT-based sensing.
-
-🔥 **Brain-Mimic Computing**: neuromorphic computing and hardware acceleration.
+⌚ **Edge & Embodied AI**: compact AI for robotics, wearables, and sensor-driven computing under hardware and energy constraints.
 
 
 <span class='anchor' id='blogs'></span>
