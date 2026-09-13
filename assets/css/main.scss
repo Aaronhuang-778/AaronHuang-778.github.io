@@ -354,20 +354,3 @@ h1:before, .anchor:before {
     line-height: 1.25;
     text-transform: uppercase;
 }
-
-.visitor-map {
-    margin-top: 1em;
-    padding: 0.7em;
-    overflow: hidden;
-    text-align: center;
-    background: rgba(126, 87, 194, 0.06);
-    border: 1px solid rgba(126, 87, 194, 0.18);
-    border-radius: 6px;
-
-    iframe,
-    canvas,
-    img,
-    svg {
-        max-width: 100%;
-    }
-}
