@@ -41,7 +41,7 @@ I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https:/
 
 <div class="impact-card">
   <div class="impact-card__text">Our efficient AI work has been integrated into <a href="https://isaac-sim.github.io/IsaacLab/">NVIDIA Isaac Lab</a>, <a href="https://github.com/NVIDIA/TensorRT-LLM">TensorRT-LLM</a>, and <a href="https://sgl-project.github.io/diffusion/index.html">SGLang Diffusion</a>.</div>
-  <div class="impact-card__text"><strong>NVIDIA</strong>, Alibaba, Meituan, Baidu, Tencent, TikTok, Kuaishou, Huawei, Momenta, and JD.</div>
+  <div class="impact-card__text"><strong>NVIDIA</strong>, Google, Meta, Alibaba, Meituan, Baidu, Tencent, TikTok, Kuaishou, Huawei, Momenta, and JD.</div>
 </div>
 
 I work on **efficient AI systems** that make frontier multimodal models practical under strict compute, memory, and latency budgets, with a focus on:
@@ -123,7 +123,7 @@ I work on **efficient AI systems** that make frontier multimodal models practica
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://img.youtube.com/vi/sQGoMf6au1Y/maxresdefault.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**Long-WAM: Scaling the Context of World-Action Models**](https://arxiv.org/abs/2610.10528) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2.5K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
+[**Long-WAM: Scaling the Context of World-Action Models**](https://arxiv.org/abs/2610.10528) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2.7K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
 
 **Wei Huang\***, Bohan Zhang\*, Chenzhi Liu, Isabella Liu, Shuai Yang, Weian Mao, Luozhou Wang, Yicheng Xiao, Weifeng Lin, Qixin Hu, Bryan Chu, Sifei Liu, Jim (Linxi) Fan, Xiaojuan Qi, Song Han, Yukang Chen
 
@@ -173,7 +173,7 @@ Yicheng Xiao, Wenxun Dai, Xinran Qin, Lin Song, Maoquan Zhang, Hang Xu, Yukang C
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://raw.githubusercontent.com/NVlabs/LongLive/main/LongLive2.0/assets/longlive2/teaser.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation**](https://arxiv.org/abs/2605.18739) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2.5K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
+[**LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation**](https://arxiv.org/abs/2605.18739) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2.7K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
 
 Yukang Chen\*, Luozhou Wang\*, **Wei Huang\***, Shuai Yang\*, Bohan Zhang, Yicheng Xiao, Ruihang Chu, Weian Mao, Qixin Hu, Shaoteng Liu, Yuyang Zhao, Huizi Mao, Ying-Cong Chen, Enze Xie, Xiaojuan Qi, Song Han
 
@@ -291,7 +291,7 @@ Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://raw.githubusercontent.com/NVlabs/LongLive/main/LongLive2.0/assets/longlive2/LongLive1_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
-[**LongLive: Real-time Interactive Long Video Generation**](https://arxiv.org/abs/2509.22622) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2.5K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
+[**LongLive: Real-time Interactive Long Video Generation**](https://arxiv.org/abs/2509.22622) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2.7K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
 
 Shuai Yang, **Wei Huang**, Ruihang Chu, Yicheng Xiao, Yuyang Zhao, Xianbang Wang, Muyang Li, Enze Xie, Yingcong Chen, Yao Lu, Song Han, Yukang Chen
 
