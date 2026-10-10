@@ -120,6 +120,31 @@ I work on **efficient AI systems** that make frontier multimodal models practica
   
 # 📝 Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://img.youtube.com/vi/sQGoMf6au1Y/maxresdefault.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Long-WAM: Scaling the Context of World-Action Models**](https://arxiv.org/abs/2610.10528) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2.5K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
+
+**Wei Huang\***, Bohan Zhang\*, Chenzhi Liu, Isabella Liu, Shuai Yang, Weian Mao, Luozhou Wang, Yicheng Xiao, Weifeng Lin, Qixin Hu, Bryan Chu, Sifei Liu, Jim (Linxi) Fan, Xiaojuan Qi, Song Han, Yukang Chen
+
+- Long-context world-action modeling with streaming visual memory for real-time robot control.
+- Autoregressive video pretraining and context scaling improve long-horizon manipulation across simulation and real robots.
+- Streaming observation encoding, asynchronous execution, and hardware acceleration enable real-time deployment on RTX 5090, DGX Spark, and Jetson AGX Thor.
+
+<div style="display: inline">
+    <a href="https://arxiv.org/abs/2610.10528"> <strong>Paper</strong></a>
+    <a href="https://github.com/NVlabs/LongLive/tree/main/Long-WAM"> <strong>Code</strong></a>
+    <a href="https://nvlabs.github.io/LongLive/Long-WAM/"> <strong>Project</strong></a>
+    <a href="https://www.youtube.com/watch?v=sQGoMf6au1Y"> <strong>Video</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
+    <div class="abstract"  style="overflow: hidden; display: none;">
+        <p> We present Long-WAM, a model-system framework for scaling the context of causal world-action models under real-time control constraints. Long-WAM learns causal prediction from robot and egocentric videos without action labels, then preserves this history-to-future structure during world-action adaptation. Longer visual histories improve control when paired with autoregressive video pretraining, while streaming observation encoding, asynchronous execution, and hardware-specific acceleration enable real-time deployment on RTX 5090, DGX Spark, Jetson AGX Thor, Unitree G1, and YAM. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report</div><img src='https://raw.githubusercontent.com/jd-opensource/JoyAI-Video-Edit/main/assets/teaser.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -145,7 +170,7 @@ Yicheng Xiao, Wenxun Dai, Xinran Qin, Lin Song, Maoquan Zhang, Hang Xu, Yukang C
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://raw.githubusercontent.com/NVlabs/LongLive/main/assets/longlive2/teaser.jpg' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://raw.githubusercontent.com/NVlabs/LongLive/main/LongLive2.0/assets/longlive2/teaser.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**LongLive-2.0: An NVFP4 Parallel Infrastructure for Long Video Generation**](https://arxiv.org/abs/2605.18739) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2.5K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
@@ -263,7 +288,7 @@ Weian Mao\*, Xi Lin\*, **Wei Huang\***, Yuxin Xie, Tianfu Fu, Bohan Zhuang, Song
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://raw.githubusercontent.com/NVlabs/LongLive/main/assets/longlive2/LongLive1_teaser.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">ICLR 2026</div><img src='https://raw.githubusercontent.com/NVlabs/LongLive/main/LongLive2.0/assets/longlive2/LongLive1_teaser.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**LongLive: Real-time Interactive Long Video Generation**](https://arxiv.org/abs/2509.22622) <a href="https://github.com/NVlabs/LongLive/stargazers"><img src="https://img.shields.io/badge/Star-2.5K%2B-181717?style=social&logo=github" alt="GitHub stars for NVlabs/LongLive" height="20"></a>
