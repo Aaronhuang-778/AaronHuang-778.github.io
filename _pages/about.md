@@ -121,6 +121,31 @@ I work on **efficient AI systems** that make frontier multimodal models practica
   
 # 📝 Publications
 
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report</div><img src='https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/assets/hero.jpg' alt="Interactive World Simulation with Cosmos for Physical AI" width="100%"></div></div>
+<div class='paper-box-text' markdown="1">
+
+[**Interactive World Simulation with Cosmos for Physical AI**](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/technical-report.pdf) <img src='https://img.shields.io/github/stars/NVIDIA/Cosmos.svg?style=social&label=Star' alt="GitHub stars for NVIDIA Cosmos" height="20">
+
+**NVIDIA Team** (**Wei Huang** is a contributor)
+
+- A shared framework that adapts Cosmos world foundation models into real-time, streaming interactive simulators for Physical AI.
+- Supports action-conditioned camera navigation and robot manipulation, controllable video transfer, and synchronized multi-view autonomous-driving simulation.
+- Releases open-source code and open-weight Cosmos3-Nano-Sim models for bimanual manipulation, spatial control, and autonomous driving.
+
+<div style="display: inline">
+    <a href="https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/technical-report.pdf"> <strong>Paper</strong></a>
+    <a href="https://github.com/NVIDIA/cosmos"> <strong>Code</strong></a>
+    <a href="https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/"> <strong>Project</strong></a>
+    <a href="https://huggingface.co/collections/nvidia/cosmos3-examples"> <strong>Models</strong></a>
+    <a class="fakelink" onclick="$(this).siblings('.abstract').slideToggle()" ><strong>Abstract</strong></a>
+    <div class="abstract" style="overflow: hidden; display: none;">
+        <p> This technical report presents a unified framework for adapting Cosmos world foundation models to real-time interactive world simulation. By streaming visual observations in response to actions and scene controls, the framework supports evolving virtual environments for embodied agents across robot manipulation, camera navigation, controllable video transfer, and multi-view autonomous-driving simulation. </p>
+    </div>
+</div>
+
+</div>
+</div>
+
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Under Review</div><img src='https://img.youtube.com/vi/sQGoMf6au1Y/maxresdefault.jpg' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
@@ -195,7 +220,7 @@ Yukang Chen\*, Luozhou Wang\*, **Wei Huang\***, Shuai Yang\*, Bohan Zhang, Yiche
 </div>
 </div>
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Tech Report</div><img src='https://raw.githubusercontent.com/NVIDIA-NeMo/Nemotron/main/docs/assets/omni-3.png' alt="sym" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report</div><img src='https://raw.githubusercontent.com/NVIDIA-NeMo/Nemotron/main/docs/assets/omni-3.png' alt="sym" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Nemotron 3 Nano Omni: Efficient and Open Multimodal Intelligence**](https://arxiv.org/abs/2604.24954) <img src='https://img.shields.io/github/stars/NVIDIA-NeMo/Nemotron.svg?style=social&label=Star' alt="sym" height="100%">
