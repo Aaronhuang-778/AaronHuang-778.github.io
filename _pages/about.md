@@ -36,7 +36,7 @@ I obtained my bachelor's degree in Jun 2023, supervised by [Prof.Si Liu](https:/
 <div style="background:#f6fbf7; border-left:4px solid #2f855a; border-radius:6px; padding:0.85em 1em; margin:1.1em 0 1.2em; line-height:1.55;">
   <div><strong>Core author:</strong> <span style="color:#d73027"><strong>Long-RL</strong></span>, <span style="color:#d73027"><strong>LongLive 1.0</strong></span>, <span style="color:#d73027"><strong>LongLive 2.0</strong></span>, <span style="color:#d73027"><strong>Tri-Attention</strong></span>, <span style="color:#d73027"><strong>QeRL</strong></span>, <span style="color:#d73027"><strong>MC#</strong></span>, <span style="color:#d73027"><strong>SliM-LLM</strong></span>, and <span style="color:#d73027"><strong>BiLLM</strong></span>.</div>
   <div style="margin-top:0.35em;"><strong>Industry-scale core contributor:</strong> <a href="https://github.com/NVIDIA-NeMo/Nemotron"><span style="color:#d73027"><strong>Nemotron 3 Nano Omni</strong></span></a>, <a href="https://www.nvidia.com/en-us/ai/cosmos/"><span style="color:#d73027"><strong>Cosmos Simulation</strong></span></a>, and <a href="https://github.com/jd-opensource/JoyAI-Video-Edit"><span style="color:#d73027"><strong>JD JoyAI-Video-Edit</strong></span></a>.</div>
-  <div style="margin-top:0.35em;"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Main/core open-source contributions with <strong>10K+ GitHub stars</strong> in total.</div>
+  <div style="margin-top:0.35em;"><i class="fab fa-fw fa-github" aria-hidden="true"></i> Main/core open-source contributions with <strong>20K+ GitHub stars</strong> in total.</div>
 </div>
 
 <div class="impact-card">
