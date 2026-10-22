@@ -106,6 +106,7 @@ I work on **efficient AI systems** that make frontier multimodal models practica
 - *2024.04*: &nbsp;🎉🎉 One paper for post-training binary quantization of LLMs is accepted by **ICML'24**! All the codes are opensourced now!
 
 # 💬 Invited Talks and Report
+- *2026.10*: Our *Long-WAM* was reported by **凤凰网**, **新浪**, and **腾讯新闻**.
 - *2026.09*: Our *LayerRecall* was reported by **新智元**. Please see the [link](https://m.sohu.com/a/1072322837_473283).
 - *2026.05*: Our *TriAttention* was reported by **新智元**. Please see the [link](https://finance.sina.cn/stock/jdts/2026-05-14/detail-inhxwenf6779513.d.html).
 - *2025.11*: **青稞社区** online talk on *QeRL*. Please see the [video](https://qingkeai.online/archives/XoswnRzk).
