@@ -121,7 +121,7 @@ I work on **efficient AI systems** that make frontier multimodal models practica
   
 # 📝 Publications
 
-<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report</div><img src='https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/assets/hero.jpg' alt="Interactive World Simulation with Cosmos for Physical AI" width="100%"></div></div>
+<div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report</div><img src='https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/assets/backdrop.jpg?v=20261026' alt="Interactive World Simulation with Cosmos for Physical AI" width="100%"></div></div>
 <div class='paper-box-text' markdown="1">
 
 [**Interactive World Simulation with Cosmos for Physical AI**](https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/technical-report.pdf) <img src='https://img.shields.io/github/stars/NVIDIA/Cosmos.svg?style=social&label=Star' alt="GitHub stars for NVIDIA Cosmos" height="20">
