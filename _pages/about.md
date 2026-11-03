@@ -89,6 +89,8 @@ I work on **efficient AI systems** that make frontier multimodal models practica
 
 
 
+{% comment %}
+News is temporarily hidden; keep the entries for later restoration.
 # 🔥 News
 - *2026.08*: &nbsp;🎉🎉 One paper (*Reinforcing Dual-Path Reasoning in Spatial Vision Language Models*) is accepted by **EMNLP'26**!
 - *2026.06*: &nbsp;🎉🎉 One paper (*Anchor Forcing*) is accepted by **ECCV'26**!
@@ -105,61 +107,72 @@ I work on **efficient AI systems** that make frontier multimodal models practica
 - *2024.05*: &nbsp;🎉🎉 One paper for snn security on rram is accepted by **ICCAD'24**! All the codes are opensourced now!
 - *2024.04*: &nbsp;🎉🎉 One paper for post-training binary quantization of LLMs is accepted by **ICML'24**! All the codes are opensourced now!
 
+{% endcomment %}
+
 # 💬 Invited Talks and Report
 
 <ul class="talks-list">
   <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>Long-WAM</strong><span>2026.10-11</span></div>
+    <div class="talks-list__work"><strong>Long-WAM</strong></div>
     <div class="talks-list__details">
       <div class="talks-list__row"><span class="talks-list__label">Talks</span><div>
-        <p><span class="talks-list__date">2026.10</span> THU (Prof. Mengdi Xu's team) &amp; Coco Matrix; NUS</p>
-        <p><span class="talks-list__date">2026.11</span> UCSD; NVIDIA Autonomous Driving team <strong class="talks-list__audience">(180+ attendees)</strong></p>
-        <p>青稞社区; Human Five</p>
+        <p><span class="talks-list__date">Oct 2026</span> <strong>Tsinghua University</strong> (Prof. Mengdi Xu's team) &amp; <strong>Coco Matrix</strong> &middot; <strong>NUS</strong></p>
+        <p><span class="talks-list__date">Nov 2026</span> <strong>UC San Diego</strong> &middot; <strong>NVIDIA Autonomous Driving</strong> <span class="talks-list__audience">180+ attendees</span></p>
+        <p><strong>Zhejiang University</strong> &middot; <strong>HKU</strong> &middot; Qingke Community &middot; Human Five</p>
       </div></div>
-      <div class="talks-list__row"><span class="talks-list__label">Media</span><div>凤凰网 · 新浪 · 腾讯新闻 <span class="talks-list__date">(2026.10)</span></div></div>
+      <div class="talks-list__row"><span class="talks-list__label">Media</span><div>Phoenix News &middot; Sina &middot; Tencent News <span class="talks-list__date">(Oct 2026)</span></div></div>
     </div>
   </li>
   <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>LayerRecall</strong><span>2026.09</span></div>
-    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://m.sohu.com/a/1072322837_473283">新智元</a></div></div></div>
+    <div class="talks-list__work"><strong>LayerRecall</strong><span>Sep 2026</span></div>
+    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://m.sohu.com/a/1072322837_473283">AI Era</a></div></div></div>
   </li>
   <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>TriAttention</strong><span>2026.05</span></div>
-    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://finance.sina.cn/stock/jdts/2026-05-14/detail-inhxwenf6779513.d.html">新智元</a></div></div></div>
+    <div class="talks-list__work"><strong>TriAttention</strong><span>May 2026</span></div>
+    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://finance.sina.cn/stock/jdts/2026-05-14/detail-inhxwenf6779513.d.html">AI Era</a></div></div></div>
   </li>
   <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>QeRL</strong><span>2025.11</span></div>
-    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Talks</span><div>青稞社区 <a href="https://qingkeai.online/archives/XoswnRzk">Video</a></div></div></div>
+    <div class="talks-list__work"><strong>QeRL</strong></div>
+    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Talks</span><div>
+      <p><strong>Meituan</strong> &middot; <strong>Huawei</strong></p>
+      <p>Qingke Community &middot; <a href="https://qingkeai.online/archives/XoswnRzk">Watch talk</a> <span class="talks-list__date">(Nov 2025)</span></p>
+    </div></div></div>
   </li>
   <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>OmniVinci</strong><span>2025.10</span></div>
-    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://finance.sina.com.cn/roll/2025-11-06/doc-infwmvkz2048084.shtml">机器之心 / 新浪财经</a></div></div></div>
+    <div class="talks-list__work"><strong>OmniVinci</strong><span>Oct 2025</span></div>
+    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://finance.sina.com.cn/roll/2025-11-06/doc-infwmvkz2048084.shtml">Synced / Sina Finance</a></div></div></div>
   </li>
   <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>LongLive</strong><span>2025.10</span></div>
-    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://hub.baai.ac.cn/view/49618">新智元</a></div></div></div>
-  </li>
-  <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>Long-RL</strong><span>2025.07</span></div>
-    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://www.jiqizhixin.com/articles/2025-07-14-2">机器之心</a></div></div></div>
-  </li>
-  <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>VideoEspresso</strong><span>2025.06</span></div>
-    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Talks</span><div>AI-Time <a href="https://www.bilibili.com/video/BV1Yr7Hz1EKi?spm_id_from=333.1387.homepage.video_card.click">Video</a></div></div></div>
-  </li>
-  <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>BiLLM</strong><span>2024.03-05</span></div>
+    <div class="talks-list__work"><strong>LongLive</strong></div>
     <div class="talks-list__details">
-      <div class="talks-list__row"><span class="talks-list__label">Talks</span><div>AI-Time <a href="https://www.bilibili.com/video/BV1XM4m1z7RU/?share_source=copy_web&amp;vd_source=c680cccdae8e0fd2e453769e2e789b78">Video</a> <span class="talks-list__date">(2024.05)</span></div></div>
+      <div class="talks-list__row"><span class="talks-list__label">Talks</span><div><strong>NUS</strong> (Prof. Shuicheng Yan)</div></div>
+      <div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://hub.baai.ac.cn/view/49618">AI Era</a> <span class="talks-list__date">(Oct 2025)</span></div></div>
+    </div>
+  </li>
+  <li class="talks-list__entry">
+    <div class="talks-list__work"><strong>Long-RL</strong></div>
+    <div class="talks-list__details">
+      <div class="talks-list__row"><span class="talks-list__label">Talks</span><div><strong>Meituan</strong> &middot; <strong>Momenta</strong> &middot; <strong>Huawei</strong>, among others</div></div>
+      <div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://www.jiqizhixin.com/articles/2025-07-14-2">Synced</a> <span class="talks-list__date">(Jul 2025)</span></div></div>
+    </div>
+  </li>
+  <li class="talks-list__entry">
+    <div class="talks-list__work"><strong>VideoEspresso</strong><span>Jun 2025</span></div>
+    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Talks</span><div>AI-Time &middot; <a href="https://www.bilibili.com/video/BV1Yr7Hz1EKi?spm_id_from=333.1387.homepage.video_card.click">Watch talk</a></div></div></div>
+  </li>
+  <li class="talks-list__entry">
+    <div class="talks-list__work"><strong>BiLLM</strong><span>Mar-May 2024</span></div>
+    <div class="talks-list__details">
+      <div class="talks-list__row"><span class="talks-list__label">Talks</span><div>AI-Time &middot; <a href="https://www.bilibili.com/video/BV1XM4m1z7RU/?share_source=copy_web&amp;vd_source=c680cccdae8e0fd2e453769e2e789b78">Watch talk</a> <span class="talks-list__date">(May 2024)</span></div></div>
       <div class="talks-list__row"><span class="talks-list__label">Media</span><div>
-        <p><a href="https://spectrum.ieee.org/1-bit-llm">IEEE Spectrum</a> <span class="talks-list__date">(2024.05)</span> · Interview by <a href="https://www.newyorker.com/contributors/matthew-hutson">Matthew Hutson</a></p>
-        <p><a href="https://www.qbitai.com/2024/06/152191.html">QbitAI (量子位)</a> <span class="talks-list__date">(2024.03)</span></p>
+        <p><a href="https://spectrum.ieee.org/1-bit-llm">IEEE Spectrum</a> <span class="talks-list__date">(May 2024)</span> &middot; Interview by <a href="https://www.newyorker.com/contributors/matthew-hutson">Matthew Hutson</a></p>
+        <p><a href="https://www.qbitai.com/2024/06/152191.html">QbitAI</a> <span class="talks-list__date">(Mar 2024)</span></p>
       </div></div>
     </div>
   </li>
   <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>LLaMA3 Quantization</strong><span>2024.04</span></div>
-    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://m.thepaper.cn/newsDetail_forward_27189727">QbitAI (量子位)</a> · <a href="https://arxiv.org/abs/2404.14047" title="An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs">Paper</a></div></div></div>
+    <div class="talks-list__work"><strong>LLaMA3 Quantization</strong><span>Apr 2024</span></div>
+    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://m.thepaper.cn/newsDetail_forward_27189727">QbitAI</a> &middot; <a href="https://arxiv.org/abs/2404.14047" title="An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs">Paper</a></div></div></div>
   </li>
 </ul>
   
