@@ -89,25 +89,6 @@ I work on **efficient AI systems** that make frontier multimodal models practica
 
 
 
-{% comment %}
-News is temporarily hidden; keep the entries for later restoration.
-# 🔥 News
-- *2026.08*: &nbsp;🎉🎉 One paper (*Reinforcing Dual-Path Reasoning in Spatial Vision Language Models*) is accepted by **EMNLP'26**!
-- *2026.06*: &nbsp;🎉🎉 One paper (*Anchor Forcing*) is accepted by **ECCV'26**!
-- *2026.05*: &nbsp;🎉🎉  Two papers are accepted by **ICML'26**! One for efficent long context compression (*Tri-Attention*) and one for diffusion quantization (*Absorbing Quantization Error*).
-- *2026.02*: &nbsp;🎉🎉 One paper for 4D Vision-language Models (*Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models*) is accepted by **CVPR'26**! All the codes are opensourced now!
-- *2026.02*: &nbsp;🎉🎉 One paper for extreme MoE-LLMs/VLMs compression (*MC#: Mixture Compressor for Mixture-of-Experts Large Models*) is accepted by **IEEE TPAMI**, <span style="color:red">**Top Journal, IF=20.4**</span>!
-- *2026.01*: &nbsp;🎉🎉 Three papers are accepted by **ICLR'26**! One for Low-bit LLM RL (*QeRL*: NVFP4 training for parameter-efficient RL) and two papers (*LongLive*: streaming interactive long-video generation; *OmniVinci*: a foundation model for omni-LLM) for long-video generation and foundation omni-LLMs. All the codes are opensourced now!
-- *2025.10*: &nbsp;🎉🎉 One paper for wearable AI guided glucose management (*A Wearable, Dual Closed-loop Insulin Delivery System for Precision Diabetes Management*) is accepted by **Advanced Materials**, <span style="color:red">**Top Interdisciplinary Journal, IF=26.8**</span>!
-- *2025.09*: &nbsp;🎉🎉 Two papers are accepted by **Neurips'25**! One for scaling long-video reasoning (*Long-RL*: Scaling RL to Long Videos) and one for unified reasoning model (*Mindomni*: Unleashing reasoning generation in vision language models with rgpo). All the codes are opensourced now!
-- *2025.05*: &nbsp;🎉🎉 One paper for structural mixed-precision low-bit quantization for LLMs (*SliM-LLM*) is accepted by **ICML'25**! All the codes are opensourced now!
-- *2025.02*: &nbsp;🎉🎉 One paper for efficient fine-grained chain-of-thought video understanding framework (VideoEspresso) is accepted by **CVPR'25**, <span style="color:red">**Oral Paper 0.73%**</span>! All the codes are opensourced now!
-- *2025.01*: &nbsp;🎉🎉 Three papers are accepted by **ICLR'25**! One for MoE-LLM compression (*MC-MoE*: MoE-LLM compression) and two papers (*InfoMax*: data pruning; *From-Layers-to-States*: dynamic neural network layer) for data efficiency and dynamic neural networks. All the codes are opensourced now!
-- *2024.12*: &nbsp;🎉🎉 One *Technical Report* is accepted by **Visual Intelligence**
-- *2024.05*: &nbsp;🎉🎉 One paper for snn security on rram is accepted by **ICCAD'24**! All the codes are opensourced now!
-- *2024.04*: &nbsp;🎉🎉 One paper for post-training binary quantization of LLMs is accepted by **ICML'24**! All the codes are opensourced now!
-
-{% endcomment %}
 
 # 💬 Invited Talks and Report
 
@@ -120,7 +101,7 @@ News is temporarily hidden; keep the entries for later restoration.
         <p><span class="talks-list__date">Nov 2026</span> <strong>UC San Diego</strong> &middot; <strong>NVIDIA Autonomous Driving</strong> <span class="talks-list__audience">180+ attendees</span></p>
         <p><strong>Zhejiang University</strong> &middot; <strong>HKU</strong> &middot; <strong>ByteDance</strong> &middot; <a href="https://www.bilibili.com/video/BV1pxsd6FEzp/" title="Long-WAM talk by Wei Huang, October 27, 2026">Qingke Community</a> &middot; Human Five</p>
       </div></div>
-      <div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://tech.ifeng.com/c/8x78fi95GWp" title="Long-WAM coverage by Zhidx, syndicated on Phoenix News">Zhidx via Phoenix News</a> <span class="talks-list__date">(Oct 2026)</span></div></div>
+      <div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://zhidx.com/p/599560.html" title="Zhidx: Long-WAM gives robots visual memory for real-time control">Zhidx</a> (<a href="https://tech.ifeng.com/c/8x78fi95GWp" title="Phoenix News republication of the Zhidx Long-WAM report">Phoenix News reprint</a>) <span class="talks-list__date">(Oct 2026)</span></div></div>
     </div>
   </li>
   <li class="talks-list__entry">
@@ -135,7 +116,10 @@ News is temporarily hidden; keep the entries for later restoration.
   </li>
   <li class="talks-list__entry">
     <div class="talks-list__work"><strong>JoyAI-Video-Edit</strong><span>Jul-Aug 2026</span></div>
-    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://m.bjnews.com.cn/detail/1785919090129311.html" title="The Beijing News: hands-on testing of JoyAI-Video-Edit">The Beijing News</a> &middot; <a href="https://36kr.com/newsflashes/3925977640777857" title="36Kr: JD open-sources JoyAI-Video-Edit">36Kr</a> &middot; <a href="https://www.ithome.com/0/978/593.htm" title="IT Home: JD introduces JoyAI-Talker and JoyAI-Video-Edit">IT Home</a></div></div></div>
+    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div>
+      <p><a href="https://www.cnfin.com/kx/detail/20260718/4442481_1.html" title="Xinhua Finance: WAIC launch brief mentioning JoyAI-Video-Edit, July 18, 2026">Xinhua Finance</a> &middot; <a href="https://xinwen.bjd.com.cn/content/s6a73102ae4b03fa51a828842.html" title="Beijing Daily: JD open-sources real-time streaming video editing, August 5, 2026">Beijing Daily</a> &middot; <a href="https://m.bjnews.com.cn/detail/1785919090129311.html" title="The Beijing News: hands-on testing of JoyAI-Video-Edit">The Beijing News</a></p>
+      <p><a href="https://36kr.com/newsflashes/3925977640777857" title="36Kr: JD open-sources JoyAI-Video-Edit">36Kr</a> &middot; <a href="https://www.ithome.com/0/978/593.htm" title="IT Home: JD introduces JoyAI-Talker and JoyAI-Video-Edit">IT Home</a></p>
+    </div></div></div>
   </li>
   <li class="talks-list__entry">
     <div class="talks-list__work"><strong>TriAttention</strong></div>
@@ -148,7 +132,7 @@ News is temporarily hidden; keep the entries for later restoration.
     <div class="talks-list__work"><strong>Nemotron 3 Nano Omni</strong><span>Apr 2026</span></div>
     <div class="talks-list__details">
       <div class="talks-list__row"><span class="talks-list__label">Media</span><div>
-        <p><a href="https://tech.huanqiu.com/article/4RMCYEOmz5b" title="Huanqiu Tech coverage of Nemotron 3 Nano Omni, April 29, 2026">Huanqiu Tech</a> &middot; <a href="https://www.stcn.com/article/detail/3869511.html" title="Securities Times: NVIDIA releases Nemotron 3 Nano Omni, April 29, 2026">Securities Times</a></p>
+        <p><a href="https://tech.huanqiu.com/article/4RMCYEOmz5b" title="Global Times Online's technology coverage of Nemotron 3 Nano Omni, April 29, 2026">Global Times Online (Technology)</a> &middot; <a href="https://www.stcn.com/article/detail/3869511.html" title="Securities Times: NVIDIA releases Nemotron 3 Nano Omni, April 29, 2026">Securities Times</a></p>
         <p><a href="https://siliconangle.com/2026/04/28/nvidia-introduces-nemotron-3-nano-omni-vision-speech-powerful-agentic-ai-use/" title="Nvidia introduces Nemotron 3 Nano Omni with vision and speech for powerful agentic AI use">SiliconANGLE</a> &middot; <a href="https://www.digitimes.com/news/a20260429VL205.html" title="Nvidia launches Nemotron 3 Nano Omni to power unified multimodal AI agents (subscription)">DIGITIMES Asia</a></p>
       </div></div>
       <div class="talks-list__row"><span class="talks-list__label">Official</span><div><a href="https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/" title="NVIDIA launches Nemotron 3 Nano Omni for multimodal AI agents">NVIDIA Blog</a></div></div>
@@ -173,7 +157,10 @@ News is temporarily hidden; keep the entries for later restoration.
         <p><strong>ByteDance</strong> &middot; <strong>Tencent</strong></p>
         <p>The Jiangmen (TechBeat) &middot; <a href="https://www.bilibili.com/video/BV1wT2MBCEkn/" title="LongLive at The Jiangmen TechBeat">Talk by co-author Shuai Yang</a> <span class="talks-list__date">(Nov 2025)</span></p>
       </div></div>
-      <div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://hub.baai.ac.cn/view/49618">AI Era</a> <span class="talks-list__date">(Oct 2025)</span></div></div>
+      <div class="talks-list__row"><span class="talks-list__label">Media</span><div>
+        <p><a href="https://hub.baai.ac.cn/view/49618">AI Era</a> &middot; <a href="https://www.techwalker.com/2025/1020/3172836.shtml" title="TechWalker: real-time interactive long video generation with LongLive, October 20, 2025">TechWalker</a> <span class="talks-list__date">(LongLive 1.0, Oct 2025)</span></p>
+        <p><a href="https://www.techwalker.com/2026/0525/3188135.shtml" title="TechWalker: NVIDIA's FP4 video generation system, May 25, 2026">TechWalker</a> <span class="talks-list__date">(LongLive 2.0, May 2026)</span></p>
+      </div></div>
     </div>
   </li>
   <li class="talks-list__entry">
@@ -188,12 +175,12 @@ News is temporarily hidden; keep the entries for later restoration.
     <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Talks</span><div>AI-Time &middot; <a href="https://www.bilibili.com/video/BV1Yr7Hz1EKi?spm_id_from=333.1387.homepage.video_card.click">Watch talk</a></div></div></div>
   </li>
   <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>BiLLM</strong><span>Mar-May 2024</span></div>
+    <div class="talks-list__work"><strong>BiLLM</strong><span>May-Jun 2024</span></div>
     <div class="talks-list__details">
       <div class="talks-list__row"><span class="talks-list__label">Talks</span><div>AI-Time &middot; <a href="https://www.bilibili.com/video/BV1XM4m1z7RU/?share_source=copy_web&amp;vd_source=c680cccdae8e0fd2e453769e2e789b78">Watch talk</a> <span class="talks-list__date">(May 2024)</span></div></div>
       <div class="talks-list__row"><span class="talks-list__label">Media</span><div>
         <p><a href="https://spectrum.ieee.org/1-bit-llm">IEEE Spectrum</a> <span class="talks-list__date">(May 2024)</span> &middot; Interview by <a href="https://www.newyorker.com/contributors/matthew-hutson">Matthew Hutson</a></p>
-        <p><a href="https://www.qbitai.com/2024/06/152191.html">QbitAI</a> <span class="talks-list__date">(Mar 2024)</span></p>
+        <p><a href="https://www.qbitai.com/2024/06/152191.html" title="QbitAI: BiLLM explained by its authors, June 9, 2024">QbitAI</a> <span class="talks-list__date">(Jun 2024)</span></p>
       </div></div>
     </div>
   </li>
@@ -203,6 +190,22 @@ News is temporarily hidden; keep the entries for later restoration.
   </li>
 </ul>
   
+# 🔥 News
+- *2026.08*: &nbsp;🎉🎉 One paper (*Reinforcing Dual-Path Reasoning in Spatial Vision Language Models*) is accepted by **EMNLP'26**!
+- *2026.06*: &nbsp;🎉🎉 One paper (*Anchor Forcing*) is accepted by **ECCV'26**!
+- *2026.05*: &nbsp;🎉🎉  Two papers are accepted by **ICML'26**! One for efficent long context compression (*Tri-Attention*) and one for diffusion quantization (*Absorbing Quantization Error*).
+- *2026.02*: &nbsp;🎉🎉 One paper for 4D Vision-language Models (*Learning to Reason in 4D: Dynamic Spatial Understanding for Vision Language Models*) is accepted by **CVPR'26**! All the codes are opensourced now!
+- *2026.02*: &nbsp;🎉🎉 One paper for extreme MoE-LLMs/VLMs compression (*MC#: Mixture Compressor for Mixture-of-Experts Large Models*) is accepted by **IEEE TPAMI**, <span style="color:red">**Top Journal, IF=20.4**</span>!
+- *2026.01*: &nbsp;🎉🎉 Three papers are accepted by **ICLR'26**! One for Low-bit LLM RL (*QeRL*: NVFP4 training for parameter-efficient RL) and two papers (*LongLive*: streaming interactive long-video generation; *OmniVinci*: a foundation model for omni-LLM) for long-video generation and foundation omni-LLMs. All the codes are opensourced now!
+- *2025.10*: &nbsp;🎉🎉 One paper for wearable AI guided glucose management (*A Wearable, Dual Closed-loop Insulin Delivery System for Precision Diabetes Management*) is accepted by **Advanced Materials**, <span style="color:red">**Top Interdisciplinary Journal, IF=26.8**</span>!
+- *2025.09*: &nbsp;🎉🎉 Two papers are accepted by **Neurips'25**! One for scaling long-video reasoning (*Long-RL*: Scaling RL to Long Videos) and one for unified reasoning model (*Mindomni*: Unleashing reasoning generation in vision language models with rgpo). All the codes are opensourced now!
+- *2025.05*: &nbsp;🎉🎉 One paper for structural mixed-precision low-bit quantization for LLMs (*SliM-LLM*) is accepted by **ICML'25**! All the codes are opensourced now!
+- *2025.02*: &nbsp;🎉🎉 One paper for efficient fine-grained chain-of-thought video understanding framework (VideoEspresso) is accepted by **CVPR'25**, <span style="color:red">**Oral Paper 0.73%**</span>! All the codes are opensourced now!
+- *2025.01*: &nbsp;🎉🎉 Three papers are accepted by **ICLR'25**! One for MoE-LLM compression (*MC-MoE*: MoE-LLM compression) and two papers (*InfoMax*: data pruning; *From-Layers-to-States*: dynamic neural network layer) for data efficiency and dynamic neural networks. All the codes are opensourced now!
+- *2024.12*: &nbsp;🎉🎉 One *Technical Report* is accepted by **Visual Intelligence**
+- *2024.05*: &nbsp;🎉🎉 One paper for snn security on rram is accepted by **ICCAD'24**! All the codes are opensourced now!
+- *2024.04*: &nbsp;🎉🎉 One paper for post-training binary quantization of LLMs is accepted by **ICML'24**! All the codes are opensourced now!
+
 # 📝 Publications
 
 <div class='paper-box'><div class='paper-box-image'><div><div class="badge">Technical Report</div><img src='https://research.nvidia.com/labs/cosmos-lab/cosmos-simulation/assets/backdrop.jpg?v=20261026' alt="Interactive World Simulation with Cosmos for Physical AI" width="100%"></div></div>

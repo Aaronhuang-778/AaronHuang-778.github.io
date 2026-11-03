@@ -290,26 +290,19 @@ h1:before, .anchor:before {
 }
 
 .talks-list__entry {
-    --talk-accent: #326d68;
-    --talk-border: #dce9e6;
-    --talk-bg: #f4f9f7;
+    --talk-accent: #353535;
+    --talk-border: #e4e4e4;
+    --talk-bg: #fafafa;
     display: grid;
     grid-template-columns: 9em minmax(0, 1fr);
     gap: 1em;
     padding: 0.85em 1em;
     margin: 0 !important;
     border: 1px solid var(--talk-border);
-    border-left: 3px solid var(--talk-accent);
     border-radius: 6px;
     background: var(--talk-bg);
     line-height: 1.55;
     letter-spacing: 0;
-}
-
-.talks-list__entry:nth-child(even) {
-    --talk-accent: #85536d;
-    --talk-border: #ecdee5;
-    --talk-bg: #fcf7fa;
 }
 
 .talks-list__entry:first-child {
@@ -335,7 +328,7 @@ h1:before, .anchor:before {
 
 .talks-list__work > span,
 .talks-list__date {
-    color: #606b76;
+    color: #666666;
     font-size: 0.85em;
     font-variant-numeric: tabular-nums;
     white-space: nowrap;
@@ -347,7 +340,7 @@ h1:before, .anchor:before {
     gap: 0.45em;
     min-width: 0;
     font-size: 0.92em;
-    color: #3d4851;
+    color: #444444;
 }
 
 .talks-list__details strong {
@@ -381,22 +374,23 @@ h1:before, .anchor:before {
 }
 
 .page__content .talks-list a {
-    color: #286b77;
-    text-decoration: none;
+    color: #444444;
+    text-decoration: underline;
+    text-decoration-color: #b8b8b8;
     text-underline-offset: 0.18em;
 }
 
 .page__content .talks-list a:hover,
 .page__content .talks-list a:focus-visible {
-    text-decoration: underline;
+    text-decoration-color: currentColor;
 }
 
 .talks-list__audience {
     display: inline-block;
     padding: 0.02em 0.45em;
     border-radius: 4px;
-    background: #e3efdf;
-    color: #416039;
+    background: #eeeeee;
+    color: #444444;
     font-size: 0.85em;
     font-weight: 600;
 }

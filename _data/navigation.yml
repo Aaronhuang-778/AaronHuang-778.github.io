@@ -6,12 +6,11 @@ main:
   - title: "Blogs"
     url: "/#blogs"
 
-  # News is temporarily hidden along with its section in _pages/about.md.
-  # - title: "News"
-  #   url: "/#-news"
-    
   - title: "Invited Talks and Report"
     url: "/#-invited-talks-and-report"
+
+  - title: "News"
+    url: "/#-news"
     
   - title: "Publications"
     url: "/#-publications"
