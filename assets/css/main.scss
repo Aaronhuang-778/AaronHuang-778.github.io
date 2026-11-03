@@ -280,6 +280,110 @@ h1:before, .anchor:before {
     }
 }
 
+/* Invited talks and media coverage */
+.page__content .talks-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 1.5em;
+}
+
+.talks-list__entry {
+    display: grid;
+    grid-template-columns: 10.5em minmax(0, 1fr);
+    gap: 1.25em;
+    position: relative;
+    padding: 0.8em 0 0.8em 1em;
+    margin: 0;
+    border-bottom: 1px solid #edf0f2;
+    line-height: 1.55;
+    letter-spacing: 0;
+}
+
+.talks-list__entry::before {
+    content: "";
+    position: absolute;
+    top: 1.45em;
+    left: 0.05em;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: #a34359;
+}
+
+.talks-list__entry:last-child {
+    border-bottom: 0;
+}
+
+.talks-list__work {
+    min-width: 0;
+}
+
+.talks-list__work strong {
+    display: block;
+    font-size: 0.95em;
+    font-weight: 600;
+}
+
+.talks-list__work > span,
+.talks-list__date {
+    color: #737b85;
+    font-size: 0.85em;
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+}
+
+.talks-list__details {
+    display: grid;
+    align-content: start;
+    gap: 0.25em;
+    min-width: 0;
+    font-size: 0.92em;
+}
+
+.talks-list__row {
+    display: grid;
+    grid-template-columns: 3em minmax(0, 1fr);
+    gap: 0.6em;
+}
+
+.talks-list__label {
+    padding-top: 0.13em;
+    color: #737b85;
+    font-size: 0.84em;
+}
+
+.page__content .talks-list p {
+    margin: 0;
+}
+
+.page__content .talks-list a {
+    text-decoration: none;
+}
+
+.page__content .talks-list a:hover,
+.page__content .talks-list a:focus-visible {
+    text-decoration: underline;
+}
+
+.talks-list__audience {
+    color: #a34359;
+    font-weight: 600;
+}
+
+@media (max-width: 640px) {
+    .talks-list__entry {
+        grid-template-columns: minmax(0, 1fr);
+        gap: 0.3em;
+    }
+
+    .talks-list__work {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: baseline;
+        gap: 0.35em 0.8em;
+    }
+}
+
 .blog-intro {
     margin: -0.25em 0 0.75em;
     color: #667482;
