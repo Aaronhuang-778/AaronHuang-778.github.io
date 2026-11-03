@@ -118,9 +118,15 @@ News is temporarily hidden; keep the entries for later restoration.
       <div class="talks-list__row"><span class="talks-list__label">Talks</span><div>
         <p><span class="talks-list__date">Oct 2026</span> <strong>Tsinghua University</strong> (Prof. Mengdi Xu's team) &amp; <strong>Coco Matrix</strong> &middot; <strong>NUS</strong></p>
         <p><span class="talks-list__date">Nov 2026</span> <strong>UC San Diego</strong> &middot; <strong>NVIDIA Autonomous Driving</strong> <span class="talks-list__audience">180+ attendees</span></p>
-        <p><strong>Zhejiang University</strong> &middot; <strong>HKU</strong> &middot; Qingke Community &middot; Human Five</p>
+        <p><strong>Zhejiang University</strong> &middot; <strong>HKU</strong> &middot; <strong>ByteDance</strong> &middot; <a href="https://www.bilibili.com/video/BV1pxsd6FEzp/" title="Long-WAM talk by Wei Huang, October 27, 2026">Qingke Community</a> &middot; Human Five</p>
       </div></div>
-      <div class="talks-list__row"><span class="talks-list__label">Media</span><div>Phoenix News &middot; Sina &middot; Tencent News <span class="talks-list__date">(Oct 2026)</span></div></div>
+      <div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://tech.ifeng.com/c/8x78fi95GWp" title="Long-WAM coverage by Zhidx, syndicated on Phoenix News">Zhidx via Phoenix News</a> <span class="talks-list__date">(Oct 2026)</span></div></div>
+    </div>
+  </li>
+  <li class="talks-list__entry">
+    <div class="talks-list__work"><strong>Cosmos Simulation</strong><span>Oct-Nov 2026</span></div>
+    <div class="talks-list__details">
+      <div class="talks-list__row"><span class="talks-list__label">Official</span><div><a href="https://blogs.nvidia.com/blog/cosmos-open-train-evaluate-deploy-world-models/" title="NVIDIA Cosmos Opens New Tools to Train, Evaluate and Deploy World Models">NVIDIA Blog</a> &middot; <a href="https://developer.nvidia.com/blog/build-world-models-for-interactive-simulation-with-nvidia-cosmos/" title="Build World Models for Interactive Simulation with NVIDIA Cosmos">NVIDIA Technical Blog</a></div></div>
     </div>
   </li>
   <li class="talks-list__entry">
@@ -128,8 +134,25 @@ News is temporarily hidden; keep the entries for later restoration.
     <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://m.sohu.com/a/1072322837_473283">AI Era</a></div></div></div>
   </li>
   <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>TriAttention</strong><span>May 2026</span></div>
-    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://finance.sina.cn/stock/jdts/2026-05-14/detail-inhxwenf6779513.d.html">AI Era</a></div></div></div>
+    <div class="talks-list__work"><strong>JoyAI-Video-Edit</strong><span>Jul-Aug 2026</span></div>
+    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://m.bjnews.com.cn/detail/1785919090129311.html" title="The Beijing News: hands-on testing of JoyAI-Video-Edit">The Beijing News</a> &middot; <a href="https://36kr.com/newsflashes/3925977640777857" title="36Kr: JD open-sources JoyAI-Video-Edit">36Kr</a> &middot; <a href="https://www.ithome.com/0/978/593.htm" title="IT Home: JD introduces JoyAI-Talker and JoyAI-Video-Edit">IT Home</a></div></div></div>
+  </li>
+  <li class="talks-list__entry">
+    <div class="talks-list__work"><strong>TriAttention</strong></div>
+    <div class="talks-list__details">
+      <div class="talks-list__row"><span class="talks-list__label">Talks</span><div>Qingke Community &middot; <a href="https://www.bilibili.com/video/BV1me896CEkR/" title="TriAttention: trigonometric KV-cache compression for long reasoning">Talk by co-author Weian Mao</a> <span class="talks-list__date">(Aug 2026)</span></div></div>
+      <div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://finance.sina.cn/stock/jdts/2026-05-14/detail-inhxwenf6779513.d.html">AI Era</a> <span class="talks-list__date">(May 2026)</span></div></div>
+    </div>
+  </li>
+  <li class="talks-list__entry">
+    <div class="talks-list__work"><strong>Nemotron 3 Nano Omni</strong><span>Apr 2026</span></div>
+    <div class="talks-list__details">
+      <div class="talks-list__row"><span class="talks-list__label">Media</span><div>
+        <p><a href="https://tech.huanqiu.com/article/4RMCYEOmz5b" title="Huanqiu Tech coverage of Nemotron 3 Nano Omni, April 29, 2026">Huanqiu Tech</a> &middot; <a href="https://www.stcn.com/article/detail/3869511.html" title="Securities Times: NVIDIA releases Nemotron 3 Nano Omni, April 29, 2026">Securities Times</a></p>
+        <p><a href="https://siliconangle.com/2026/04/28/nvidia-introduces-nemotron-3-nano-omni-vision-speech-powerful-agentic-ai-use/" title="Nvidia introduces Nemotron 3 Nano Omni with vision and speech for powerful agentic AI use">SiliconANGLE</a> &middot; <a href="https://www.digitimes.com/news/a20260429VL205.html" title="Nvidia launches Nemotron 3 Nano Omni to power unified multimodal AI agents (subscription)">DIGITIMES Asia</a></p>
+      </div></div>
+      <div class="talks-list__row"><span class="talks-list__label">Official</span><div><a href="https://blogs.nvidia.com/blog/nemotron-3-nano-omni-multimodal-ai-agents/" title="NVIDIA launches Nemotron 3 Nano Omni for multimodal AI agents">NVIDIA Blog</a></div></div>
+    </div>
   </li>
   <li class="talks-list__entry">
     <div class="talks-list__work"><strong>QeRL</strong></div>
@@ -139,13 +162,17 @@ News is temporarily hidden; keep the entries for later restoration.
     </div></div></div>
   </li>
   <li class="talks-list__entry">
-    <div class="talks-list__work"><strong>OmniVinci</strong><span>Oct 2025</span></div>
-    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://finance.sina.com.cn/roll/2025-11-06/doc-infwmvkz2048084.shtml">Synced / Sina Finance</a></div></div></div>
+    <div class="talks-list__work"><strong>OmniVinci</strong><span>Oct-Nov 2025</span></div>
+    <div class="talks-list__details"><div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://www.infoq.com/news/2025/10/nvidia-omnivinci/" title="NVIDIA Introduces OmniVinci, a Research-Only LLM for Cross-Modal Understanding">InfoQ</a> &middot; <a href="https://finance.sina.com.cn/roll/2025-11-06/doc-infwmvkz2048084.shtml">Synced / Sina Finance</a></div></div></div>
   </li>
   <li class="talks-list__entry">
     <div class="talks-list__work"><strong>LongLive</strong></div>
     <div class="talks-list__details">
-      <div class="talks-list__row"><span class="talks-list__label">Talks</span><div><strong>NUS</strong> (Prof. Shuicheng Yan)</div></div>
+      <div class="talks-list__row"><span class="talks-list__label">Talks</span><div>
+        <p><strong>NUS</strong> (Prof. Shuicheng Yan) &middot; <strong>UC San Diego</strong> &middot; <strong>HKU</strong></p>
+        <p><strong>ByteDance</strong> &middot; <strong>Tencent</strong></p>
+        <p>The Jiangmen (TechBeat) &middot; <a href="https://www.bilibili.com/video/BV1wT2MBCEkn/" title="LongLive at The Jiangmen TechBeat">Talk by co-author Shuai Yang</a> <span class="talks-list__date">(Nov 2025)</span></p>
+      </div></div>
       <div class="talks-list__row"><span class="talks-list__label">Media</span><div><a href="https://hub.baai.ac.cn/view/49618">AI Era</a> <span class="talks-list__date">(Oct 2025)</span></div></div>
     </div>
   </li>
