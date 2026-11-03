@@ -106,18 +106,21 @@ I work on **efficient AI systems** that make frontier multimodal models practica
 - *2024.04*: &nbsp;🎉🎉 One paper for post-training binary quantization of LLMs is accepted by **ICML'24**! All the codes are opensourced now!
 
 # 💬 Invited Talks and Report
-- *2026.10*: Our *Long-WAM* was reported by **凤凰网**, **新浪**, and **腾讯新闻**.
-- *2026.09*: Our *LayerRecall* was reported by **新智元**. Please see the [link](https://m.sohu.com/a/1072322837_473283).
-- *2026.05*: Our *TriAttention* was reported by **新智元**. Please see the [link](https://finance.sina.cn/stock/jdts/2026-05-14/detail-inhxwenf6779513.d.html).
-- *2025.11*: **青稞社区** online talk on *QeRL*. Please see the [video](https://qingkeai.online/archives/XoswnRzk).
-- *2025.10*: Our *OmniVinci* was reported by **机器之心,Sina(新浪财经)**. Please see the [link](https://finance.sina.com.cn/roll/2025-11-06/doc-infwmvkz2048084.shtml).
-- *2025.10*: Our *LongLive* was reported by **新智元**. Please see the [link](https://hub.baai.ac.cn/view/49618).
-- *2025.07*: Our *Scaling RL to Long Videos*  was reported by **机器之心**. Please see the [link](https://www.jiqizhixin.com/articles/2025-07-14-2).
-- *2025.06*: **AI-Time** online talk on *VideoEspresso*. Please see the [video](https://www.bilibili.com/video/BV1Yr7Hz1EKi?spm_id_from=333.1387.homepage.video_card.click).
-- *2024.05*: *BiLLM* was reported by **IEEE Spectrum**. Thanks to [Matthew](https://www.newyorker.com/contributors/matthew-hutson) for the interview and report. Please see the [link](https://spectrum.ieee.org/1-bit-llm). 
-- *2024.05*: **AI-Time** online talk on *BiLLM*. Please see the [video](https://www.bilibili.com/video/BV1XM4m1z7RU/?share_source=copy_web&vd_source=c680cccdae8e0fd2e453769e2e789b78). 
-- *2024.04*: Our emperical study *How Good Are Low-bit Quantized LLaMA3 Models? An Empirical Study* (new version: *[An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs](https://arxiv.org/abs/2404.14047)*) was reported by **QbitAI (量子位)**. Please see the [link](https://m.thepaper.cn/newsDetail_forward_27189727).
-- *2024.03*: Our *BiLLM: Pushing the Limit of Post-Training Quantization for LLMs*  was reported by **QbitAI (量子位)**. Please see the [link](https://www.qbitai.com/2024/06/152191.html).
+- **Long-WAM** <span style="color:#666;">(2026.10-11)</span><br>
+  **Invited talks:** *2026.10* at **THU (Prof. Mengdi Xu's team) & Coco Matrix**, and **NUS**;<br>
+  *2026.11* at **UCSD** and the **NVIDIA Autonomous Driving team** (**180+ attendees**).<br>
+  **Media:** *2026.10* featured by **凤凰网**, **新浪**, and **腾讯新闻**.
+- **LayerRecall** <span style="color:#666;">(2026.09)</span> | **Media:** [新智元](https://m.sohu.com/a/1072322837_473283).
+- **TriAttention** <span style="color:#666;">(2026.05)</span> | **Media:** [新智元](https://finance.sina.cn/stock/jdts/2026-05-14/detail-inhxwenf6779513.d.html).
+- **QeRL** <span style="color:#666;">(2025.11)</span> | **Invited talk:** [青稞社区 (video)](https://qingkeai.online/archives/XoswnRzk).
+- **OmniVinci** <span style="color:#666;">(2025.10)</span> | **Media:** [机器之心 / 新浪财经](https://finance.sina.com.cn/roll/2025-11-06/doc-infwmvkz2048084.shtml).
+- **LongLive** <span style="color:#666;">(2025.10)</span> | **Media:** [新智元](https://hub.baai.ac.cn/view/49618).
+- **Long-RL (Scaling RL to Long Videos)** <span style="color:#666;">(2025.07)</span> | **Media:** [机器之心](https://www.jiqizhixin.com/articles/2025-07-14-2).
+- **VideoEspresso** <span style="color:#666;">(2025.06)</span> | **Invited talk:** [AI-Time (video)](https://www.bilibili.com/video/BV1Yr7Hz1EKi?spm_id_from=333.1387.homepage.video_card.click).
+- **BiLLM** <span style="color:#666;">(2024.03-05)</span><br>
+  **Invited talk:** *2024.05* [AI-Time (video)](https://www.bilibili.com/video/BV1XM4m1z7RU/?share_source=copy_web&vd_source=c680cccdae8e0fd2e453769e2e789b78).<br>
+  **Media:** *2024.05* [IEEE Spectrum](https://spectrum.ieee.org/1-bit-llm) (interview by [Matthew Hutson](https://www.newyorker.com/contributors/matthew-hutson)); *2024.03* [QbitAI (量子位)](https://www.qbitai.com/2024/06/152191.html).
+- **LLaMA3 Quantization** <span style="color:#666;">(2024.04)</span> | **Media:** [QbitAI (量子位)](https://m.thepaper.cn/newsDetail_forward_27189727). [Paper: An Empirical Study of LLaMA3 Quantization: From LLMs to MLLMs](https://arxiv.org/abs/2404.14047).
   
 # 📝 Publications
 
